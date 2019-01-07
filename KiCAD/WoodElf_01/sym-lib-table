@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name WoodElf_01-rescue)(type Legacy)(uri ${KIPRJMOD}/WoodElf_01-rescue.lib)(options "")(descr ""))
+)

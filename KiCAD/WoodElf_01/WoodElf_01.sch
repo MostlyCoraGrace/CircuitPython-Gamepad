@@ -1,0 +1,2823 @@
+EESchema Schematic File Version 4
+LIBS:WoodElf_01-cache
+EELAYER 26 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "Wood Elf"
+Date ""
+Rev ""
+Comp "Noble"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2250 2100 7250 2100
+Wire Wire Line
+	3850 2200 7250 2200
+Wire Wire Line
+	3850 2200 3850 2950
+Wire Wire Line
+	3950 2300 7250 2300
+Wire Wire Line
+	3950 2300 3950 3800
+Wire Wire Line
+	4050 2400 7250 2400
+Wire Wire Line
+	4050 2400 4050 4650
+Text Label 950  2100 0    60   ~ 0
+GND_1
+Wire Wire Line
+	8250 3200 8600 3200
+Text Label 8600 3200 0    60   ~ 0
+SCL_1
+Wire Wire Line
+	8250 3300 8600 3300
+Text Label 8600 3300 0    60   ~ 0
+SDA_1
+$Comp
+L WoodElf_01-rescue:AnalogJoystick-RESCUE-WoodElf_01 J1
+U 1 1 5B665893
+P 6000 13250
+F 0 "J1" H 6150 13000 60  0000 C CNN
+F 1 "AnalogJoystick" H 6050 13500 60  0000 C CNN
+F 2 "WoodElfLib:Joystick" H 5950 13250 60  0001 C CNN
+F 3 "" H 5950 13250 60  0001 C CNN
+	1    6000 13250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 13100 6950 13100
+Text Label 6950 13100 0    60   ~ 0
+3V3_1
+Wire Wire Line
+	6400 13400 6950 13400
+Text Label 6950 13400 0    60   ~ 0
+GND_1
+Wire Wire Line
+	6400 13200 6950 13200
+Text Label 6950 13200 0    60   ~ 0
+A2
+Wire Wire Line
+	6400 13300 6950 13300
+Text Label 6950 13300 0    60   ~ 0
+A3
+NoConn ~ 8250 2600
+NoConn ~ 8250 2500
+Wire Wire Line
+	7750 1900 7750 1550
+Text Label 7750 1550 0    60   ~ 0
+3V3_1
+Wire Wire Line
+	7750 3900 7750 4250
+Text Label 7750 4250 0    60   ~ 0
+GND_1
+Wire Wire Line
+	8250 2100 8600 2100
+Text Label 8600 2100 0    60   ~ 0
+3V3_1
+Wire Wire Line
+	8250 3500 8600 3500
+Text Label 8600 3500 0    60   ~ 0
+GND_1
+Wire Wire Line
+	8250 3600 8600 3600
+Text Label 8600 3600 0    60   ~ 0
+GND_1
+Wire Wire Line
+	8250 3700 8600 3700
+Text Label 8600 3700 0    60   ~ 0
+GND_1
+Wire Wire Line
+	7700 14800 8500 14800
+Text Label 9050 14800 0    60   ~ 0
+SCL_1
+Wire Wire Line
+	7700 14900 8700 14900
+Text Label 9050 14900 0    60   ~ 0
+SDA_1
+Wire Wire Line
+	7700 13900 8100 13900
+Text Label 8100 13900 0    60   ~ 0
+GND_1
+$Comp
+L Device:R R1
+U 1 1 5B6FC6DD
+P 8500 14950
+F 0 "R1" V 8580 14950 50  0000 C CNN
+F 1 "10k" V 8500 14950 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010_HandSoldering" V 8430 14950 50  0001 C CNN
+F 3 "" H 8500 14950 50  0001 C CNN
+	1    8500 14950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5B6FC6E3
+P 8700 15050
+F 0 "R2" V 8780 15050 50  0000 C CNN
+F 1 "10k" V 8700 15050 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010_HandSoldering" V 8630 15050 50  0001 C CNN
+F 3 "" H 8700 15050 50  0001 C CNN
+	1    8700 15050
+	-1   0    0    1   
+$EndComp
+Text Label 8700 15200 3    60   ~ 0
+3V3_1
+Text Label 8500 15100 3    60   ~ 0
+3V3_1
+Wire Wire Line
+	6500 13900 6100 13900
+Text Label 6100 13900 0    60   ~ 0
+3V3_1
+NoConn ~ 7700 13800
+NoConn ~ 7700 14100
+NoConn ~ 7700 14200
+NoConn ~ 7700 14300
+NoConn ~ 7700 14400
+NoConn ~ 7700 14500
+NoConn ~ 7700 14600
+NoConn ~ 7700 15000
+NoConn ~ 6500 15000
+NoConn ~ 6500 14900
+NoConn ~ 6500 14800
+NoConn ~ 6500 14600
+NoConn ~ 6500 14700
+NoConn ~ 6500 14200
+NoConn ~ 6500 14100
+NoConn ~ 6500 14000
+NoConn ~ 6500 13800
+$Comp
+L WoodElf_01-rescue:ItsyBitsyM4Express P1
+U 1 1 5B6FC70A
+P 7100 13950
+F 0 "P1" H 7350 14350 60  0000 C CNN
+F 1 "ItsyBitsyM4Express" H 7100 14250 60  0000 C CNN
+F 2 "WoodElfLib:ItsyBitsyM4Express" H 7100 14050 60  0001 C CNN
+F 3 "" H 7100 14050 60  0001 C CNN
+	1    7100 13950
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 14900
+Connection ~ 8500 14800
+NoConn ~ 6500 14300
+Wire Wire Line
+	6500 14500 6100 14500
+Text Label 6100 14400 0    60   ~ 0
+A2
+Wire Wire Line
+	6500 14400 6100 14400
+Text Label 6100 14500 0    60   ~ 0
+A3
+Wire Wire Line
+	950  2100 1200 2100
+Wire Wire Line
+	950  2950 1200 2950
+Wire Wire Line
+	950  3800 1200 3800
+Wire Wire Line
+	950  4650 1200 4650
+Text Label 950  2950 0    60   ~ 0
+GND_1
+Text Label 950  3800 0    60   ~ 0
+GND_1
+Text Label 950  4650 0    60   ~ 0
+GND_1
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S1
+U 1 1 5B819A13
+P 1750 2300
+F 0 "S1" H 1750 1900 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 2650 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 2300 60  0001 C CNN
+F 3 "" H 1750 2300 60  0001 C CNN
+	1    1750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S2
+U 1 1 5B819B26
+P 1750 3150
+F 0 "S2" H 1750 2750 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 3500 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 3150 60  0001 C CNN
+F 3 "" H 1750 3150 60  0001 C CNN
+	1    1750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S3
+U 1 1 5B81A222
+P 1750 4000
+F 0 "S3" H 1750 3600 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 4350 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 4000 60  0001 C CNN
+F 3 "" H 1750 4000 60  0001 C CNN
+	1    1750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S4
+U 1 1 5B81A274
+P 1750 4850
+F 0 "S4" H 1750 4450 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 5200 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 4850 60  0001 C CNN
+F 3 "" H 1750 4850 60  0001 C CNN
+	1    1750 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4650 2250 4650
+Wire Wire Line
+	3950 3800 2250 3800
+Wire Wire Line
+	3850 2950 2250 2950
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S5
+U 1 1 5BCDA5B3
+P 1750 5750
+F 0 "S5" H 1750 5350 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 6100 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 5750 60  0001 C CNN
+F 3 "" H 1750 5750 60  0001 C CNN
+	1    1750 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5550 4150 5550
+Wire Wire Line
+	4150 5550 4150 2500
+Wire Wire Line
+	4150 2500 7250 2500
+$Comp
+L WoodElf_01-rescue:MCP23017 M1
+U 1 1 5B5D26B3
+P 7750 2900
+F 0 "M1" H 7650 3925 50  0000 R CNN
+F 1 "MCP23017" H 7650 3850 50  0000 R CNN
+F 2 "Housings_DIP:DIP-28_W7.62mm" H 7800 1950 50  0001 L CNN
+F 3 "" H 8000 3900 50  0001 C CNN
+	1    7750 2900
+	1    0    0    -1  
+$EndComp
+Text Label 950  6400 0    60   ~ 0
+GND_1
+Wire Wire Line
+	950  6400 1200 6400
+Wire Wire Line
+	950  7250 1200 7250
+Wire Wire Line
+	950  8100 1200 8100
+Wire Wire Line
+	950  8950 1200 8950
+Text Label 950  7250 0    60   ~ 0
+GND_1
+Text Label 950  8100 0    60   ~ 0
+GND_1
+Text Label 950  8950 0    60   ~ 0
+GND_1
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S6
+U 1 1 5BCDBE78
+P 1750 6600
+F 0 "S6" H 1750 6200 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 6950 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 6600 60  0001 C CNN
+F 3 "" H 1750 6600 60  0001 C CNN
+	1    1750 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S7
+U 1 1 5BCDBE7E
+P 1750 7450
+F 0 "S7" H 1750 7050 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 7800 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 7450 60  0001 C CNN
+F 3 "" H 1750 7450 60  0001 C CNN
+	1    1750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S8
+U 1 1 5BCDBE84
+P 1750 8300
+F 0 "S8" H 1750 7900 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 8650 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 8300 60  0001 C CNN
+F 3 "" H 1750 8300 60  0001 C CNN
+	1    1750 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S9
+U 1 1 5BCDBE8A
+P 1750 9150
+F 0 "S9" H 1750 8750 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 9500 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 9150 60  0001 C CNN
+F 3 "" H 1750 9150 60  0001 C CNN
+	1    1750 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 8950 4550 8950
+Wire Wire Line
+	2250 8100 4450 8100
+Wire Wire Line
+	2250 7250 4350 7250
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S10
+U 1 1 5BCDBE93
+P 1750 10050
+F 0 "S10" H 1750 9650 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 10400 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 10050 60  0001 C CNN
+F 3 "" H 1750 10050 60  0001 C CNN
+	1    1750 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 9850 4650 9850
+Wire Wire Line
+	950  5550 1200 5550
+Text Label 950  5550 0    60   ~ 0
+GND_1
+Wire Wire Line
+	950  9850 1200 9850
+Text Label 950  9850 0    60   ~ 0
+GND_1
+Wire Wire Line
+	2250 6400 4250 6400
+Wire Wire Line
+	4250 6400 4250 2600
+Wire Wire Line
+	4250 2600 7250 2600
+Wire Wire Line
+	7250 2700 4350 2700
+Wire Wire Line
+	4350 2700 4350 7250
+Wire Wire Line
+	4450 8100 4450 2800
+Wire Wire Line
+	4450 2800 7250 2800
+Wire Wire Line
+	7250 3000 4550 3000
+Wire Wire Line
+	4550 3000 4550 8950
+Wire Wire Line
+	4650 9850 4650 3100
+Wire Wire Line
+	4650 3100 7250 3100
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S11
+U 1 1 5BCDD8B3
+P 1750 10950
+F 0 "S11" H 1750 10550 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 11300 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 10950 60  0001 C CNN
+F 3 "" H 1750 10950 60  0001 C CNN
+	1    1750 10950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 10750 4750 10750
+Text Label 950  11600 0    60   ~ 0
+GND_1
+Wire Wire Line
+	950  11600 1200 11600
+Wire Wire Line
+	950  12450 1200 12450
+Wire Wire Line
+	950  13300 1200 13300
+Wire Wire Line
+	950  14150 1200 14150
+Text Label 950  12450 0    60   ~ 0
+GND_1
+Text Label 950  13300 0    60   ~ 0
+GND_1
+Text Label 950  14150 0    60   ~ 0
+GND_1
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S12
+U 1 1 5BCDD8CA
+P 1750 11800
+F 0 "S12" H 1750 11400 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 12150 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 11800 60  0001 C CNN
+F 3 "" H 1750 11800 60  0001 C CNN
+	1    1750 11800
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S13
+U 1 1 5BCDD8D0
+P 1750 12650
+F 0 "S13" H 1750 12250 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 13000 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 12650 60  0001 C CNN
+F 3 "" H 1750 12650 60  0001 C CNN
+	1    1750 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S14
+U 1 1 5BCDD8D6
+P 1750 13500
+F 0 "S14" H 1750 13100 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 13850 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 13500 60  0001 C CNN
+F 3 "" H 1750 13500 60  0001 C CNN
+	1    1750 13500
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S15
+U 1 1 5BCDD8DC
+P 1750 14350
+F 0 "S15" H 1750 13950 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 14700 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 14350 60  0001 C CNN
+F 3 "" H 1750 14350 60  0001 C CNN
+	1    1750 14350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 14150 5150 14150
+Wire Wire Line
+	2250 13300 5050 13300
+Wire Wire Line
+	2250 12450 4950 12450
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S16
+U 1 1 5BCDD8E5
+P 1750 15250
+F 0 "S16" H 1750 14850 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 1750 15600 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1750 15250 60  0001 C CNN
+F 3 "" H 1750 15250 60  0001 C CNN
+	1    1750 15250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 15050 5250 15050
+Wire Wire Line
+	950  10750 1200 10750
+Text Label 950  10750 0    60   ~ 0
+GND_1
+Wire Wire Line
+	950  15050 1200 15050
+Text Label 950  15050 0    60   ~ 0
+GND_1
+Wire Wire Line
+	2250 11600 4850 11600
+Wire Wire Line
+	4750 10750 4750 3200
+Wire Wire Line
+	4750 3200 7250 3200
+Wire Wire Line
+	7250 3300 4850 3300
+Wire Wire Line
+	4850 3300 4850 11600
+Wire Wire Line
+	4950 12450 4950 3400
+Wire Wire Line
+	4950 3400 7250 3400
+Wire Wire Line
+	7250 3500 5050 3500
+Wire Wire Line
+	5050 3500 5050 13300
+Wire Wire Line
+	5150 14150 5150 3600
+Wire Wire Line
+	5150 3600 7250 3600
+Wire Wire Line
+	7250 3700 5250 3700
+Wire Wire Line
+	5250 3700 5250 15050
+Wire Wire Line
+	10800 1850 16700 1850
+Wire Wire Line
+	13300 1950 16700 1950
+Wire Wire Line
+	13300 1950 13300 2700
+Wire Wire Line
+	13400 2050 16700 2050
+Wire Wire Line
+	13400 3550 13400 2050
+Wire Wire Line
+	13500 2150 16700 2150
+Wire Wire Line
+	13500 4400 13500 2150
+Text Label 9500 1850 0    60   ~ 0
+GND_2
+Wire Wire Line
+	17700 2950 18050 2950
+Text Label 18050 2950 0    60   ~ 0
+SCL_2
+Wire Wire Line
+	17700 3050 18050 3050
+Text Label 18050 3050 0    60   ~ 0
+SDA_2
+NoConn ~ 17700 2350
+NoConn ~ 17700 2250
+Wire Wire Line
+	17200 1650 17200 1300
+Text Label 17200 1300 0    60   ~ 0
+3V3_2
+Wire Wire Line
+	17200 3650 17200 4000
+Text Label 17200 4000 0    60   ~ 0
+GND_2
+Wire Wire Line
+	17700 1850 18050 1850
+Text Label 18050 1850 0    60   ~ 0
+3V3_2
+Wire Wire Line
+	17700 3250 18050 3250
+Text Label 18050 3250 0    60   ~ 0
+GND_2
+Wire Wire Line
+	17700 3350 18050 3350
+Text Label 18050 3350 0    60   ~ 0
+GND_2
+Wire Wire Line
+	17700 3450 18050 3450
+Text Label 18050 3450 0    60   ~ 0
+GND_2
+Wire Wire Line
+	17150 14550 17950 14550
+Text Label 18500 14550 0    60   ~ 0
+SCL_2
+Wire Wire Line
+	17150 14650 18150 14650
+Text Label 18500 14650 0    60   ~ 0
+SDA_2
+Wire Wire Line
+	17150 13650 17550 13650
+Text Label 17550 13650 0    60   ~ 0
+GND_2
+$Comp
+L Device:R R3
+U 1 1 5BCE0020
+P 17950 14700
+F 0 "R3" V 18030 14700 50  0000 C CNN
+F 1 "10k" V 17950 14700 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010_HandSoldering" V 17880 14700 50  0001 C CNN
+F 3 "" H 17950 14700 50  0001 C CNN
+	1    17950 14700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BCE0026
+P 18150 14800
+F 0 "R4" V 18230 14800 50  0000 C CNN
+F 1 "10k" V 18150 14800 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010_HandSoldering" V 18080 14800 50  0001 C CNN
+F 3 "" H 18150 14800 50  0001 C CNN
+	1    18150 14800
+	-1   0    0    1   
+$EndComp
+Text Label 18150 14950 3    60   ~ 0
+3V3_2
+Text Label 17950 14850 3    60   ~ 0
+3V3_2
+Wire Wire Line
+	15950 13650 15550 13650
+Text Label 15550 13650 0    60   ~ 0
+3V3_2
+NoConn ~ 17150 13550
+NoConn ~ 17150 13850
+NoConn ~ 17150 13950
+NoConn ~ 17150 14050
+NoConn ~ 17150 14150
+NoConn ~ 17150 14250
+NoConn ~ 17150 14350
+NoConn ~ 17150 14750
+NoConn ~ 15950 14750
+NoConn ~ 15950 14650
+NoConn ~ 15950 14550
+NoConn ~ 15950 14350
+NoConn ~ 15950 14450
+NoConn ~ 15950 13950
+NoConn ~ 15950 13850
+NoConn ~ 15950 13750
+NoConn ~ 15950 13550
+$Comp
+L WoodElf_01-rescue:ItsyBitsyM4Express P2
+U 1 1 5BCE0041
+P 16550 13700
+F 0 "P2" H 16800 14100 60  0000 C CNN
+F 1 "ItsyBitsyM4Express" H 16550 14000 60  0000 C CNN
+F 2 "WoodElfLib:ItsyBitsyM4Express" H 16550 13800 60  0001 C CNN
+F 3 "" H 16550 13800 60  0001 C CNN
+	1    16550 13700
+	1    0    0    -1  
+$EndComp
+Connection ~ 18150 14650
+Connection ~ 17950 14550
+NoConn ~ 15950 14050
+Wire Wire Line
+	9500 1850 9750 1850
+Wire Wire Line
+	9500 2700 9750 2700
+Wire Wire Line
+	9500 3550 9750 3550
+Wire Wire Line
+	9500 4400 9750 4400
+Text Label 9500 2700 0    60   ~ 0
+GND_2
+Text Label 9500 3550 0    60   ~ 0
+GND_2
+Text Label 9500 4400 0    60   ~ 0
+GND_2
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S17
+U 1 1 5BCE005D
+P 10300 2050
+F 0 "S17" H 10300 1650 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 2400 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 2050 60  0001 C CNN
+F 3 "" H 10300 2050 60  0001 C CNN
+	1    10300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S18
+U 1 1 5BCE0063
+P 10300 2900
+F 0 "S18" H 10300 2500 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 3250 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 2900 60  0001 C CNN
+F 3 "" H 10300 2900 60  0001 C CNN
+	1    10300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S19
+U 1 1 5BCE0069
+P 10300 3750
+F 0 "S19" H 10300 3350 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 4100 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 3750 60  0001 C CNN
+F 3 "" H 10300 3750 60  0001 C CNN
+	1    10300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S20
+U 1 1 5BCE006F
+P 10300 4600
+F 0 "S20" H 10300 4200 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 4950 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 4600 60  0001 C CNN
+F 3 "" H 10300 4600 60  0001 C CNN
+	1    10300 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 4400 13500 4400
+Wire Wire Line
+	10800 3550 13400 3550
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S21
+U 1 1 5BCE0078
+P 10300 5500
+F 0 "S21" H 10300 5100 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 5850 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 5500 60  0001 C CNN
+F 3 "" H 10300 5500 60  0001 C CNN
+	1    10300 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 5300 13600 5300
+Wire Wire Line
+	13600 5300 13600 2250
+Wire Wire Line
+	13600 2250 16700 2250
+$Comp
+L WoodElf_01-rescue:MCP23017 M2
+U 1 1 5BCE0081
+P 17200 2650
+F 0 "M2" H 17100 3675 50  0000 R CNN
+F 1 "MCP23017" H 17100 3600 50  0000 R CNN
+F 2 "Housings_DIP:DIP-28_W7.62mm" H 17250 1700 50  0001 L CNN
+F 3 "" H 17450 3650 50  0001 C CNN
+	1    17200 2650
+	1    0    0    -1  
+$EndComp
+Text Label 9500 6150 0    60   ~ 0
+GND_2
+Wire Wire Line
+	9500 6150 9750 6150
+Wire Wire Line
+	9500 7000 9750 7000
+Wire Wire Line
+	9500 7850 9750 7850
+Wire Wire Line
+	9500 8700 9750 8700
+Text Label 9500 7000 0    60   ~ 0
+GND_2
+Text Label 9500 7850 0    60   ~ 0
+GND_2
+Text Label 9500 8700 0    60   ~ 0
+GND_2
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S22
+U 1 1 5BCE00A7
+P 10300 6350
+F 0 "S22" H 10300 5950 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 6700 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 6350 60  0001 C CNN
+F 3 "" H 10300 6350 60  0001 C CNN
+	1    10300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S23
+U 1 1 5BCE00AD
+P 10300 7200
+F 0 "S23" H 10300 6800 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 7550 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 7200 60  0001 C CNN
+F 3 "" H 10300 7200 60  0001 C CNN
+	1    10300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S24
+U 1 1 5BCE00B3
+P 10300 8050
+F 0 "S24" H 10300 7650 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 8400 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 8050 60  0001 C CNN
+F 3 "" H 10300 8050 60  0001 C CNN
+	1    10300 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S25
+U 1 1 5BCE00B9
+P 10300 8900
+F 0 "S25" H 10300 8500 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 9250 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 8900 60  0001 C CNN
+F 3 "" H 10300 8900 60  0001 C CNN
+	1    10300 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 8700 14000 8700
+Wire Wire Line
+	10800 7850 13900 7850
+Wire Wire Line
+	10800 7000 13800 7000
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S26
+U 1 1 5BCE00C2
+P 10300 9800
+F 0 "S26" H 10300 9400 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 10150 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 9800 60  0001 C CNN
+F 3 "" H 10300 9800 60  0001 C CNN
+	1    10300 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 9600 14100 9600
+Wire Wire Line
+	9500 5300 9750 5300
+Text Label 9500 5300 0    60   ~ 0
+GND_2
+Wire Wire Line
+	9500 9600 9750 9600
+Text Label 9500 9600 0    60   ~ 0
+GND_2
+Wire Wire Line
+	10800 6150 13700 6150
+Wire Wire Line
+	13700 6150 13700 2350
+Wire Wire Line
+	13700 2350 16700 2350
+Wire Wire Line
+	16700 2450 13800 2450
+Wire Wire Line
+	13800 2450 13800 7000
+Wire Wire Line
+	13900 7850 13900 2550
+Wire Wire Line
+	13900 2550 16700 2550
+Wire Wire Line
+	16700 2750 14000 2750
+Wire Wire Line
+	14000 2750 14000 8700
+Wire Wire Line
+	14100 9600 14100 2850
+Wire Wire Line
+	14100 2850 16700 2850
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S27
+U 1 1 5BCE00EE
+P 10300 10700
+F 0 "S27" H 10300 10300 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 11050 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 10700 60  0001 C CNN
+F 3 "" H 10300 10700 60  0001 C CNN
+	1    10300 10700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 10500 14200 10500
+Text Label 9500 11350 0    60   ~ 0
+GND_2
+Wire Wire Line
+	9500 11350 9750 11350
+Wire Wire Line
+	9500 12200 9750 12200
+Wire Wire Line
+	9500 13050 9750 13050
+Wire Wire Line
+	9500 13900 9750 13900
+Text Label 9500 12200 0    60   ~ 0
+GND_2
+Text Label 9500 13050 0    60   ~ 0
+GND_2
+Text Label 9500 13900 0    60   ~ 0
+GND_2
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S28
+U 1 1 5BCE0105
+P 10300 11550
+F 0 "S28" H 10300 11150 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 11900 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 11550 60  0001 C CNN
+F 3 "" H 10300 11550 60  0001 C CNN
+	1    10300 11550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S29
+U 1 1 5BCE010B
+P 10300 12400
+F 0 "S29" H 10300 12000 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 12750 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 12400 60  0001 C CNN
+F 3 "" H 10300 12400 60  0001 C CNN
+	1    10300 12400
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S30
+U 1 1 5BCE0111
+P 10300 13250
+F 0 "S30" H 10300 12850 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 13600 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 13250 60  0001 C CNN
+F 3 "" H 10300 13250 60  0001 C CNN
+	1    10300 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S31
+U 1 1 5BCE0117
+P 10300 14100
+F 0 "S31" H 10300 13700 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 14450 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 14100 60  0001 C CNN
+F 3 "" H 10300 14100 60  0001 C CNN
+	1    10300 14100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 13900 14600 13900
+Wire Wire Line
+	10800 13050 14500 13050
+Wire Wire Line
+	10800 12200 14400 12200
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S32
+U 1 1 5BCE0120
+P 10300 15000
+F 0 "S32" H 10300 14600 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 10300 15350 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 10300 15000 60  0001 C CNN
+F 3 "" H 10300 15000 60  0001 C CNN
+	1    10300 15000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 14800 14700 14800
+Wire Wire Line
+	9500 10500 9750 10500
+Text Label 9500 10500 0    60   ~ 0
+GND_2
+Wire Wire Line
+	9500 14800 9750 14800
+Text Label 9500 14800 0    60   ~ 0
+GND_2
+Wire Wire Line
+	10800 11350 14300 11350
+Wire Wire Line
+	14200 10500 14200 2950
+Wire Wire Line
+	14200 2950 16700 2950
+Wire Wire Line
+	16700 3050 14300 3050
+Wire Wire Line
+	14300 3050 14300 11350
+Wire Wire Line
+	14400 12200 14400 3150
+Wire Wire Line
+	14400 3150 16700 3150
+Wire Wire Line
+	16700 3250 14500 3250
+Wire Wire Line
+	14500 3250 14500 13050
+Wire Wire Line
+	14600 13900 14600 3350
+Wire Wire Line
+	14600 3350 16700 3350
+Wire Wire Line
+	16700 3450 14700 3450
+Wire Wire Line
+	14700 3450 14700 14800
+NoConn ~ 15950 14150
+NoConn ~ 15950 14250
+Text Label 15700 4650 0    60   ~ 0
+GND_2
+Wire Wire Line
+	22250 5750 22600 5750
+Text Label 22600 5750 0    60   ~ 0
+SCL_2
+Wire Wire Line
+	22250 5850 22600 5850
+Text Label 22600 5850 0    60   ~ 0
+SDA_2
+NoConn ~ 22250 5150
+NoConn ~ 22250 5050
+Wire Wire Line
+	21750 4450 21750 4100
+Text Label 21750 4100 0    60   ~ 0
+3V3_2
+Wire Wire Line
+	21750 6450 21750 6800
+Text Label 21750 6800 0    60   ~ 0
+GND_2
+Text Label 22600 4650 0    60   ~ 0
+3V3_2
+Wire Wire Line
+	22250 6050 22600 6050
+Text Label 22600 6050 0    60   ~ 0
+GND_2
+Wire Wire Line
+	22250 6150 22600 6150
+Text Label 22600 6150 0    60   ~ 0
+GND_2
+Wire Wire Line
+	22250 6250 22600 6250
+Wire Wire Line
+	15700 4650 15950 4650
+Wire Wire Line
+	15700 5500 15950 5500
+Wire Wire Line
+	15700 6350 15950 6350
+Wire Wire Line
+	15700 7200 15950 7200
+Text Label 15700 5500 0    60   ~ 0
+GND_2
+Text Label 15700 6350 0    60   ~ 0
+GND_2
+Text Label 15700 7200 0    60   ~ 0
+GND_2
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S33
+U 1 1 5BCE70DE
+P 16500 4850
+F 0 "S33" H 16500 4450 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 16500 5200 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 16500 4850 60  0001 C CNN
+F 3 "" H 16500 4850 60  0001 C CNN
+	1    16500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S34
+U 1 1 5BCE70E4
+P 16500 5700
+F 0 "S34" H 16500 5300 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 16500 6050 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 16500 5700 60  0001 C CNN
+F 3 "" H 16500 5700 60  0001 C CNN
+	1    16500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S35
+U 1 1 5BCE70EA
+P 16500 6550
+F 0 "S35" H 16500 6150 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 16500 6900 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 16500 6550 60  0001 C CNN
+F 3 "" H 16500 6550 60  0001 C CNN
+	1    16500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S36
+U 1 1 5BCE70F0
+P 16500 7400
+F 0 "S36" H 16500 7000 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 16500 7750 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 16500 7400 60  0001 C CNN
+F 3 "" H 16500 7400 60  0001 C CNN
+	1    16500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S37
+U 1 1 5BCE70F9
+P 16500 8300
+F 0 "S37" H 16500 7900 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 16500 8650 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 16500 8300 60  0001 C CNN
+F 3 "" H 16500 8300 60  0001 C CNN
+	1    16500 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:MCP23017 M3
+U 1 1 5BCE7102
+P 21750 5450
+F 0 "M3" H 21650 6475 50  0000 R CNN
+F 1 "MCP23017" H 21650 6400 50  0000 R CNN
+F 2 "Housings_DIP:DIP-28_W7.62mm" H 21800 4500 50  0001 L CNN
+F 3 "" H 22000 6450 50  0001 C CNN
+	1    21750 5450
+	1    0    0    -1  
+$EndComp
+Text Label 15700 8950 0    60   ~ 0
+GND_2
+Wire Wire Line
+	15700 8950 15950 8950
+Wire Wire Line
+	15700 9800 15950 9800
+Wire Wire Line
+	15700 10650 15950 10650
+Text Label 15700 9800 0    60   ~ 0
+GND_2
+Text Label 15700 10650 0    60   ~ 0
+GND_2
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S38
+U 1 1 5BCE7128
+P 16500 9150
+F 0 "S38" H 16500 8750 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 16500 9500 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 16500 9150 60  0001 C CNN
+F 3 "" H 16500 9150 60  0001 C CNN
+	1    16500 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S39
+U 1 1 5BCE712E
+P 16500 10000
+F 0 "S39" H 16500 9600 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 16500 10350 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 16500 10000 60  0001 C CNN
+F 3 "" H 16500 10000 60  0001 C CNN
+	1    16500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01-rescue:Kailh_RGB_Switch S40
+U 1 1 5BCE7134
+P 16500 10850
+F 0 "S40" H 16500 10450 60  0000 C CNN
+F 1 "Kailh_RGB_Switch" H 16500 11200 60  0000 C CNN
+F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 16500 10850 60  0001 C CNN
+F 3 "" H 16500 10850 60  0001 C CNN
+	1    16500 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15700 8100 15950 8100
+Text Label 15700 8100 0    60   ~ 0
+GND_2
+Text Label 22600 6250 0    60   ~ 0
+3V3_2
+NoConn ~ 21250 5550
+NoConn ~ 21250 5650
+NoConn ~ 21250 5750
+NoConn ~ 21250 5850
+NoConn ~ 21250 5950
+NoConn ~ 21250 6050
+NoConn ~ 21250 6150
+NoConn ~ 21250 6250
+$Comp
+L WoodElf_01-rescue:WS2811 C3
+U 1 1 5BCED4AE
+P 3000 2400
+F 0 "C3" H 3150 2100 60  0000 C CNN
+F 1 "WS2811" H 3000 2600 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 2550 60  0001 C CNN
+F 3 "" H 3000 2550 60  0001 C CNN
+	1    3000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 14700 8100 14700
+Text Label 8100 14700 0    60   ~ 0
+Din_1
+Text Label 3450 2500 0    60   ~ 0
+Din_1
+NoConn ~ 3450 2400
+Wire Wire Line
+	7700 14000 8100 14000
+Text Label 8100 14000 0    60   ~ 0
+USB_1
+Text Label 3450 2300 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 2300 2250 2300
+Wire Wire Line
+	2550 2400 2250 2400
+Wire Wire Line
+	2250 2400 2250 2450
+Wire Wire Line
+	2550 2500 2250 2500
+Wire Wire Line
+	2250 2500 2250 2600
+Wire Wire Line
+	2550 2600 2550 2700
+Wire Wire Line
+	2550 2700 2250 2700
+Text Label 2250 2700 0    60   ~ 0
+GND_1
+$Comp
+L WoodElf_01-rescue:WS2811 C4
+U 1 1 5BCF5F3A
+P 3000 3250
+F 0 "C4" H 3150 2950 60  0000 C CNN
+F 1 "WS2811" H 3000 3450 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 3400 60  0001 C CNN
+F 3 "" H 3000 3400 60  0001 C CNN
+	1    3000 3250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 3250
+Text Label 3450 3150 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 3150 2250 3150
+Wire Wire Line
+	2550 3250 2250 3250
+Wire Wire Line
+	2550 3350 2250 3350
+Wire Wire Line
+	2550 3450 2550 3550
+Wire Wire Line
+	2550 3550 2250 3550
+Text Label 2250 3550 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3450 2600 3550 2600
+Wire Wire Line
+	3550 2600 3550 3350
+Wire Wire Line
+	3550 3350 3450 3350
+Wire Wire Line
+	2250 3250 2250 3300
+Wire Wire Line
+	2250 3350 2250 3450
+$Comp
+L WoodElf_01-rescue:WS2811 C5
+U 1 1 5BCF9B0F
+P 3000 4100
+F 0 "C5" H 3150 3800 60  0000 C CNN
+F 1 "WS2811" H 3000 4300 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 4250 60  0001 C CNN
+F 3 "" H 3000 4250 60  0001 C CNN
+	1    3000 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 4100
+Text Label 3450 4000 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 4000 2250 4000
+Wire Wire Line
+	2550 4100 2250 4100
+Wire Wire Line
+	2550 4200 2250 4200
+Wire Wire Line
+	2550 4300 2550 4400
+Wire Wire Line
+	2550 4400 2250 4400
+Text Label 2250 4400 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 3450 3550 4200
+Wire Wire Line
+	3550 4200 3450 4200
+Wire Wire Line
+	3550 3450 3450 3450
+Wire Wire Line
+	2250 4100 2250 4150
+Wire Wire Line
+	2250 4200 2250 4300
+$Comp
+L WoodElf_01-rescue:WS2811 C6
+U 1 1 5BCFA176
+P 3000 4950
+F 0 "C6" H 3150 4650 60  0000 C CNN
+F 1 "WS2811" H 3000 5150 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 5100 60  0001 C CNN
+F 3 "" H 3000 5100 60  0001 C CNN
+	1    3000 4950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 4950
+Text Label 3450 4850 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 4850 2250 4850
+Wire Wire Line
+	2550 4950 2250 4950
+Wire Wire Line
+	2550 5050 2250 5050
+Wire Wire Line
+	2550 5150 2550 5250
+Wire Wire Line
+	2550 5250 2250 5250
+Text Label 2250 5250 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 4300 3550 5050
+Wire Wire Line
+	3550 5050 3450 5050
+Wire Wire Line
+	3550 4300 3450 4300
+Wire Wire Line
+	2250 4950 2250 5000
+Wire Wire Line
+	2250 5050 2250 5150
+$Comp
+L WoodElf_01-rescue:WS2811 C7
+U 1 1 5BCFA948
+P 3000 5850
+F 0 "C7" H 3150 5550 60  0000 C CNN
+F 1 "WS2811" H 3000 6050 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 6000 60  0001 C CNN
+F 3 "" H 3000 6000 60  0001 C CNN
+	1    3000 5850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 5850
+Text Label 3450 5750 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 5750 2250 5750
+Wire Wire Line
+	2550 5850 2250 5850
+Wire Wire Line
+	2550 5950 2250 5950
+Wire Wire Line
+	2550 6050 2550 6150
+Wire Wire Line
+	2550 6150 2250 6150
+Text Label 2250 6150 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 5150 3550 5950
+Wire Wire Line
+	3550 5950 3450 5950
+Wire Wire Line
+	3550 5150 3450 5150
+Wire Wire Line
+	2250 5850 2250 5900
+Wire Wire Line
+	2250 5950 2250 6050
+$Comp
+L WoodElf_01-rescue:WS2811 C8
+U 1 1 5BCFB00D
+P 3000 6700
+F 0 "C8" H 3150 6400 60  0000 C CNN
+F 1 "WS2811" H 3000 6900 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 6850 60  0001 C CNN
+F 3 "" H 3000 6850 60  0001 C CNN
+	1    3000 6700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 6700
+Text Label 3450 6600 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 6600 2250 6600
+Wire Wire Line
+	2550 6700 2250 6700
+Wire Wire Line
+	2550 6800 2250 6800
+Wire Wire Line
+	2550 6900 2550 7000
+Wire Wire Line
+	2550 7000 2250 7000
+Text Label 2250 7000 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 6000 3550 6800
+Wire Wire Line
+	3550 6800 3450 6800
+Wire Wire Line
+	3550 6000 3450 6000
+Wire Wire Line
+	3450 6000 3450 6050
+Wire Wire Line
+	2250 6700 2250 6750
+Wire Wire Line
+	2250 6800 2250 6900
+$Comp
+L WoodElf_01-rescue:WS2811 C9
+U 1 1 5BCFB7D1
+P 3000 7550
+F 0 "C9" H 3150 7250 60  0000 C CNN
+F 1 "WS2811" H 3000 7750 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 7700 60  0001 C CNN
+F 3 "" H 3000 7700 60  0001 C CNN
+	1    3000 7550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 7550
+Text Label 3450 7450 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 7450 2250 7450
+Wire Wire Line
+	2550 7550 2250 7550
+Wire Wire Line
+	2550 7650 2250 7650
+Wire Wire Line
+	2550 7750 2550 7850
+Wire Wire Line
+	2550 7850 2250 7850
+Text Label 2250 7850 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 6850 3550 7650
+Wire Wire Line
+	3550 7650 3450 7650
+Wire Wire Line
+	3550 6850 3450 6850
+Wire Wire Line
+	3450 6850 3450 6900
+Wire Wire Line
+	2250 7550 2250 7600
+Wire Wire Line
+	2250 7650 2250 7750
+$Comp
+L WoodElf_01-rescue:WS2811 C10
+U 1 1 5BCFBE81
+P 3000 8400
+F 0 "C10" H 3150 8100 60  0000 C CNN
+F 1 "WS2811" H 3000 8600 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 8550 60  0001 C CNN
+F 3 "" H 3000 8550 60  0001 C CNN
+	1    3000 8400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 8400
+Text Label 3450 8300 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 8300 2250 8300
+Wire Wire Line
+	2550 8400 2250 8400
+Wire Wire Line
+	2550 8500 2250 8500
+Wire Wire Line
+	2550 8600 2550 8700
+Wire Wire Line
+	2550 8700 2250 8700
+Text Label 2250 8700 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 7700 3550 8500
+Wire Wire Line
+	3550 8500 3450 8500
+Wire Wire Line
+	3550 7700 3450 7700
+Wire Wire Line
+	3450 7700 3450 7750
+Wire Wire Line
+	2250 8400 2250 8450
+Wire Wire Line
+	2250 8500 2250 8600
+$Comp
+L WoodElf_01-rescue:WS2811 C11
+U 1 1 5BCFC391
+P 3000 9250
+F 0 "C11" H 3150 8950 60  0000 C CNN
+F 1 "WS2811" H 3000 9450 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 9400 60  0001 C CNN
+F 3 "" H 3000 9400 60  0001 C CNN
+	1    3000 9250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 9250
+Text Label 3450 9150 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 9150 2250 9150
+Wire Wire Line
+	2550 9250 2250 9250
+Wire Wire Line
+	2550 9350 2250 9350
+Wire Wire Line
+	2550 9450 2550 9550
+Wire Wire Line
+	2550 9550 2250 9550
+Text Label 2250 9550 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 8550 3550 9350
+Wire Wire Line
+	3550 9350 3450 9350
+Wire Wire Line
+	3550 8550 3450 8550
+Wire Wire Line
+	3450 8550 3450 8600
+Wire Wire Line
+	2250 9250 2250 9300
+Wire Wire Line
+	2250 9350 2250 9450
+$Comp
+L WoodElf_01-rescue:WS2811 C12
+U 1 1 5BCFCB54
+P 3000 10150
+F 0 "C12" H 3150 9850 60  0000 C CNN
+F 1 "WS2811" H 3000 10350 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 10300 60  0001 C CNN
+F 3 "" H 3000 10300 60  0001 C CNN
+	1    3000 10150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 10150
+Text Label 3450 10050 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 10050 2250 10050
+Wire Wire Line
+	2550 10150 2250 10150
+Wire Wire Line
+	2550 10250 2250 10250
+Wire Wire Line
+	2550 10350 2550 10450
+Wire Wire Line
+	2550 10450 2250 10450
+Text Label 2250 10450 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 9450 3550 10250
+Wire Wire Line
+	3550 10250 3450 10250
+Wire Wire Line
+	3550 9450 3450 9450
+Wire Wire Line
+	2250 10150 2250 10200
+Wire Wire Line
+	2250 10250 2250 10350
+$Comp
+L WoodElf_01-rescue:WS2811 C13
+U 1 1 5BCFD46C
+P 3000 11050
+F 0 "C13" H 3150 10750 60  0000 C CNN
+F 1 "WS2811" H 3000 11250 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 11200 60  0001 C CNN
+F 3 "" H 3000 11200 60  0001 C CNN
+	1    3000 11050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 11050
+Text Label 3450 10950 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 10950 2250 10950
+Wire Wire Line
+	2550 11050 2250 11050
+Wire Wire Line
+	2550 11150 2250 11150
+Wire Wire Line
+	2550 11250 2550 11350
+Wire Wire Line
+	2550 11350 2250 11350
+Text Label 2250 11350 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 10350 3550 11150
+Wire Wire Line
+	3550 11150 3450 11150
+Wire Wire Line
+	3550 10350 3450 10350
+Wire Wire Line
+	2250 11050 2250 11100
+Wire Wire Line
+	2250 11150 2250 11250
+$Comp
+L WoodElf_01-rescue:WS2811 C14
+U 1 1 5BCFDD7A
+P 3000 11900
+F 0 "C14" H 3150 11600 60  0000 C CNN
+F 1 "WS2811" H 3000 12100 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 12050 60  0001 C CNN
+F 3 "" H 3000 12050 60  0001 C CNN
+	1    3000 11900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 11900
+Text Label 3450 11800 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 11800 2250 11800
+Wire Wire Line
+	2550 11900 2250 11900
+Wire Wire Line
+	2550 12000 2250 12000
+Wire Wire Line
+	2550 12100 2550 12200
+Wire Wire Line
+	2550 12200 2250 12200
+Text Label 2250 12200 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 11200 3550 12000
+Wire Wire Line
+	3550 12000 3450 12000
+Wire Wire Line
+	3550 11200 3450 11200
+Wire Wire Line
+	3450 11200 3450 11250
+Wire Wire Line
+	2250 11900 2250 11950
+Wire Wire Line
+	2250 12000 2250 12100
+$Comp
+L WoodElf_01-rescue:WS2811 C15
+U 1 1 5BCFE318
+P 3000 12750
+F 0 "C15" H 3150 12450 60  0000 C CNN
+F 1 "WS2811" H 3000 12950 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 12900 60  0001 C CNN
+F 3 "" H 3000 12900 60  0001 C CNN
+	1    3000 12750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 12750
+Text Label 3450 12650 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 12650 2250 12650
+Wire Wire Line
+	2550 12750 2250 12750
+Wire Wire Line
+	2550 12850 2250 12850
+Wire Wire Line
+	2550 12950 2550 13050
+Wire Wire Line
+	2550 13050 2250 13050
+Text Label 2250 13050 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 12050 3550 12850
+Wire Wire Line
+	3550 12850 3450 12850
+Wire Wire Line
+	3550 12050 3450 12050
+Wire Wire Line
+	3450 12050 3450 12100
+Wire Wire Line
+	2250 12750 2250 12800
+Wire Wire Line
+	2250 12850 2250 12950
+$Comp
+L WoodElf_01-rescue:WS2811 C16
+U 1 1 5BCFEB91
+P 3000 13600
+F 0 "C16" H 3150 13300 60  0000 C CNN
+F 1 "WS2811" H 3000 13800 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 13750 60  0001 C CNN
+F 3 "" H 3000 13750 60  0001 C CNN
+	1    3000 13600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 13600
+Text Label 3450 13500 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 13500 2250 13500
+Wire Wire Line
+	2550 13600 2250 13600
+Wire Wire Line
+	2550 13700 2250 13700
+Wire Wire Line
+	2550 13800 2550 13900
+Wire Wire Line
+	2550 13900 2250 13900
+Text Label 2250 13900 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 12900 3550 13700
+Wire Wire Line
+	3550 13700 3450 13700
+Wire Wire Line
+	3550 12900 3450 12900
+Wire Wire Line
+	3450 12900 3450 12950
+Wire Wire Line
+	2250 13600 2250 13650
+Wire Wire Line
+	2250 13700 2250 13800
+$Comp
+L WoodElf_01-rescue:WS2811 C17
+U 1 1 5BCFF577
+P 3000 14450
+F 0 "C17" H 3150 14150 60  0000 C CNN
+F 1 "WS2811" H 3000 14650 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 14600 60  0001 C CNN
+F 3 "" H 3000 14600 60  0001 C CNN
+	1    3000 14450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 14450
+Text Label 3450 14350 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 14350 2250 14350
+Wire Wire Line
+	2550 14450 2250 14450
+Wire Wire Line
+	2550 14550 2250 14550
+Wire Wire Line
+	2550 14650 2550 14750
+Wire Wire Line
+	2550 14750 2250 14750
+Text Label 2250 14750 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 13750 3550 14550
+Wire Wire Line
+	3550 14550 3450 14550
+Wire Wire Line
+	3550 13750 3450 13750
+Wire Wire Line
+	3450 13750 3450 13800
+Wire Wire Line
+	2250 14450 2250 14500
+Wire Wire Line
+	2250 14550 2250 14650
+$Comp
+L WoodElf_01-rescue:WS2811 C18
+U 1 1 5BCFFDD2
+P 3000 15350
+F 0 "C18" H 3150 15050 60  0000 C CNN
+F 1 "WS2811" H 3000 15550 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 3000 15500 60  0001 C CNN
+F 3 "" H 3000 15500 60  0001 C CNN
+	1    3000 15350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 15350
+Text Label 3450 15250 0    60   ~ 0
+USB_1
+Wire Wire Line
+	2550 15250 2250 15250
+Wire Wire Line
+	2550 15350 2250 15350
+Wire Wire Line
+	2550 15450 2250 15450
+Wire Wire Line
+	2550 15550 2550 15650
+Wire Wire Line
+	2550 15650 2250 15650
+Text Label 2250 15650 0    60   ~ 0
+GND_1
+Wire Wire Line
+	3550 14650 3550 15450
+Wire Wire Line
+	3550 15450 3450 15450
+Wire Wire Line
+	3550 14650 3450 14650
+Wire Wire Line
+	2250 15350 2250 15400
+Wire Wire Line
+	2250 15450 2250 15550
+NoConn ~ 3450 15550
+$Comp
+L WoodElf_01-rescue:WS2811 C19
+U 1 1 5BD022E6
+P 11550 2150
+F 0 "C19" H 11700 1850 60  0000 C CNN
+F 1 "WS2811" H 11550 2350 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 2300 60  0001 C CNN
+F 3 "" H 11550 2300 60  0001 C CNN
+	1    11550 2150
+	1    0    0    -1  
+$EndComp
+Text Label 12000 2250 0    60   ~ 0
+Din_2
+NoConn ~ 12000 2150
+Text Label 12000 2050 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 2050 10800 2050
+Wire Wire Line
+	11100 2150 10800 2150
+Wire Wire Line
+	11100 2250 10800 2250
+Wire Wire Line
+	11100 2350 11100 2450
+Wire Wire Line
+	11100 2450 10800 2450
+Text Label 10800 2450 0    60   ~ 0
+GND_2
+$Comp
+L WoodElf_01-rescue:WS2811 C20
+U 1 1 5BD022F5
+P 11550 3000
+F 0 "C20" H 11700 2700 60  0000 C CNN
+F 1 "WS2811" H 11550 3200 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 3150 60  0001 C CNN
+F 3 "" H 11550 3150 60  0001 C CNN
+	1    11550 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 3000
+Text Label 12000 2900 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 2900 10800 2900
+Wire Wire Line
+	11100 3000 10800 3000
+Wire Wire Line
+	11100 3100 10800 3100
+Wire Wire Line
+	11100 3200 11100 3300
+Wire Wire Line
+	11100 3300 10800 3300
+Text Label 10800 3300 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12000 2350 12100 2350
+Wire Wire Line
+	12100 2350 12100 3100
+Wire Wire Line
+	12100 3100 12000 3100
+$Comp
+L WoodElf_01-rescue:WS2811 C21
+U 1 1 5BD02306
+P 11550 3850
+F 0 "C21" H 11700 3550 60  0000 C CNN
+F 1 "WS2811" H 11550 4050 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 4000 60  0001 C CNN
+F 3 "" H 11550 4000 60  0001 C CNN
+	1    11550 3850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 3850
+Text Label 12000 3750 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 3750 10800 3750
+Wire Wire Line
+	11100 3850 10800 3850
+Wire Wire Line
+	11100 3950 10800 3950
+Wire Wire Line
+	11100 4050 11100 4150
+Wire Wire Line
+	11100 4150 10800 4150
+Text Label 10800 4150 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 3200 12100 3950
+Wire Wire Line
+	12100 3950 12000 3950
+Wire Wire Line
+	12100 3200 12000 3200
+$Comp
+L WoodElf_01-rescue:WS2811 C22
+U 1 1 5BD02317
+P 11550 4700
+F 0 "C22" H 11700 4400 60  0000 C CNN
+F 1 "WS2811" H 11550 4900 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 4850 60  0001 C CNN
+F 3 "" H 11550 4850 60  0001 C CNN
+	1    11550 4700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 4700
+Text Label 12000 4600 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 4600 10800 4600
+Wire Wire Line
+	11100 4700 10800 4700
+Wire Wire Line
+	11100 4800 10800 4800
+Wire Wire Line
+	11100 4900 11100 5000
+Wire Wire Line
+	11100 5000 10800 5000
+Text Label 10800 5000 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 4050 12100 4800
+Wire Wire Line
+	12100 4800 12000 4800
+Wire Wire Line
+	12100 4050 12000 4050
+$Comp
+L WoodElf_01-rescue:WS2811 C23
+U 1 1 5BD02328
+P 11550 5600
+F 0 "C23" H 11700 5300 60  0000 C CNN
+F 1 "WS2811" H 11550 5800 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 5750 60  0001 C CNN
+F 3 "" H 11550 5750 60  0001 C CNN
+	1    11550 5600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 5600
+Text Label 12000 5500 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 5500 10800 5500
+Wire Wire Line
+	11100 5600 10800 5600
+Wire Wire Line
+	11100 5700 10800 5700
+Wire Wire Line
+	11100 5800 11100 5900
+Wire Wire Line
+	11100 5900 10800 5900
+Text Label 10800 5900 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 4900 12100 5700
+Wire Wire Line
+	12100 5700 12000 5700
+Wire Wire Line
+	12100 4900 12000 4900
+$Comp
+L WoodElf_01-rescue:WS2811 C24
+U 1 1 5BD02339
+P 11550 6450
+F 0 "C24" H 11700 6150 60  0000 C CNN
+F 1 "WS2811" H 11550 6650 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 6600 60  0001 C CNN
+F 3 "" H 11550 6600 60  0001 C CNN
+	1    11550 6450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 6450
+Text Label 12000 6350 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 6350 10800 6350
+Wire Wire Line
+	11100 6450 10800 6450
+Wire Wire Line
+	11100 6550 10800 6550
+Wire Wire Line
+	11100 6650 11100 6750
+Wire Wire Line
+	11100 6750 10800 6750
+Text Label 10800 6750 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 5750 12100 6550
+Wire Wire Line
+	12100 6550 12000 6550
+Wire Wire Line
+	12100 5750 12000 5750
+Wire Wire Line
+	12000 5750 12000 5800
+$Comp
+L WoodElf_01-rescue:WS2811 C25
+U 1 1 5BD0234B
+P 11550 7300
+F 0 "C25" H 11700 7000 60  0000 C CNN
+F 1 "WS2811" H 11550 7500 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 7450 60  0001 C CNN
+F 3 "" H 11550 7450 60  0001 C CNN
+	1    11550 7300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 7300
+Text Label 12000 7200 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 7200 10800 7200
+Wire Wire Line
+	11100 7300 10800 7300
+Wire Wire Line
+	11100 7400 10800 7400
+Wire Wire Line
+	11100 7500 11100 7600
+Wire Wire Line
+	11100 7600 10800 7600
+Text Label 10800 7600 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 6600 12100 7400
+Wire Wire Line
+	12100 7400 12000 7400
+Wire Wire Line
+	12100 6600 12000 6600
+Wire Wire Line
+	12000 6600 12000 6650
+$Comp
+L WoodElf_01-rescue:WS2811 C26
+U 1 1 5BD0235D
+P 11550 8150
+F 0 "C26" H 11700 7850 60  0000 C CNN
+F 1 "WS2811" H 11550 8350 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 8300 60  0001 C CNN
+F 3 "" H 11550 8300 60  0001 C CNN
+	1    11550 8150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 8150
+Text Label 12000 8050 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 8050 10800 8050
+Wire Wire Line
+	11100 8150 10800 8150
+Wire Wire Line
+	11100 8250 10800 8250
+Wire Wire Line
+	11100 8350 11100 8450
+Wire Wire Line
+	11100 8450 10800 8450
+Text Label 10800 8450 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 7450 12100 8250
+Wire Wire Line
+	12100 8250 12000 8250
+Wire Wire Line
+	12100 7450 12000 7450
+Wire Wire Line
+	12000 7450 12000 7500
+$Comp
+L WoodElf_01-rescue:WS2811 C27
+U 1 1 5BD0236F
+P 11550 9000
+F 0 "C27" H 11700 8700 60  0000 C CNN
+F 1 "WS2811" H 11550 9200 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 9150 60  0001 C CNN
+F 3 "" H 11550 9150 60  0001 C CNN
+	1    11550 9000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 9000
+Text Label 12000 8900 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 8900 10800 8900
+Wire Wire Line
+	11100 9000 10800 9000
+Wire Wire Line
+	11100 9100 10800 9100
+Wire Wire Line
+	11100 9200 11100 9300
+Wire Wire Line
+	11100 9300 10800 9300
+Text Label 10800 9300 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 8300 12100 9100
+Wire Wire Line
+	12100 9100 12000 9100
+Wire Wire Line
+	12100 8300 12000 8300
+Wire Wire Line
+	12000 8300 12000 8350
+$Comp
+L WoodElf_01-rescue:WS2811 C28
+U 1 1 5BD02381
+P 11550 9900
+F 0 "C28" H 11700 9600 60  0000 C CNN
+F 1 "WS2811" H 11550 10100 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 10050 60  0001 C CNN
+F 3 "" H 11550 10050 60  0001 C CNN
+	1    11550 9900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 9900
+Text Label 12000 9800 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 9800 10800 9800
+Wire Wire Line
+	11100 9900 10800 9900
+Wire Wire Line
+	11100 10000 10800 10000
+Wire Wire Line
+	11100 10100 11100 10200
+Wire Wire Line
+	11100 10200 10800 10200
+Text Label 10800 10200 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 9200 12100 10000
+Wire Wire Line
+	12100 10000 12000 10000
+Wire Wire Line
+	12100 9200 12000 9200
+$Comp
+L WoodElf_01-rescue:WS2811 C29
+U 1 1 5BD02392
+P 11550 10800
+F 0 "C29" H 11700 10500 60  0000 C CNN
+F 1 "WS2811" H 11550 11000 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 10950 60  0001 C CNN
+F 3 "" H 11550 10950 60  0001 C CNN
+	1    11550 10800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 10800
+Text Label 12000 10700 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 10700 10800 10700
+Wire Wire Line
+	11100 10800 10800 10800
+Wire Wire Line
+	11100 10900 10800 10900
+Wire Wire Line
+	11100 11000 11100 11100
+Wire Wire Line
+	11100 11100 10800 11100
+Text Label 10800 11100 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 10100 12100 10900
+Wire Wire Line
+	12100 10900 12000 10900
+Wire Wire Line
+	12100 10100 12000 10100
+$Comp
+L WoodElf_01-rescue:WS2811 C30
+U 1 1 5BD023A3
+P 11550 11650
+F 0 "C30" H 11700 11350 60  0000 C CNN
+F 1 "WS2811" H 11550 11850 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 11800 60  0001 C CNN
+F 3 "" H 11550 11800 60  0001 C CNN
+	1    11550 11650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 11650
+Text Label 12000 11550 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 11550 10800 11550
+Wire Wire Line
+	11100 11650 10800 11650
+Wire Wire Line
+	11100 11750 10800 11750
+Wire Wire Line
+	11100 11850 11100 11950
+Wire Wire Line
+	11100 11950 10800 11950
+Text Label 10800 11950 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 10950 12100 11750
+Wire Wire Line
+	12100 11750 12000 11750
+Wire Wire Line
+	12100 10950 12000 10950
+Wire Wire Line
+	12000 10950 12000 11000
+$Comp
+L WoodElf_01-rescue:WS2811 C31
+U 1 1 5BD023B5
+P 11550 12500
+F 0 "C31" H 11700 12200 60  0000 C CNN
+F 1 "WS2811" H 11550 12700 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 12650 60  0001 C CNN
+F 3 "" H 11550 12650 60  0001 C CNN
+	1    11550 12500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 12500
+Text Label 12000 12400 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 12400 10800 12400
+Wire Wire Line
+	11100 12500 10800 12500
+Wire Wire Line
+	11100 12600 10800 12600
+Wire Wire Line
+	11100 12700 11100 12800
+Wire Wire Line
+	11100 12800 10800 12800
+Text Label 10800 12800 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 11800 12100 12600
+Wire Wire Line
+	12100 12600 12000 12600
+Wire Wire Line
+	12100 11800 12000 11800
+Wire Wire Line
+	12000 11800 12000 11850
+$Comp
+L WoodElf_01-rescue:WS2811 C32
+U 1 1 5BD023C7
+P 11550 13350
+F 0 "C32" H 11700 13050 60  0000 C CNN
+F 1 "WS2811" H 11550 13550 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 13500 60  0001 C CNN
+F 3 "" H 11550 13500 60  0001 C CNN
+	1    11550 13350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 13350
+Text Label 12000 13250 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 13250 10800 13250
+Wire Wire Line
+	11100 13350 10800 13350
+Wire Wire Line
+	11100 13450 10800 13450
+Wire Wire Line
+	11100 13550 11100 13650
+Wire Wire Line
+	11100 13650 10800 13650
+Text Label 10800 13650 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 12650 12100 13450
+Wire Wire Line
+	12100 13450 12000 13450
+Wire Wire Line
+	12100 12650 12000 12650
+Wire Wire Line
+	12000 12650 12000 12700
+$Comp
+L WoodElf_01-rescue:WS2811 C33
+U 1 1 5BD023D9
+P 11550 14200
+F 0 "C33" H 11700 13900 60  0000 C CNN
+F 1 "WS2811" H 11550 14400 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 14350 60  0001 C CNN
+F 3 "" H 11550 14350 60  0001 C CNN
+	1    11550 14200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 14200
+Text Label 12000 14100 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 14100 10800 14100
+Wire Wire Line
+	11100 14200 10800 14200
+Wire Wire Line
+	11100 14300 10800 14300
+Wire Wire Line
+	11100 14400 11100 14500
+Wire Wire Line
+	11100 14500 10800 14500
+Text Label 10800 14500 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 13500 12100 14300
+Wire Wire Line
+	12100 14300 12000 14300
+Wire Wire Line
+	12100 13500 12000 13500
+Wire Wire Line
+	12000 13500 12000 13550
+$Comp
+L WoodElf_01-rescue:WS2811 C34
+U 1 1 5BD023EB
+P 11550 15100
+F 0 "C34" H 11700 14800 60  0000 C CNN
+F 1 "WS2811" H 11550 15300 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 11550 15250 60  0001 C CNN
+F 3 "" H 11550 15250 60  0001 C CNN
+	1    11550 15100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 15100
+Text Label 12000 15000 0    60   ~ 0
+USB_2
+Wire Wire Line
+	11100 15000 10800 15000
+Wire Wire Line
+	11100 15100 10800 15100
+Wire Wire Line
+	11100 15200 10800 15200
+Wire Wire Line
+	11100 15300 11100 15400
+Wire Wire Line
+	11100 15400 10800 15400
+Text Label 10800 15400 0    60   ~ 0
+GND_2
+Wire Wire Line
+	12100 14400 12100 15200
+Wire Wire Line
+	12100 15200 12000 15200
+Wire Wire Line
+	12100 14400 12000 14400
+Wire Wire Line
+	13300 2700 10800 2700
+Wire Wire Line
+	10800 2150 10800 2200
+Wire Wire Line
+	10800 2250 10800 2350
+Wire Wire Line
+	10800 3000 10800 3050
+Wire Wire Line
+	10800 3100 10800 3200
+Wire Wire Line
+	10800 3850 10800 3900
+Wire Wire Line
+	10800 3950 10800 4050
+Wire Wire Line
+	10800 4700 10800 4750
+Wire Wire Line
+	10800 4800 10800 4900
+Wire Wire Line
+	10800 5600 10800 5650
+Wire Wire Line
+	10800 5700 10800 5800
+Wire Wire Line
+	10800 6450 10800 6500
+Wire Wire Line
+	10800 6550 10800 6650
+Wire Wire Line
+	10800 7300 10800 7350
+Wire Wire Line
+	10800 7400 10800 7500
+Wire Wire Line
+	10800 8150 10800 8200
+Wire Wire Line
+	10800 8250 10800 8350
+Wire Wire Line
+	10800 9000 10800 9050
+Wire Wire Line
+	10800 9100 10800 9200
+Wire Wire Line
+	10800 9900 10800 9950
+Wire Wire Line
+	10800 10000 10800 10100
+Wire Wire Line
+	10800 10800 10800 10850
+Wire Wire Line
+	10800 10900 10800 11000
+Wire Wire Line
+	10800 11650 10800 11700
+Wire Wire Line
+	10800 11750 10800 11850
+Wire Wire Line
+	10800 12500 10800 12550
+Wire Wire Line
+	10800 12600 10800 12700
+Wire Wire Line
+	10800 13350 10800 13400
+Wire Wire Line
+	10800 13450 10800 13550
+Wire Wire Line
+	10800 14200 10800 14250
+Wire Wire Line
+	10800 14300 10800 14400
+Wire Wire Line
+	10800 15100 10800 15150
+Wire Wire Line
+	10800 15200 10800 15300
+$Comp
+L WoodElf_01-rescue:WS2811 C35
+U 1 1 5BD0F979
+P 17750 4950
+F 0 "C35" H 17900 4650 60  0000 C CNN
+F 1 "WS2811" H 17750 5150 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 17750 5100 60  0001 C CNN
+F 3 "" H 17750 5100 60  0001 C CNN
+	1    17750 4950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18200 4950
+Text Label 18200 4850 0    60   ~ 0
+USB_2
+Wire Wire Line
+	17300 4850 17000 4850
+Wire Wire Line
+	17300 4950 17000 4950
+Wire Wire Line
+	17300 5050 17000 5050
+Wire Wire Line
+	17300 5150 17300 5250
+Wire Wire Line
+	17300 5250 17000 5250
+Text Label 17000 5250 0    60   ~ 0
+GND_2
+$Comp
+L WoodElf_01-rescue:WS2811 C36
+U 1 1 5BD0F988
+P 17750 5800
+F 0 "C36" H 17900 5500 60  0000 C CNN
+F 1 "WS2811" H 17750 6000 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 17750 5950 60  0001 C CNN
+F 3 "" H 17750 5950 60  0001 C CNN
+	1    17750 5800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18200 5800
+Text Label 18200 5700 0    60   ~ 0
+USB_2
+Wire Wire Line
+	17300 5700 17000 5700
+Wire Wire Line
+	17300 5800 17000 5800
+Wire Wire Line
+	17300 5900 17000 5900
+Wire Wire Line
+	17300 6000 17300 6100
+Wire Wire Line
+	17300 6100 17000 6100
+Text Label 17000 6100 0    60   ~ 0
+GND_2
+Wire Wire Line
+	18300 5150 18300 5900
+Wire Wire Line
+	18300 5900 18200 5900
+$Comp
+L WoodElf_01-rescue:WS2811 C37
+U 1 1 5BD0F999
+P 17750 6650
+F 0 "C37" H 17900 6350 60  0000 C CNN
+F 1 "WS2811" H 17750 6850 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 17750 6800 60  0001 C CNN
+F 3 "" H 17750 6800 60  0001 C CNN
+	1    17750 6650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18200 6650
+Text Label 18200 6550 0    60   ~ 0
+USB_2
+Wire Wire Line
+	17300 6550 17000 6550
+Wire Wire Line
+	17300 6650 17000 6650
+Wire Wire Line
+	17300 6750 17000 6750
+Wire Wire Line
+	17300 6850 17300 6950
+Wire Wire Line
+	17300 6950 17000 6950
+Text Label 17000 6950 0    60   ~ 0
+GND_2
+Wire Wire Line
+	18300 6000 18300 6750
+Wire Wire Line
+	18300 6750 18200 6750
+Wire Wire Line
+	18300 6000 18200 6000
+$Comp
+L WoodElf_01-rescue:WS2811 C38
+U 1 1 5BD0F9AA
+P 17750 7500
+F 0 "C38" H 17900 7200 60  0000 C CNN
+F 1 "WS2811" H 17750 7700 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 17750 7650 60  0001 C CNN
+F 3 "" H 17750 7650 60  0001 C CNN
+	1    17750 7500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18200 7500
+Text Label 18200 7400 0    60   ~ 0
+USB_2
+Wire Wire Line
+	17300 7400 17000 7400
+Wire Wire Line
+	17300 7500 17000 7500
+Wire Wire Line
+	17300 7600 17000 7600
+Wire Wire Line
+	17300 7700 17300 7800
+Wire Wire Line
+	17300 7800 17000 7800
+Text Label 17000 7800 0    60   ~ 0
+GND_2
+Wire Wire Line
+	18300 6850 18300 7600
+Wire Wire Line
+	18300 7600 18200 7600
+Wire Wire Line
+	18300 6850 18200 6850
+$Comp
+L WoodElf_01-rescue:WS2811 C39
+U 1 1 5BD0F9BB
+P 17750 8400
+F 0 "C39" H 17900 8100 60  0000 C CNN
+F 1 "WS2811" H 17750 8600 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 17750 8550 60  0001 C CNN
+F 3 "" H 17750 8550 60  0001 C CNN
+	1    17750 8400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18200 8400
+Text Label 18200 8300 0    60   ~ 0
+USB_2
+Wire Wire Line
+	17300 8300 17000 8300
+Wire Wire Line
+	17300 8400 17000 8400
+Wire Wire Line
+	17300 8500 17000 8500
+Wire Wire Line
+	17300 8600 17300 8700
+Wire Wire Line
+	17300 8700 17000 8700
+Text Label 17000 8700 0    60   ~ 0
+GND_2
+Wire Wire Line
+	18300 7700 18300 8500
+Wire Wire Line
+	18300 8500 18200 8500
+Wire Wire Line
+	18300 7700 18200 7700
+$Comp
+L WoodElf_01-rescue:WS2811 C40
+U 1 1 5BD0F9CC
+P 17750 9250
+F 0 "C40" H 17900 8950 60  0000 C CNN
+F 1 "WS2811" H 17750 9450 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 17750 9400 60  0001 C CNN
+F 3 "" H 17750 9400 60  0001 C CNN
+	1    17750 9250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18200 9250
+Text Label 18200 9150 0    60   ~ 0
+USB_2
+Wire Wire Line
+	17300 9150 17000 9150
+Wire Wire Line
+	17300 9250 17000 9250
+Wire Wire Line
+	17300 9350 17000 9350
+Wire Wire Line
+	17300 9450 17300 9550
+Wire Wire Line
+	17300 9550 17000 9550
+Text Label 17000 9550 0    60   ~ 0
+GND_2
+Wire Wire Line
+	18300 8550 18300 9350
+Wire Wire Line
+	18300 9350 18200 9350
+Wire Wire Line
+	18300 8550 18200 8550
+Wire Wire Line
+	18200 8550 18200 8600
+$Comp
+L WoodElf_01-rescue:WS2811 C41
+U 1 1 5BD0F9DE
+P 17750 10100
+F 0 "C41" H 17900 9800 60  0000 C CNN
+F 1 "WS2811" H 17750 10300 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 17750 10250 60  0001 C CNN
+F 3 "" H 17750 10250 60  0001 C CNN
+	1    17750 10100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18200 10100
+Text Label 18200 10000 0    60   ~ 0
+USB_2
+Wire Wire Line
+	17300 10000 17000 10000
+Wire Wire Line
+	17300 10100 17000 10100
+Wire Wire Line
+	17300 10200 17000 10200
+Wire Wire Line
+	17300 10300 17300 10400
+Wire Wire Line
+	17300 10400 17000 10400
+Text Label 17000 10400 0    60   ~ 0
+GND_2
+Wire Wire Line
+	18300 9400 18300 10200
+Wire Wire Line
+	18300 10200 18200 10200
+Wire Wire Line
+	18300 9400 18200 9400
+Wire Wire Line
+	18200 9400 18200 9450
+$Comp
+L WoodElf_01-rescue:WS2811 C42
+U 1 1 5BD0F9F0
+P 17750 10950
+F 0 "C42" H 17900 10650 60  0000 C CNN
+F 1 "WS2811" H 17750 11150 60  0000 C CNN
+F 2 "WoodElfLib:WS2811" H 17750 11100 60  0001 C CNN
+F 3 "" H 17750 11100 60  0001 C CNN
+	1    17750 10950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18200 10950
+Text Label 18200 10850 0    60   ~ 0
+USB_2
+Wire Wire Line
+	17300 10850 17000 10850
+Wire Wire Line
+	17300 10950 17000 10950
+Wire Wire Line
+	17300 11050 17000 11050
+Wire Wire Line
+	17300 11150 17300 11250
+Wire Wire Line
+	17300 11250 17000 11250
+Text Label 17000 11250 0    60   ~ 0
+GND_2
+Wire Wire Line
+	18300 10250 18300 11050
+Wire Wire Line
+	18300 11050 18200 11050
+Wire Wire Line
+	18300 10250 18200 10250
+Wire Wire Line
+	18200 10250 18200 10300
+NoConn ~ 18200 11150
+Wire Wire Line
+	17000 10950 17000 11000
+Wire Wire Line
+	17000 11050 17000 11150
+Wire Wire Line
+	17000 10200 17000 10300
+Wire Wire Line
+	17000 10100 17000 10150
+Wire Wire Line
+	17000 9350 17000 9450
+Wire Wire Line
+	17000 9250 17000 9300
+Wire Wire Line
+	17000 8500 17000 8600
+Wire Wire Line
+	17000 8400 17000 8450
+Wire Wire Line
+	17000 7600 17000 7700
+Wire Wire Line
+	17000 7500 17000 7550
+Wire Wire Line
+	17000 6750 17000 6850
+Wire Wire Line
+	17000 6650 17000 6700
+Wire Wire Line
+	17000 5900 17000 6000
+Wire Wire Line
+	17000 5800 17000 5850
+Wire Wire Line
+	17000 5050 17000 5150
+Wire Wire Line
+	17000 4950 17000 5000
+Wire Wire Line
+	17150 14450 17550 14450
+Text Label 17550 14450 0    60   ~ 0
+Din_2
+Wire Wire Line
+	17150 13750 17550 13750
+Text Label 17550 13750 0    60   ~ 0
+USB_2
+Text Label 12000 15300 0    60   ~ 0
+Dout_2
+Text Label 18200 5050 0    60   ~ 0
+Dout_2
+Wire Wire Line
+	8700 14900 9050 14900
+Wire Wire Line
+	8500 14800 9050 14800
+Wire Wire Line
+	18150 14650 18500 14650
+Wire Wire Line
+	17950 14550 18500 14550
+Text Label 950  2300 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 2300 950  2300
+Text Label 950  3150 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 3150 950  3150
+Text Label 950  4000 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 4000 950  4000
+Text Label 950  4850 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 4850 950  4850
+Text Label 950  5750 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 5750 950  5750
+Text Label 950  6600 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 6600 950  6600
+Text Label 950  7450 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 7450 950  7450
+Text Label 950  8300 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 8300 950  8300
+Text Label 950  9150 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 9150 950  9150
+Text Label 950  10050 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 10050 950  10050
+Text Label 950  10950 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 10950 950  10950
+Text Label 950  11800 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 11800 950  11800
+Text Label 950  12650 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 12650 950  12650
+Text Label 950  13500 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 13500 950  13500
+Text Label 950  14350 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 14350 950  14350
+Text Label 950  15250 0    50   ~ 0
+USB_1
+Wire Wire Line
+	1200 15250 950  15250
+Text Label 9500 2050 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 2050 9500 2050
+Text Label 9500 2900 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 2900 9500 2900
+Text Label 9500 3750 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 3750 9500 3750
+Text Label 9500 4600 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 4600 9500 4600
+Text Label 9500 5500 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 5500 9500 5500
+Text Label 9500 6350 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 6350 9500 6350
+Text Label 9500 7200 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 7200 9500 7200
+Text Label 9500 8050 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 8050 9500 8050
+Text Label 9500 8900 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 8900 9500 8900
+Text Label 9500 9800 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 9800 9500 9800
+Text Label 9500 10700 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 10700 9500 10700
+Text Label 9500 11550 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 11550 9500 11550
+Text Label 9500 12400 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 12400 9500 12400
+Text Label 9500 13250 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 13250 9500 13250
+Text Label 9500 14100 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 14100 9500 14100
+Text Label 9500 15000 0    50   ~ 0
+USB_2
+Wire Wire Line
+	9750 15000 9500 15000
+Text Label 15700 10850 0    50   ~ 0
+USB_2
+Wire Wire Line
+	15950 10850 15700 10850
+Text Label 15700 10000 0    50   ~ 0
+USB_2
+Wire Wire Line
+	15950 10000 15700 10000
+Text Label 15700 9150 0    50   ~ 0
+USB_2
+Wire Wire Line
+	15950 9150 15700 9150
+Text Label 15700 8300 0    50   ~ 0
+USB_2
+Wire Wire Line
+	15950 8300 15700 8300
+Text Label 15700 7400 0    50   ~ 0
+USB_2
+Wire Wire Line
+	15950 7400 15700 7400
+Text Label 15700 6550 0    50   ~ 0
+USB_2
+Wire Wire Line
+	15950 6550 15700 6550
+Text Label 15700 5700 0    50   ~ 0
+USB_2
+Wire Wire Line
+	15950 5700 15700 5700
+Text Label 15700 4850 0    50   ~ 0
+USB_2
+Wire Wire Line
+	15950 4850 15700 4850
+Wire Wire Line
+	18300 5150 18200 5150
+Wire Wire Line
+	21250 4650 17000 4650
+Wire Wire Line
+	17000 5500 18650 5500
+Wire Wire Line
+	18650 5500 18650 4750
+Wire Wire Line
+	18650 4750 21250 4750
+Wire Wire Line
+	21250 4850 18750 4850
+Wire Wire Line
+	18750 4850 18750 6350
+Wire Wire Line
+	18750 6350 17000 6350
+Wire Wire Line
+	17000 7200 18850 7200
+Wire Wire Line
+	18850 7200 18850 4950
+Wire Wire Line
+	18850 4950 21250 4950
+Wire Wire Line
+	21250 5050 18950 5050
+Wire Wire Line
+	18950 5050 18950 8100
+Wire Wire Line
+	18950 8100 17000 8100
+Wire Wire Line
+	17000 8950 19050 8950
+Wire Wire Line
+	19050 8950 19050 5150
+Wire Wire Line
+	19050 5150 21250 5150
+Wire Wire Line
+	17000 9800 19150 9800
+Wire Wire Line
+	19150 9800 19150 5250
+Wire Wire Line
+	19150 5250 21250 5250
+Wire Wire Line
+	21250 5350 19250 5350
+Wire Wire Line
+	19250 5350 19250 10650
+Wire Wire Line
+	19250 10650 17000 10650
+$EndSCHEMATC

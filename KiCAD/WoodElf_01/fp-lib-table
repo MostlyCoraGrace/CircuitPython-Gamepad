@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name WoodElfLib)(type KiCad)(uri C:/Users/Asphy/Documents/KiCAD/WoodElf_01)(options "")(descr ""))
+  (lib (name "Button Switch Keyboard")(type KiCad)(uri C:/Users/Asphy/Documents/KiCAD/WoodElf_01)(options "")(descr ""))
+  (lib (name "Custom Keyboard")(type KiCad)(uri "C:/Users/asphy/Documents/Projects/Custom Keyboard")(options "")(descr ""))
+)

@@ -1,0 +1,274 @@
+Info: Checking netlist symbol footprint “S3:/5B81A222:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S10:/5BCDBE93:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S34:/5BCE70E4:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S9:/5BCDBE8A:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S8:/5BCDBE84:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S35:/5BCE70EA:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S7:/5BCDBE7E:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S6:/5BCDBE78:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S36:/5BCE70F0:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S5:/5BCDA5B3:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S4:/5B81A274:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S37:/5BCE70F9:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S11:/5BCDD8B3:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S2:/5B819B26:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S38:/5BCE7128:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S1:/5B819A13:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “R4:/5BCE0026:Resistors_SMD:R_2010_HandSoldering”.
+
+Info: Checking netlist symbol footprint “R3:/5BCE0020:Resistors_SMD:R_2010_HandSoldering”.
+
+Info: Checking netlist symbol footprint “R1:/5B6FC6DD:Resistors_SMD:R_2010_HandSoldering”.
+
+Info: Checking netlist symbol footprint “P2:/5BCE0041:WoodElfLib:ItsyBitsyM4Express”.
+
+Info: Checking netlist symbol footprint “P1:/5B6FC70A:WoodElfLib:ItsyBitsyM4Express”.
+
+Info: Checking netlist symbol footprint “S39:/5BCE712E:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “M3:/5BCE7102:Housings_DIP:DIP-28_W7.62mm”.
+
+Info: Checking netlist symbol footprint “S18:/5BCE0063:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S26:/5BCE00C2:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S25:/5BCE00B9:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S24:/5BCE00B3:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S27:/5BCE00EE:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S23:/5BCE00AD:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S22:/5BCE00A7:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S28:/5BCE0105:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S21:/5BCE0078:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S20:/5BCE006F:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S29:/5BCE010B:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S19:/5BCE0069:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “R2:/5B6FC6E3:Resistors_SMD:R_2010_HandSoldering”.
+
+Info: Checking netlist symbol footprint “S30:/5BCE0111:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S17:/5BCE005D:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S16:/5BCDD8E5:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S31:/5BCE0117:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S15:/5BCDD8DC:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S14:/5BCDD8D6:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S32:/5BCE0120:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S13:/5BCDD8D0:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S12:/5BCDD8CA:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “S33:/5BCE70DE:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “C14:/5BCFDD7A:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C26:/5BD0235D:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C25:/5BD0234B:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “M2:/5BCE0081:Housings_DIP:DIP-28_W7.62mm”.
+
+Info: Checking netlist symbol footprint “C23:/5BD02328:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C22:/5BD02317:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C21:/5BD02306:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C20:/5BD022F5:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C19:/5BD022E6:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C18:/5BCFFDD2:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C17:/5BCFF577:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C16:/5BCFEB91:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C15:/5BCFE318:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C24:/5BD02339:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C13:/5BCFD46C:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C12:/5BCFCB54:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C11:/5BCFC391:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C10:/5BCFBE81:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C9:/5BCFB7D1:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C8:/5BCFB00D:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C7:/5BCFA948:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C6:/5BCFA176:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C5:/5BCF9B0F:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C4:/5BCF5F3A:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C3:/5BCED4AE:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “S40:/5BCE7134:WoodElfLib:SW_Cherry_MX1A_1.00u_PCB”.
+
+Info: Checking netlist symbol footprint “M1:/5B5D26B3:Housings_DIP:DIP-28_W7.62mm”.
+
+Info: Checking netlist symbol footprint “C40:/5BD0F9CC:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C39:/5BD0F9BB:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C38:/5BD0F9AA:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C37:/5BD0F999:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C41:/5BD0F9DE:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C27:/5BD0236F:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C36:/5BD0F988:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C35:/5BD0F979:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C34:/5BD023EB:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C42:/5BD0F9F0:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C33:/5BD023D9:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C32:/5BD023C7:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C31:/5BD023B5:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C30:/5BD023A3:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “C29:/5BD02392:WoodElfLib:WS2811”.
+
+Info: Checking netlist symbol footprint “J1:/5B665893:WoodElfLib:Joystick”.
+
+Info: Checking netlist symbol footprint “C28:/5BD02381:WoodElfLib:WS2811”.
+
+Changing footprint “S38:/5BCE7128” pad “4” net name from “Net-(S38-Pad4)” to “/USB_2”.
+
+Changing footprint “S27:/5BCE00EE” pad “4” net name from “Net-(S27-Pad4)” to “/USB_2”.
+
+Changing footprint “S38:/5BCE7128” pad “1” net name from “Net-(M3-Pad6)” to “Net-(S38-Pad1)”.
+
+Changing footprint “S26:/5BCE00C2” pad “4” net name from “Net-(S26-Pad4)” to “/USB_2”.
+
+Changing footprint “S40:/5BCE7134” pad “4” net name from “Net-(S40-Pad4)” to “/USB_2”.
+
+Changing footprint “S37:/5BCE70F9” pad “4” net name from “Net-(S37-Pad4)” to “/USB_2”.
+
+Changing footprint “S28:/5BCE0105” pad “4” net name from “Net-(S28-Pad4)” to “/USB_2”.
+
+Changing footprint “S29:/5BCE010B” pad “4” net name from “Net-(S29-Pad4)” to “/USB_2”.
+
+Changing footprint “S39:/5BCE712E” pad “4” net name from “Net-(S39-Pad4)” to “/USB_2”.
+
+Changing footprint “S30:/5BCE0111” pad “4” net name from “Net-(S30-Pad4)” to “/USB_2”.
+
+Changing footprint “S36:/5BCE70F0” pad “4” net name from “Net-(S36-Pad4)” to “/USB_2”.
+
+Changing footprint “S31:/5BCE0117” pad “4” net name from “Net-(S31-Pad4)” to “/USB_2”.
+
+Changing footprint “S32:/5BCE0120” pad “4” net name from “Net-(S32-Pad4)” to “/USB_2”.
+
+Changing footprint “S35:/5BCE70EA” pad “4” net name from “Net-(S35-Pad4)” to “/USB_2”.
+
+Changing footprint “S33:/5BCE70DE” pad “4” net name from “Net-(S33-Pad4)” to “/USB_2”.
+
+Changing footprint “S34:/5BCE70E4” pad “4” net name from “Net-(S34-Pad4)” to “/USB_2”.
+
+Changing footprint “S24:/5BCE00B3” pad “4” net name from “Net-(S24-Pad4)” to “/USB_2”.
+
+Changing footprint “C36:/5BD0F988” pad “6” net name from “Net-(C35-Pad5)” to “Net-(C36-Pad6)”.
+
+Changing footprint “M3:/5BCE7102” pad “6” net name from “Net-(M3-Pad6)” to “Net-(C35-Pad5)”.
+
+Changing footprint “S1:/5B819A13” pad “4” net name from “Net-(S1-Pad4)” to “/USB_1”.
+
+Changing footprint “S2:/5B819B26” pad “4” net name from “Net-(S2-Pad4)” to “/USB_1”.
+
+Changing footprint “S3:/5B81A222” pad “4” net name from “Net-(S3-Pad4)” to “/USB_1”.
+
+Changing footprint “S4:/5B81A274” pad “4” net name from “Net-(S4-Pad4)” to “/USB_1”.
+
+Changing footprint “S5:/5BCDA5B3” pad “4” net name from “Net-(S5-Pad4)” to “/USB_1”.
+
+Changing footprint “S6:/5BCDBE78” pad “4” net name from “Net-(S6-Pad4)” to “/USB_1”.
+
+Changing footprint “S7:/5BCDBE7E” pad “4” net name from “Net-(S7-Pad4)” to “/USB_1”.
+
+Changing footprint “S8:/5BCDBE84” pad “4” net name from “Net-(S8-Pad4)” to “/USB_1”.
+
+Changing footprint “S9:/5BCDBE8A” pad “4” net name from “Net-(S9-Pad4)” to “/USB_1”.
+
+Changing footprint “S10:/5BCDBE93” pad “4” net name from “Net-(S10-Pad4)” to “/USB_1”.
+
+Changing footprint “S11:/5BCDD8B3” pad “4” net name from “Net-(S11-Pad4)” to “/USB_1”.
+
+Changing footprint “S13:/5BCDD8D0” pad “4” net name from “Net-(S13-Pad4)” to “/USB_1”.
+
+Changing footprint “S25:/5BCE00B9” pad “4” net name from “Net-(S25-Pad4)” to “/USB_2”.
+
+Changing footprint “S23:/5BCE00AD” pad “4” net name from “Net-(S23-Pad4)” to “/USB_2”.
+
+Changing footprint “S22:/5BCE00A7” pad “4” net name from “Net-(S22-Pad4)” to “/USB_2”.
+
+Changing footprint “S21:/5BCE0078” pad “4” net name from “Net-(S21-Pad4)” to “/USB_2”.
+
+Changing footprint “S20:/5BCE006F” pad “4” net name from “Net-(S20-Pad4)” to “/USB_2”.
+
+Changing footprint “S19:/5BCE0069” pad “4” net name from “Net-(S19-Pad4)” to “/USB_2”.
+
+Changing footprint “S18:/5BCE0063” pad “4” net name from “Net-(S18-Pad4)” to “/USB_2”.
+
+Changing footprint “S17:/5BCE005D” pad “4” net name from “Net-(S17-Pad4)” to “/USB_2”.
+
+Changing footprint “S16:/5BCDD8E5” pad “4” net name from “Net-(S16-Pad4)” to “/USB_1”.
+
+Changing footprint “S15:/5BCDD8DC” pad “4” net name from “Net-(S15-Pad4)” to “/USB_1”.
+
+Changing footprint “S14:/5BCDD8D6” pad “4” net name from “Net-(S14-Pad4)” to “/USB_1”.
+
+Changing footprint “S12:/5BCDD8CA” pad “4” net name from “Net-(S12-Pad4)” to “/USB_1”.
+
+Error: Cannot add new symbol “P2:/5BCE0041” due to missing footprint “WoodElfLib:ItsyBitsyM4Express”.
+
+Error: Cannot add new symbol “P1:/5B6FC70A” due to missing footprint “WoodElfLib:ItsyBitsyM4Express”.
+
+Error: Component “P1” footprint “ItsyBitsyM4Express” was not found in any libraries in the footprint library table.
+
+Error: Component “P2” footprint “ItsyBitsyM4Express” was not found in any libraries in the footprint library table.
+
