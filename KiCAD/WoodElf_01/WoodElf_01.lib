@@ -156,14 +156,14 @@ ENDDEF
 # Kailh_HotSwap_SwitchMount
 #
 DEF Kailh_HotSwap_SwitchMount H 0 40 Y Y 1 F N
-F0 "H" 0 150 50 H V C CNN
-F1 "Kailh_HotSwap_SwitchMount" 0 -150 50 H V C CNN
+F0 "H" 100 -100 50 H V C CNN
+F1 "Kailh_HotSwap_SwitchMount" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-P 8 0 1 0 200 100 200 0 50 0 -50 -100 -150 -100 -150 50 -100 100 200 100 N
-X In 1 -250 -50 100 R 50 50 1 1 B
-X Out 2 300 50 100 L 50 50 1 1 B
+P 8 0 1 0 250 50 250 -50 0 -50 -100 -150 -250 -150 -250 0 -200 50 250 50 f
+X Out 1 350 0 100 L 50 50 1 1 B
+X In 2 -350 -100 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
