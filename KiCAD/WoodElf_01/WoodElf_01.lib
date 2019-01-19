@@ -18,6 +18,19 @@ X - 4 400 -150 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# BlankThrough-Hole
+#
+DEF BlankThrough-Hole T 0 40 Y Y 1 F N
+F0 "T" 0 150 50 H V C CNN
+F1 "BlankThrough-Hole" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+X In 1 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # ItsyBitsyM4Express
 #
 DEF ItsyBitsyM4Express U 0 40 Y Y 1 F N

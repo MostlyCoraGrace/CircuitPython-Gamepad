@@ -1,0 +1,85 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# WoodElf_01_BlankThrough-Hole
+#
+DEF WoodElf_01_BlankThrough-Hole T 0 40 Y Y 1 F N
+F0 "T" 0 150 50 H V C CNN
+F1 "WoodElf_01_BlankThrough-Hole" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+X In 1 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# WoodElf_01_Kailh_HotSwap_SwitchMount
+#
+DEF WoodElf_01_Kailh_HotSwap_SwitchMount H 0 40 Y Y 1 F N
+F0 "H" 100 -100 50 H V C CNN
+F1 "WoodElf_01_Kailh_HotSwap_SwitchMount" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 8 0 1 0 250 50 250 -50 0 -50 -100 -150 -250 -150 -250 0 -200 50 250 50 f
+X Out 1 350 0 100 L 50 50 1 1 B
+X In 2 -350 -100 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# WoodElf_01_Kailh_RGB_Switch
+#
+DEF WoodElf_01_Kailh_RGB_Switch S 0 40 Y Y 1 F N
+F0 "S" 0 -400 60 H V C CNN
+F1 "WoodElf_01_Kailh_RGB_Switch" 0 350 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -350 100 300 -350 0 1 0 f
+S 300 100 -350 300 0 1 0 f
+X SW_in 1 500 200 200 L 50 50 1 1 I
+X SW_out 2 -550 200 200 R 50 50 1 1 O
+X LED_R 3 500 0 200 L 50 50 1 1 I
+X Anode 4 -550 0 200 R 50 50 1 1 W
+X LED_G 5 500 -150 200 L 50 50 1 1 I
+X LED_B 6 500 -300 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# WoodElf_01_WS2811
+#
+DEF WoodElf_01_WS2811 C 0 40 Y Y 1 F N
+F0 "C" 150 -300 60 H V C CNN
+F1 "WoodElf_01_WS2811" 0 200 60 H V C CNN
+F2 "" 0 150 60 H I C CNN
+F3 "" 0 150 60 H I C CNN
+DRAW
+S 250 -250 -250 150 0 1 0 f
+X outR 1 -450 100 200 R 50 50 1 1 O
+X outG 2 -450 0 200 R 50 50 1 1 O
+X outB 3 -450 -100 200 R 50 50 1 1 O
+X GND 4 -450 -200 200 R 50 50 1 1 w
+X DO 5 450 -200 200 L 50 50 1 1 O
+X DIN 6 450 -100 200 L 50 50 1 1 I
+X SET 7 450 0 200 L 50 50 1 1 O
+X VDD 8 450 100 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# pspice_DIODE
+#
+DEF pspice_DIODE D 0 40 Y N 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "pspice_DIODE" 0 -175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 75 100 75 -100 N
+P 3 0 1 0 -75 100 -75 -100 75 0 F
+X K 1 -200 0 150 R 50 50 1 1 I
+X A 2 200 0 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
