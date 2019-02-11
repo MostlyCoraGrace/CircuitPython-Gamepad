@@ -1,50 +1,79 @@
-import digitalio
+import board
+from digitalio import DigitalInOut, Direction, Pull
+import neopixel
+from random import randint
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.keyboard import Keyboard
-from board import SCL, SDA
-from busio import I2C
-from adafruit_mcp230xx import MCP23017
 
-mcp1 = MCP23017(I2C(SCL, SDA), address=0x20)  # I can add up to 8 of these if I remember correctly, each for 16 keys each.  I could matrix them to get more, but that adds more delay and I'm running in to a speed issue as-is
-kbd = Keyboard()  # This is the virtual keyboard device
-kbd_keys = []  # This is the array of all the virtual keys that the hardware keys will 'press' to the operating system
-toggles = []  # An array to check whether the state of the switch has changed each tick to avoid pressing a key many times unintentionally
-kbd_switches = []  # the array of physical switch connections
+num_pixels = 1
+pixels = neopixel.NeoPixel(board.D5, num_pixels, brightness=1, auto_write=False, pixel_order=neopixel.RGB)
 
-for i in range(16):  # Do the hardware setup so the Feather knows what to do
-    kbd_switches.append(mcp1.get_pin(i))
-for switch in kbd_switches:
-    switch.direction = digitalio.Direction.INPUT
-    switch.pull = digitalio.Pull.UP
-    toggles.append(False)  # each key starts in the state of being 'un-pressed'
+Columns = [DigitalInOut(x) for x in (board.A2, board.A3, board.A4, board.A5, board.D2, board.D3, board.D4, board.D7)]
+Rows = [DigitalInOut(x) for x in (board.D9, board.D10, board.D11, board.D12, board.D13)]
 
-def definemacro(index):  # I'm not really using this yet, but hopefully one day I'll be able to store many different keymaps and swap them out at will
-    macros = ["macro1.py", "macro2.py", "macro3.py"]  # each keymap is stored in a different file to make it readable and extensible
-    which_macro = index
-    macro = macros[which_macro]
-    file = open(macro, "r")
-    macro_keys = []
-    for line in file:  # Each switch stores the buttons it will press in its own line, and each switch can press multiple keys at a time
-        macro_keys.append(eval(line))
-    return macro_keys
-        
-kbd_keys = definemacro(0)
+for Each in Rows:
+	Each.direction = Direction.OUTPUT
+	Each.value = 1  # 1 = dont register a press, 0 = register a press
 
-print("Waiting for Keypresses")
+for Each in Columns:
+	Each.direction = Direction.INPUT
+	Each.pull = Pull.UP
+
+def setuptoggles():
+	r = len(Columns)
+	c = len(Rows)
+	l = r * c
+	t = [0 for i in range(l)]
+	return t
+
+Toggles = setuptoggles()
+
+kbd = Keyboard()
+queuepress = []
+queuerelease = []
+	
+def definemacro(index):  # store many different keymaps and swap them out at will
+	macros = ["macro1.py", "macro2.py", "macro3.py"]  # each keymap is stored in a different file
+	which_macro = index
+	macro = macros[which_macro]
+	file = open(macro, "r")
+	macro_keys = []
+	for line in file:  # Each switch stores the buttons it will press in its own line, and each switch can press multiple keys at a time
+		macro_keys.append(eval(line))
+	return macro_keys
+		
+Keys = definemacro(0)
 
 while True:
-    buttons = []
-    for i in range(16):
-        buttons.append(bool(mcp1.gpio & 1 << i))  # each MCP23017 can output the state of all the GPIO keys at once, and this will make an array containing a bool for the state of each key.  MUCH faster than checking each key individually because I2C is relatively slow.
-    for button in buttons:
-        index = buttons.index(button)
-        if not button:  # was a key pressed?
-            if not toggles[index]:  # Was the key previously un-pressed?  Only continue if the key's state has *changed*
-                toggles[index] = True  # Change that key's state,
-                print("Key pressed")
-                kbd.press(*kbd_keys[index])  # Press the key
-        else:  # Yeah no shit, Sherlock; if the key is not pressed, it must be released!
-            if toggles[index]:  # Was the key previously pressed?  Only continue if the key's state has *changed*
-                toggles[index] = False  # Change that key's state,
-                print("key released")
-                kbd.release(*kbd_keys[index])  # Release the key
+	KeyIndex = 0
+	for EachRow in Rows:
+		RowIndex = Rows.index(EachRow)
+		if RowIndex == 0:
+			Rows[len(Rows)-1].value = 1
+		else:
+			Rows[RowIndex - 1].value = 1
+		EachRow.value = 0
+		for EachColumn in Columns:
+			ColumnIndex = Columns.index(EachColumn)
+			if not EachColumn.value:
+				if not Toggles[KeyIndex]:
+					Toggles[KeyIndex] = 1
+					KeyboardPress = Keys[KeyIndex]
+					print(str(KeyboardPress[1]) + " pressed")
+					queuepress.append(*KeyboardPress[0])
+					pixels.fill((randint(0, 256), randint(0, 256), randint(0, 256)))
+					pixels.show()
+				# else:
+					# key is held
+			else:
+				if Toggles[KeyIndex]:
+					Toggles[KeyIndex] = 0
+					KeyboardRelease = Keys[KeyIndex]
+					print(str(KeyboardRelease[1]) + " released")
+					queuerelease.append(*KeyboardRelease[0])
+				# else:
+					# Key is free
+			KeyIndex += 1  # Finished processing the switch
+	
+	# ToDo!  Can only press 6 keys at a time, if i press more than that, it throws an error!  Currently, there's no protection against this.
+	
