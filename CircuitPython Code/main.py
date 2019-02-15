@@ -1,3 +1,12 @@
+"""
+
+Wood Elf
+By J.H.Grace
+
+A CircuitPython-based keyboard matrix
+
+"""
+
 import board
 from digitalio import DigitalInOut, Direction, Pull
 import neopixel
@@ -38,8 +47,10 @@ def definemacro(which_macro):  # Store many different keymaps and swap them out 
 	return macro_keys
 
 kbd = Keyboard()  # This is the virtual keyboard device.  Currently, CircuitPython only supports a single virtual keyboard.  The hope is one day this may change, and I'll be able to have full n-key rollover.  For now though, only 6-key rollover is supported.
-QueuePress = []  # Each cycle, all pressed keys are added to this queue and processed afterwards.
+QueuePress = []  # Each cycle, all pressed keys with simple keypresses are added to this queue and processed afterwards.
 QueueRelease = []  # Ditto as above, but for keys that were pressed and are now released.
+QueueFunctionPress = []  # Each cycle, all pressed keys with complex functions are added to this queue and processed afterwards.
+QueueFunctionRelease = []  # Ditto as above, but for keys that were pressed and are now released.
 PressedKeys = []  # This stores all keys that are currently pressed to the virtual keyboard.
 KeyIndex = 0  # Stores the index of the current key that is being cycled through.
 Timer = 0  # For debug purposes.
@@ -54,6 +65,7 @@ print("Waiting for keypresses...")
 while True:
 	CycleTime = monotonic()  # Stores the current time before any of the looping.  This will be compared with later to tell me how long the cycle takes
 	KeyIndex = 0  # Reset the index of the current key that is being cycled through.
+	
 	for EachRow in Rows:  # Go through key-by-key and if one is pressed, add its corresponding key code to the queue.
 		RowIndex = Rows.index(EachRow)
 		if RowIndex == 0:  # if we have cycled back to the start, then we need to set the last Row's value
@@ -61,13 +73,22 @@ while True:
 		else:  # Else just set the previous Row's value
 			Rows[RowIndex - 1].value = 1
 		EachRow.value = 0
+		
 		for EachColumn in Columns:
 			ColumnIndex = Columns.index(EachColumn)
+			
 			if not EachColumn.value:
 				if not Toggles[KeyIndex]:
 					Toggles[KeyIndex] = 1
-					print(str(Keys[KeyIndex][0]) + " added to QueuePress")
-					QueuePress.append(Keys[KeyIndex])
+					
+					if Keys[KeyIndex][1] == 0:  # 0 is the mode for a simple keypress.
+						print(str(Keys[KeyIndex][0]) + " added to QueuePress")
+						QueuePress.append(Keys[KeyIndex])
+					
+					if Keys[KeyIndex][1] == 1:  # 1 is the mode for a complex function.
+						print("Sorry, I haven't implimented starting complex functions yet!")
+						QueueFunctionPress.append(Keys[KeyIndex])
+					
 					pixels.fill((randint(0, 256), randint(0, 256), randint(0, 256)))
 					pixels.show()
 				# else:
@@ -75,38 +96,61 @@ while True:
 			else:
 				if Toggles[KeyIndex]:
 					Toggles[KeyIndex] = 0
-					print(str(Keys[KeyIndex][0]) + " added to QueueRelease")
-					QueueRelease.append(Keys[KeyIndex])
+					
+					if Keys[KeyIndex][1] == 0:  # 0 is the mode for a simple keypress.
+						print(str(Keys[KeyIndex][0]) + " added to QueueRelease")
+						QueueRelease.append(Keys[KeyIndex])
+					
+					if Keys[KeyIndex][1] == 1:  # 1 is the mode for a complex function.
+						print("Sorry, I haven't implimented stopping complex functions yet!")
+						QueueFunctionRelease.append(Keys[KeyIndex])
+					
 				# else:
 					# Key is free
 			KeyIndex += 1  # Finished processing the switch
 	
 	for release in QueueRelease:
-		kbd.release(*release[1])  # Release the key on the computer!
+		kbd.release(*release[2])  # Release the key on the computer!
 		print("Released " + release[0])
 		for each in PressedKeys:  # remove keys from the pressed keys list when they are released
 			if each == release[0]:
 				PressedKeys.remove(release[0])
-	if len(QueuePress) > 0:  # are we trying to press a key?
+	
+	if len(QueuePress) > 0:  # Are we trying to press a key?
 		if len(PressedKeys) < 6:  # if we're already pressing 6 keys, don't even bother
 			if len(QueuePress) > 6:  # Always make sure we can only ever press 6 keys at a time
 				print("Can't press that many keys at once!")
 				QueuePress = QueuePress[:6]
+			
 			if len(PressedKeys) < 5:  # can we add more keys to be pressed?
 				print("Number of keys currently pressed: " + str(len(PressedKeys)))
 				maxcanpress = 6 - len(PressedKeys)  # only press more keys to reach the 6-key limit, dont go over it
 				QueuePress = QueuePress[:maxcanpress]  # set the queue of keys to press to be equal to the first (6 keys minus the number of keys already pressed)
+				
 				for i in range(len(QueuePress)):  # for each queued keypress, press all the keys within it
-					for each in QueuePress[i][1]:
+					for each in QueuePress[i][2]:
 						kbd.press(each)  # Press the key on the computer!
+					
 					print("Pressed " + QueuePress[i][0])
 					PressedKeys.append(QueuePress[i][0])  # Add the keys to the list of pressed keys, to keep track of how many have been pressed
 			else:
 				print("Can't press any more keys!")
 		else:
 			print("Trying to press too many keys at once!")
-	QueuePress = []  # make sure to clear the queues at the end so it can be queued up for the next pass
+	
+	if len(QueueFunctionPress) > 0:  # Are we trying to perform a function?
+		print("Sorry, I haven't implimented performing complex functions yet!")
+		
+		for each in QueueFunctionPress:
+			print("Performing the following function: " + str(each[2]))
+			# eval(each[2])  # In theory, I can store functions and macros etc within a string in the macro array.
+	
+	# make sure to clear the queues at the end so it can be queued up for the next pass
+	QueuePress = []
 	QueueRelease = []
+	
+	QueueFunctionPress = []
+	QueueFunctionRelease = []
 	
 	if monotonic() - Timer >= 5:  # create a log to tell me how long it takes to cycle through the array without spamming the serial console
 		print("Cycling through all the keys took " + str(monotonic() - CycleTime) + "seconds")
