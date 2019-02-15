@@ -1,4 +1,4 @@
-["M1", 1, "Beep boop, let's write some custom code here at some point..."]
+["M1", 1, [0.1, ["kbd.press(Keycode.B)", "kbd.release(Keycode.B)"]]]
 ["M2", 0, [Keycode.SHIFT, Keycode.A]]
 ["M3", 0, [Keycode.A]]
 ["M4", 0, [Keycode.A]]
