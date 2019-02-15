@@ -55,9 +55,7 @@ Timer = 0  # For debug purposes.
 
 # Now we go through all the steps to set up the matrix and virtual keys etc.
 setupmatrix()
-SimpleToggles = setuptoggles(0)  # Store whether a key is pressed or not pressed.
-ComplexToggles = setuptoggles(0)  # Store whether a complex function is being run or not.
-ComplexTimers = setuptoggles(0)
+Toggles = setuptoggles(0)  # Store whether a key is pressed or not pressed.
 Keys = definemacro(0)
 
 print("Waiting for keypresses...")
@@ -78,37 +76,26 @@ while True:
 			ColumnIndex = Columns.index(EachColumn)
 			
 			if not EachColumn.value:  # Is a key pressed?
-				if not SimpleToggles[KeyIndex]:  # Has it been pressed before?
-					SimpleToggles[KeyIndex] = 1  # Store the state of the key as being pressed currently.
-					
-					if Keys[KeyIndex][1] == 0:  # 0 is the mode for a simple keypress.
-						print(str(Keys[KeyIndex][0]) + " added to QueuePress")
-						QueuePress.append(Keys[KeyIndex])
-					
-					if Keys[KeyIndex][1] == 1:  # 1 is the mode for a complex function.
-						ComplexToggles[KeyIndex] = 1
-					
+				if not Toggles[KeyIndex]:  # Has it been pressed before?
+					Toggles[KeyIndex] = 1  # Store the state of the key as being pressed currently.
+					print(str(Keys[KeyIndex][0]) + " added to QueuePress")
+					QueuePress.append(Keys[KeyIndex])
 					pixels.fill((randint(0, 256), randint(0, 256), randint(0, 256)))
 					pixels.show()
 				# else:
 					# key is held
 			else:
-				if SimpleToggles[KeyIndex]:
-					SimpleToggles[KeyIndex] = 0
-					
-					if Keys[KeyIndex][1] == 0:  # 0 is the mode for a simple keypress.
-						print(str(Keys[KeyIndex][0]) + " added to QueueRelease")
-						QueueRelease.append(Keys[KeyIndex])
-					
-					if Keys[KeyIndex][1] == 1:  # 1 is the mode for a complex function.
-						ComplexToggles[KeyIndex] = 0
+				if Toggles[KeyIndex]:
+					Toggles[KeyIndex] = 0
+					print(str(Keys[KeyIndex][0]) + " added to QueueRelease")
+					QueueRelease.append(Keys[KeyIndex])
 					
 				# else:
 					# Key is free
 			KeyIndex += 1  # Finished processing the switch
 	
 	for release in QueueRelease:
-		kbd.release(*release[2])  # Release the key on the computer!
+		kbd.release(*release[1])  # Release the key on the computer!
 		print("Released " + release[0])
 		for each in PressedKeys:  # remove keys from the pressed keys list when they are released
 			if each == release[0]:
@@ -126,7 +113,7 @@ while True:
 				QueuePress = QueuePress[:maxcanpress]  # set the queue of keys to press to be equal to the first (6 keys minus the number of keys already pressed)
 				
 				for i in range(len(QueuePress)):  # for each queued keypress, press all the keys within it
-					for each in QueuePress[i][2]:
+					for each in QueuePress[i][1]:
 						kbd.press(each)  # Press the key on the computer!
 					
 					print("Pressed " + QueuePress[i][0])
@@ -136,18 +123,6 @@ while True:
 		else:
 			print("Trying to press too many keys at once!")
 	
-	for EachComplexToggle in ComplexToggles:
-		if EachComplexToggle == 1:  # Are we trying to perform a function?
-			Index = ComplexToggles.index(EachComplexToggle)
-			
-			if monotonic() - ComplexTimers[Index] >= Keys[Index][2][0][0]:
-				for line in Keys[Index][2][1]:  # In theory, I can store functions and macros etc within a string in the macro array.
-					print(line)
-					eval(line)
-					sleep(Keys[Index][2][0][1])
-				ComplexTimers[Index] = monotonic()
-				print("Performing the following function: " + str(Keys[Index][2]))
-		
 	# make sure to clear the queues at the end so it can be queued up for the next pass
 	QueuePress = []
 	QueueRelease = []

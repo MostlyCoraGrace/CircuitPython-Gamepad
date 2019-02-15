@@ -1,6 +1,6 @@
-["M1", [Keycode.B]]
+["M1", [Keycode.CONTROL]]
 ["M2", [Keycode.SHIFT, Keycode.A]]
-["M3", [Keycode.A]]
+["M3", [Keycode.B]]
 ["M4", [Keycode.A]]
 ["M5", [Keycode.A]]
 ["M6", [Keycode.A]]
