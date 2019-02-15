@@ -13,7 +13,7 @@ import neopixel
 from random import randint
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.keyboard import Keyboard
-from time import monotonic
+from time import monotonic, sleep
 
 Columns = [DigitalInOut(x) for x in (board.A2, board.A3, board.A4, board.A5, board.D2, board.D3, board.D4, board.D7)]
 Rows = [DigitalInOut(x) for x in (board.D9, board.D10, board.D11, board.D12, board.D13)]
@@ -140,10 +140,11 @@ while True:
 		if EachComplexToggle == 1:  # Are we trying to perform a function?
 			Index = ComplexToggles.index(EachComplexToggle)
 			
-			if monotonic() - ComplexTimers[Index] >= Keys[Index][2][0]:
+			if monotonic() - ComplexTimers[Index] >= Keys[Index][2][0][0]:
 				for line in Keys[Index][2][1]:  # In theory, I can store functions and macros etc within a string in the macro array.
 					print(line)
 					eval(line)
+					sleep(Keys[Index][2][0][1])
 				ComplexTimers[Index] = monotonic()
 				print("Performing the following function: " + str(Keys[Index][2]))
 		
