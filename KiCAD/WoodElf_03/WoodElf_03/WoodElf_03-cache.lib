@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SamacSys_Parts_RKJXV1224005
+#
+DEF SamacSys_Parts_RKJXV1224005 S 0 30 Y Y 1 F N
+F0 "S" 850 300 50 H V L CNN
+F1 "SamacSys_Parts_RKJXV1224005" 850 200 50 H V L CNN
+F2 "RKJXV1224005" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/RKJXV1224005.pdf" 850 0 50 H I L CNN
+F4 "Multi-Directional Switches Stick Controller" 850 -100 50 H I L CNN "Description"
+F5 "688-RKJXV1224005" 850 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.com/Search/Refine.aspx?Keyword=688-RKJXV1224005" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "ALPS" 850 -500 50 H I L CNN "Manufacturer_Name"
+F8 "RKJXV1224005" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -500 200 -500 200 100 N
+X A 1 0 0 200 R 50 50 0 0 B
+X 3_2 10 1000 -400 200 L 50 50 0 0 B
+X B 2 0 -100 200 R 50 50 0 0 B
+X C 3 0 -200 200 R 50 50 0 0 B
+X D 4 0 -300 200 R 50 50 0 0 B
+X 1_1 5 0 -400 200 R 50 50 0 0 B
+X 2_1 6 1000 0 200 L 50 50 0 0 B
+X 3_1 7 1000 -100 200 L 50 50 0 0 B
+X 1_2 8 1000 -200 200 L 50 50 0 0 B
+X 2_2 9 1000 -300 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# WoodElf_01_BlankThrough-Hole
+#
+DEF WoodElf_01_BlankThrough-Hole T 0 40 Y Y 1 F N
+F0 "T" 0 150 50 H V C CNN
+F1 "WoodElf_01_BlankThrough-Hole" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+X In 1 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
