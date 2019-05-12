@@ -86,17 +86,6 @@ F 3 "" H 4300 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L WoodElf_01:BlankThrough-Hole T4
-U 1 1 5CD58A34
-P 5050 3950
-F 0 "T4" H 5014 3714 50  0000 C CNN
-F 1 "BlankThrough-Hole" H 5014 3805 50  0000 C CNN
-F 2 "WoodElf_Lib:BlankThrough-Hole" H 5050 3950 50  0001 C CNN
-F 3 "" H 5050 3950 50  0001 C CNN
-	1    5050 3950
-	-1   0    0    1   
-$EndComp
-$Comp
 L WoodElf_01:BlankThrough-Hole T2
 U 1 1 5CD58A3A
 P 4300 4050
@@ -128,10 +117,8 @@ Text Label 5550 3850 0    50   ~ 0
 B
 Text Label 4450 3850 0    50   ~ 0
 B
-Text Label 5200 3950 0    50   ~ 0
-C
 Text Label 5550 3950 0    50   ~ 0
-C
+A
 Text Label 5550 4050 0    50   ~ 0
 D
 Text Label 4450 4050 0    50   ~ 0

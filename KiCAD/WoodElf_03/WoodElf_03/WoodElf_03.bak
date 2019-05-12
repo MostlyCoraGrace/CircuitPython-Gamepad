@@ -53,17 +53,6 @@ F 3 "" H 8150 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WoodElf_01:BlankThrough-Hole T7
-U 1 1 5CD585A0
-P 7100 3950
-F 0 "T7" H 7219 3996 50  0000 L CNN
-F 1 "BlankThrough-Hole" H 7219 3905 50  0000 L CNN
-F 2 "WoodElf_Lib:BlankThrough-Hole" H 7100 3950 50  0001 C CNN
-F 3 "" H 7100 3950 50  0001 C CNN
-	1    7100 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L WoodElf_01:BlankThrough-Hole T10
 U 1 1 5CD585A6
 P 8150 4050
@@ -72,17 +61,6 @@ F 1 "BlankThrough-Hole" H 8269 4005 50  0000 L CNN
 F 2 "WoodElf_Lib:BlankThrough-Hole" H 8150 4050 50  0001 C CNN
 F 3 "" H 8150 4050 50  0001 C CNN
 	1    8150 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01:BlankThrough-Hole T8
-U 1 1 5CD585B1
-P 7100 4150
-F 0 "T8" H 7219 4196 50  0000 L CNN
-F 1 "BlankThrough-Hole" H 7219 4105 50  0000 L CNN
-F 2 "WoodElf_Lib:BlankThrough-Hole" H 7100 4150 50  0001 C CNN
-F 3 "" H 7100 4150 50  0001 C CNN
-	1    7100 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -171,15 +149,11 @@ Text Label 6550 3850 0    50   ~ 0
 Text Label 8000 3850 0    50   ~ 0
 3_1
 Text Label 6550 3950 0    50   ~ 0
-1_2
-Text Label 6950 3950 0    50   ~ 0
-1_2
+1_1
 Text Label 6550 4050 0    50   ~ 0
 2_2
 Text Label 8000 4050 0    50   ~ 0
 2_2
 Text Label 6550 4150 0    50   ~ 0
-3_2
-Text Label 6950 4150 0    50   ~ 0
-3_2
+3_1
 $EndSCHEMATC
