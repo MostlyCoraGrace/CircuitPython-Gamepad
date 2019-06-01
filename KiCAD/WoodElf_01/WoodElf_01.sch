@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 1
+Sheet 1 26
 Title "Wood Elf"
 Date ""
 Rev ""
@@ -14,3877 +14,832 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 200  2050 0    60   ~ 0
-GPIO#4
+Text Label 10700 4150 0    50   ~ 0
+Col1
+Text Label 10700 4250 0    50   ~ 0
+Col2
+Text Label 10700 4350 0    50   ~ 0
+Col3
+Text Label 10700 4450 0    50   ~ 0
+Col4
+Text Label 10700 4550 0    50   ~ 0
+Col5
+Text Label 10700 4650 0    50   ~ 0
+Row1
+Text Label 10700 4750 0    50   ~ 0
+Row2
+Text Label 10700 4850 0    50   ~ 0
+Row3
+Text Label 10700 5050 0    50   ~ 0
+Row4
+Text Label 10700 5250 0    50   ~ 0
+Row5
+Wire Wire Line
+	10950 4150 10700 4150
+Text Label 10700 5350 0    50   ~ 0
+Din
 $Comp
-L WoodElf_01-rescue:AnalogJoystick-RESCUE-WoodElf_01 J1
-U 1 1 5B665893
-P 6550 13200
-F 0 "J1" H 6700 12950 60  0000 C CNN
-F 1 "AnalogJoystick" H 6600 13450 60  0000 C CNN
-F 2 "WoodElfLib:Joystick" H 6500 13200 60  0001 C CNN
-F 3 "" H 6500 13200 60  0001 C CNN
-	1    6550 13200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 13050 7500 13050
-Text Label 7500 13050 0    60   ~ 0
-3V3_1
-Wire Wire Line
-	6950 13350 7500 13350
-Text Label 7500 13350 0    60   ~ 0
-GND_1
-Wire Wire Line
-	6950 13150 7500 13150
-Text Label 7500 13150 0    60   ~ 0
-A0
-Wire Wire Line
-	6950 13250 7500 13250
-Text Label 7500 13250 0    60   ~ 0
-A1
-Wire Wire Line
-	10300 13050 10700 13050
-Text Label 10700 13050 0    60   ~ 0
-GND_1
-Wire Wire Line
-	9100 13050 8700 13050
-Text Label 8700 13050 0    60   ~ 0
-3V3_1
-NoConn ~ 10300 12950
-NoConn ~ 9100 13250
-NoConn ~ 9100 13150
-NoConn ~ 9100 12950
-Wire Wire Line
-	9100 13450 8700 13450
-Text Label 8700 13350 0    60   ~ 0
-A0
-Wire Wire Line
-	9100 13350 8700 13350
-Text Label 8700 13450 0    60   ~ 0
-A1
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S2
-U 1 1 5B819A13
-P 1550 2450
-F 0 "S2" H 1550 2050 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 1550 2800 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1550 2450 60  0001 C CNN
-F 3 "" H 1550 2450 60  0001 C CNN
-	1    1550 2450
+L WoodElf_01:BlankThrough-Hole T1
+U 1 1 5D20E4D4
+P 11700 3900
+F 0 "T1" H 11819 3946 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 3855 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 3900 50  0001 C CNN
+F 3 "" H 11700 3900 50  0001 C CNN
+	1    11700 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L WoodElf_01-rescue:WS2811 C3
-U 1 1 5BCED4AE
-P 2800 2550
-F 0 "C3" H 2950 2250 60  0000 C CNN
-F 1 "WS2811" H 2800 2750 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 2800 2700 60  0001 C CNN
-F 3 "" H 2800 2700 60  0001 C CNN
-	1    2800 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10300 13850 10700 13850
-Text Label 10700 13850 0    60   ~ 0
-Din_1
-NoConn ~ 3250 2550
-Wire Wire Line
-	10300 13150 10700 13150
-Text Label 10700 13150 0    60   ~ 0
-USB_1
-Text Label 3250 2450 0    60   ~ 0
-USB_1
-Wire Wire Line
-	2350 2450 2050 2450
-Wire Wire Line
-	2350 2550 2050 2550
-Wire Wire Line
-	2050 2550 2050 2600
-Wire Wire Line
-	2350 2650 2050 2650
-Wire Wire Line
-	2050 2650 2050 2750
-Wire Wire Line
-	2350 2750 2350 2850
-Wire Wire Line
-	2350 2850 2050 2850
-Text Label 2050 2850 0    60   ~ 0
-GND_1
-Text Label 750  2450 0    50   ~ 0
-USB_1
-Wire Wire Line
-	1000 2450 750  2450
-$Comp
-L WoodElf_01-rescue:ItsyBitsyM4Express P1
-U 1 1 5B6FC70A
-P 9700 13100
-F 0 "P1" H 9950 13500 60  0000 C CNN
-F 1 "ItsyBitsyM4Express" H 9700 13400 60  0000 C CNN
-F 2 "WoodElfLib:ItsyBitsyM4Express" H 9700 13200 60  0001 C CNN
-F 3 "" H 9700 13200 60  0001 C CNN
-	1    9700 13100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10000 14650
-NoConn ~ 9700 14650
-NoConn ~ 9600 14650
-NoConn ~ 9500 14650
-$Comp
-L Device:D D1
-U 1 1 5C4B878C
-P 2300 2250
-F 0 "D1" H 2300 2050 50  0000 C CNN
-F 1 "D" H 2300 2150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 2300 2250 50  0001 C CNN
-F 3 "~" H 2300 2250 50  0001 C CNN
-	1    2300 2250
-	-1   0    0    1   
-$EndComp
-Text Label 9800 14950 1    50   ~ 0
-GPIO#3
-Wire Wire Line
-	9800 14950 9800 14650
-Wire Wire Line
-	200  2050 550  2050
-Text Label 2450 2250 0    50   ~ 0
-A2
-Text Label 200  950  0    60   ~ 0
-GPIO#3
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S1
-U 1 1 5C35904F
-P 1550 1350
-F 0 "S1" H 1550 950 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 1550 1700 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1550 1350 60  0001 C CNN
-F 3 "" H 1550 1350 60  0001 C CNN
-	1    1550 1350
+L WoodElf_01:BlankThrough-Hole T2
+U 1 1 5D20E5B8
+P 11700 4100
+F 0 "T2" H 11819 4146 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 4055 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 4100 50  0001 C CNN
+F 3 "" H 11700 4100 50  0001 C CNN
+	1    11700 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L WoodElf_01-rescue:WS2811 C1
-U 1 1 5C359055
-P 2800 1450
-F 0 "C1" H 2950 1150 60  0000 C CNN
-F 1 "WS2811" H 2800 1650 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 2800 1600 60  0001 C CNN
-F 3 "" H 2800 1600 60  0001 C CNN
-	1    2800 1450
-	1    0    0    -1  
-$EndComp
-Text Label 3250 1550 0    60   ~ 0
-Din_1
-NoConn ~ 3250 1450
-Text Label 3250 1350 0    60   ~ 0
-USB_1
-Wire Wire Line
-	2350 1350 2050 1350
-Wire Wire Line
-	2350 1450 2050 1450
-Wire Wire Line
-	2050 1450 2050 1500
-Wire Wire Line
-	2350 1550 2050 1550
-Wire Wire Line
-	2050 1550 2050 1650
-Wire Wire Line
-	2350 1650 2350 1750
-Wire Wire Line
-	2350 1750 2050 1750
-Text Label 2050 1750 0    60   ~ 0
-GND_1
-Text Label 750  1350 0    50   ~ 0
-USB_1
-Wire Wire Line
-	1000 1350 750  1350
-$Comp
-L Device:D D2
-U 1 1 5C359068
-P 2300 1150
-F 0 "D2" H 2300 950 50  0000 C CNN
-F 1 "D" H 2300 1050 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 2300 1150 50  0001 C CNN
-F 3 "~" H 2300 1150 50  0001 C CNN
-	1    2300 1150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	200  950  550  950 
-Text Label 2450 1150 0    50   ~ 0
-A2
-Text Label 8700 13550 0    50   ~ 0
-A2
-Wire Wire Line
-	8700 13550 9100 13550
-Text Label 9900 14950 1    50   ~ 0
-GPIO#4
-Wire Wire Line
-	9900 14950 9900 14650
-Text Label 8700 13650 0    50   ~ 0
-A3
-Wire Wire Line
-	8700 13650 9100 13650
-Wire Wire Line
-	3250 1650 3350 1650
-Wire Wire Line
-	3350 1650 3350 2650
-Wire Wire Line
-	3350 2650 3250 2650
-Text Label 200  4250 0    60   ~ 0
-SDA
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S4
-U 1 1 5C368103
-P 1550 4650
-F 0 "S4" H 1550 4250 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 1550 5000 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1550 4650 60  0001 C CNN
-F 3 "" H 1550 4650 60  0001 C CNN
-	1    1550 4650
+L WoodElf_01:BlankThrough-Hole T3
+U 1 1 5D20E6D9
+P 11700 4300
+F 0 "T3" H 11819 4346 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 4255 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 4300 50  0001 C CNN
+F 3 "" H 11700 4300 50  0001 C CNN
+	1    11700 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L WoodElf_01-rescue:WS2811 C4
-U 1 1 5C368109
-P 2800 4750
-F 0 "C4" H 2950 4450 60  0000 C CNN
-F 1 "WS2811" H 2800 4950 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 2800 4900 60  0001 C CNN
-F 3 "" H 2800 4900 60  0001 C CNN
-	1    2800 4750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3250 4750
-Text Label 3250 4650 0    60   ~ 0
-USB_1
-Wire Wire Line
-	2350 4650 2050 4650
-Wire Wire Line
-	2350 4750 2050 4750
-Wire Wire Line
-	2050 4750 2050 4800
-Wire Wire Line
-	2350 4850 2050 4850
-Wire Wire Line
-	2050 4850 2050 4950
-Wire Wire Line
-	2350 4950 2350 5050
-Wire Wire Line
-	2350 5050 2050 5050
-Text Label 2050 5050 0    60   ~ 0
-GND_1
-Text Label 750  4650 0    50   ~ 0
-USB_1
-Wire Wire Line
-	1000 4650 750  4650
-$Comp
-L Device:D D4
-U 1 1 5C36811B
-P 2300 4450
-F 0 "D4" H 2300 4250 50  0000 C CNN
-F 1 "D" H 2300 4350 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 2300 4450 50  0001 C CNN
-F 3 "~" H 2300 4450 50  0001 C CNN
-	1    2300 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	200  4250 500  4250
-Text Label 2450 4450 0    50   ~ 0
-A2
-Text Label 200  3150 0    60   ~ 0
-GPIO#1
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S3
-U 1 1 5C368124
-P 1550 3550
-F 0 "S3" H 1550 3150 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 1550 3900 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1550 3550 60  0001 C CNN
-F 3 "" H 1550 3550 60  0001 C CNN
-	1    1550 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C2
-U 1 1 5C36812A
-P 2800 3650
-F 0 "C2" H 2950 3350 60  0000 C CNN
-F 1 "WS2811" H 2800 3850 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 2800 3800 60  0001 C CNN
-F 3 "" H 2800 3800 60  0001 C CNN
-	1    2800 3650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3250 3650
-Text Label 3250 3550 0    60   ~ 0
-USB_1
-Wire Wire Line
-	2350 3550 2050 3550
-Wire Wire Line
-	2350 3650 2050 3650
-Wire Wire Line
-	2050 3650 2050 3700
-Wire Wire Line
-	2350 3750 2050 3750
-Wire Wire Line
-	2050 3750 2050 3850
-Wire Wire Line
-	2350 3850 2350 3950
-Wire Wire Line
-	2350 3950 2050 3950
-Text Label 2050 3950 0    60   ~ 0
-GND_1
-Text Label 750  3550 0    50   ~ 0
-USB_1
-Wire Wire Line
-	1000 3550 750  3550
-$Comp
-L Device:D D3
-U 1 1 5C36813D
-P 2300 3350
-F 0 "D3" H 2300 3150 50  0000 C CNN
-F 1 "D" H 2300 3250 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 2300 3350 50  0001 C CNN
-F 3 "~" H 2300 3350 50  0001 C CNN
-	1    2300 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	200  3150 550  3150
-Text Label 2450 3350 0    50   ~ 0
-A2
-Wire Wire Line
-	3250 3850 3350 3850
-Wire Wire Line
-	3350 3850 3350 4850
-Wire Wire Line
-	3350 4850 3250 4850
-Text Label 200  5350 0    60   ~ 0
-SCL
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S5
-U 1 1 5C36943A
-P 1550 5750
-F 0 "S5" H 1550 5350 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 1550 6100 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 1550 5750 60  0001 C CNN
-F 3 "" H 1550 5750 60  0001 C CNN
-	1    1550 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C5
-U 1 1 5C369440
-P 2800 5850
-F 0 "C5" H 2950 5550 60  0000 C CNN
-F 1 "WS2811" H 2800 6050 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 2800 6000 60  0001 C CNN
-F 3 "" H 2800 6000 60  0001 C CNN
-	1    2800 5850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3250 5850
-Text Label 3250 5750 0    60   ~ 0
-USB_1
-Wire Wire Line
-	2350 5750 2050 5750
-Wire Wire Line
-	2350 5850 2050 5850
-Wire Wire Line
-	2050 5850 2050 5900
-Wire Wire Line
-	2350 5950 2050 5950
-Wire Wire Line
-	2050 5950 2050 6050
-Wire Wire Line
-	2350 6050 2350 6150
-Wire Wire Line
-	2350 6150 2050 6150
-Text Label 2050 6150 0    60   ~ 0
-GND_1
-Text Label 750  5750 0    50   ~ 0
-USB_1
-Wire Wire Line
-	1000 5750 750  5750
-$Comp
-L Device:D D5
-U 1 1 5C369452
-P 2300 5550
-F 0 "D5" H 2300 5350 50  0000 C CNN
-F 1 "D" H 2300 5450 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 2300 5550 50  0001 C CNN
-F 3 "~" H 2300 5550 50  0001 C CNN
-	1    2300 5550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	200  5350 550  5350
-Text Label 2450 5550 0    50   ~ 0
-A2
-Wire Wire Line
-	3350 4950 3350 5950
-Wire Wire Line
-	3350 5950 3250 5950
-Wire Wire Line
-	3250 2750 3350 2750
-Wire Wire Line
-	3350 2750 3350 3750
-Wire Wire Line
-	3350 3750 3250 3750
-Wire Wire Line
-	3250 4950 3350 4950
-Text Label 10700 14150 0    50   ~ 0
-GPIO#1
-Wire Wire Line
-	10300 14150 10700 14150
-Wire Wire Line
-	10300 14050 10700 14050
-Text Label 10700 14050 0    50   ~ 0
-SDA
-Wire Wire Line
-	10300 13950 10700 13950
-Text Label 10700 13950 0    50   ~ 0
-SCL
-Wire Wire Line
-	9100 13750 8700 13750
-Text Label 8700 13750 0    50   ~ 0
-A4
-Wire Wire Line
-	9100 13850 8700 13850
-Text Label 8700 13850 0    50   ~ 0
-A5
-Wire Wire Line
-	9100 13950 8700 13950
-Text Label 8700 13950 0    50   ~ 0
-SCK
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H4
-U 1 1 5C3CAF36
-P 900 4150
-F 0 "H4" H 900 4375 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 900 4284 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 900 4150 50  0001 C CNN
-F 3 "" H 900 4150 50  0001 C CNN
-	1    900  4150
+L WoodElf_01:BlankThrough-Hole T4
+U 1 1 5D20E6DF
+P 11700 4500
+F 0 "T4" H 11819 4546 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 4455 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 4500 50  0001 C CNN
+F 3 "" H 11700 4500 50  0001 C CNN
+	1    11700 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 4450 2150 4150
+	11550 3900 10950 3900
 Wire Wire Line
-	2150 4150 1250 4150
+	10950 3900 10950 4150
 Wire Wire Line
-	2050 4450 2150 4450
-Connection ~ 2150 4450
+	11000 4250 11000 4100
 Wire Wire Line
-	500  4250 500  4450
-Wire Wire Line
-	500  4450 1000 4450
-Connection ~ 500  4250
-Wire Wire Line
-	500  4250 550  4250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H3
-U 1 1 5C419AB8
-P 900 3050
-F 0 "H3" H 900 3275 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 900 3184 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 900 3050 50  0001 C CNN
-F 3 "" H 900 3050 50  0001 C CNN
-	1    900  3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 3350 550  3350
-Wire Wire Line
-	550  3350 550  3150
-Connection ~ 550  3150
-Wire Wire Line
-	1250 3050 2100 3050
-Wire Wire Line
-	2100 3050 2100 3350
-Wire Wire Line
-	2100 3350 2050 3350
-Wire Wire Line
-	2100 3350 2150 3350
-Connection ~ 2100 3350
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H2
-U 1 1 5C48DB75
-P 900 1950
-F 0 "H2" H 900 2175 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 900 2084 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 900 1950 50  0001 C CNN
-F 3 "" H 900 1950 50  0001 C CNN
-	1    900  1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	550  2050 550  2250
-Wire Wire Line
-	550  2250 1000 2250
-Connection ~ 550  2050
-Wire Wire Line
-	2150 2250 2100 2250
-Wire Wire Line
-	2100 2250 2100 1950
-Wire Wire Line
-	2100 1950 1250 1950
-Wire Wire Line
-	2050 2250 2100 2250
-Connection ~ 2100 2250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H1
-U 1 1 5C526449
-P 900 850
-F 0 "H1" H 900 1075 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 900 984 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 900 850 50  0001 C CNN
-F 3 "" H 900 850 50  0001 C CNN
-	1    900  850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	550  950  550  1150
-Wire Wire Line
-	550  1150 1000 1150
-Connection ~ 550  950 
-Wire Wire Line
-	2150 1150 2100 1150
-Wire Wire Line
-	2100 1150 2100 850 
-Wire Wire Line
-	2100 850  1250 850 
-Connection ~ 2100 1150
-Wire Wire Line
-	2100 1150 2050 1150
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H5
-U 1 1 5C5C6D42
-P 900 5250
-F 0 "H5" H 900 5475 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 900 5384 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 900 5250 50  0001 C CNN
-F 3 "" H 900 5250 50  0001 C CNN
-	1    900  5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	550  5350 550  5550
-Wire Wire Line
-	550  5550 1000 5550
-Connection ~ 550  5350
-Wire Wire Line
-	2150 5550 2100 5550
-Wire Wire Line
-	2100 5550 2100 5250
-Wire Wire Line
-	2100 5250 1250 5250
-Connection ~ 2100 5550
-Wire Wire Line
-	2100 5550 2050 5550
-Text Label 3700 2050 0    60   ~ 0
-GPIO#4
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S7
-U 1 1 5C67C0DE
-P 5050 2450
-F 0 "S7" H 5050 2050 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 5050 2800 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 5050 2450 60  0001 C CNN
-F 3 "" H 5050 2450 60  0001 C CNN
-	1    5050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C7
-U 1 1 5C67C0E4
-P 6300 2550
-F 0 "C7" H 6450 2250 60  0000 C CNN
-F 1 "WS2811" H 6300 2750 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 6300 2700 60  0001 C CNN
-F 3 "" H 6300 2700 60  0001 C CNN
-	1    6300 2550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6750 2550
-Text Label 6750 2450 0    60   ~ 0
-USB_1
-Wire Wire Line
-	5850 2450 5550 2450
-Wire Wire Line
-	5850 2550 5550 2550
-Wire Wire Line
-	5550 2550 5550 2600
-Wire Wire Line
-	5850 2650 5550 2650
-Wire Wire Line
-	5550 2650 5550 2750
-Wire Wire Line
-	5850 2750 5850 2850
-Wire Wire Line
-	5850 2850 5550 2850
-Text Label 5550 2850 0    60   ~ 0
-GND_1
-Text Label 4250 2450 0    50   ~ 0
-USB_1
-Wire Wire Line
-	4500 2450 4250 2450
-$Comp
-L Device:D D7
-U 1 1 5C67C0F6
-P 5800 2250
-F 0 "D7" H 5800 2050 50  0000 C CNN
-F 1 "D" H 5800 2150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 5800 2250 50  0001 C CNN
-F 3 "~" H 5800 2250 50  0001 C CNN
-	1    5800 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3700 2050 4050 2050
-Text Label 5950 2250 0    50   ~ 0
-A3
-Text Label 3700 950  0    60   ~ 0
-GPIO#3
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S6
-U 1 1 5C67C0FF
-P 5050 1350
-F 0 "S6" H 5050 950 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 5050 1700 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 5050 1350 60  0001 C CNN
-F 3 "" H 5050 1350 60  0001 C CNN
-	1    5050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C6
-U 1 1 5C67C105
-P 6300 1450
-F 0 "C6" H 6450 1150 60  0000 C CNN
-F 1 "WS2811" H 6300 1650 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 6300 1600 60  0001 C CNN
-F 3 "" H 6300 1600 60  0001 C CNN
-	1    6300 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6750 1450
-Text Label 6750 1350 0    60   ~ 0
-USB_1
-Wire Wire Line
-	5850 1350 5550 1350
-Wire Wire Line
-	5850 1450 5550 1450
-Wire Wire Line
-	5550 1450 5550 1500
-Wire Wire Line
-	5850 1550 5550 1550
-Wire Wire Line
-	5550 1550 5550 1650
-Wire Wire Line
-	5850 1650 5850 1750
-Wire Wire Line
-	5850 1750 5550 1750
-Text Label 5550 1750 0    60   ~ 0
-GND_1
-Text Label 4250 1350 0    50   ~ 0
-USB_1
-Wire Wire Line
-	4500 1350 4250 1350
-$Comp
-L Device:D D6
-U 1 1 5C67C118
-P 5800 1150
-F 0 "D6" H 5800 950 50  0000 C CNN
-F 1 "D" H 5800 1050 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 5800 1150 50  0001 C CNN
-F 3 "~" H 5800 1150 50  0001 C CNN
-	1    5800 1150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3700 950  4050 950 
-Text Label 5950 1150 0    50   ~ 0
-A3
-Wire Wire Line
-	6750 1650 6850 1650
-Wire Wire Line
-	6850 1650 6850 2650
-Wire Wire Line
-	6850 2650 6750 2650
-Text Label 3700 4250 0    60   ~ 0
-SDA
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S9
-U 1 1 5C67C124
-P 5050 4650
-F 0 "S9" H 5050 4250 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 5050 5000 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 5050 4650 60  0001 C CNN
-F 3 "" H 5050 4650 60  0001 C CNN
-	1    5050 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C9
-U 1 1 5C67C12A
-P 6300 4750
-F 0 "C9" H 6450 4450 60  0000 C CNN
-F 1 "WS2811" H 6300 4950 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 6300 4900 60  0001 C CNN
-F 3 "" H 6300 4900 60  0001 C CNN
-	1    6300 4750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6750 4750
-Text Label 6750 4650 0    60   ~ 0
-USB_1
-Wire Wire Line
-	5850 4650 5550 4650
-Wire Wire Line
-	5850 4750 5550 4750
-Wire Wire Line
-	5550 4750 5550 4800
-Wire Wire Line
-	5850 4850 5550 4850
-Wire Wire Line
-	5550 4850 5550 4950
-Wire Wire Line
-	5850 4950 5850 5050
-Wire Wire Line
-	5850 5050 5550 5050
-Text Label 5550 5050 0    60   ~ 0
-GND_1
-Text Label 4250 4650 0    50   ~ 0
-USB_1
-Wire Wire Line
-	4500 4650 4250 4650
-$Comp
-L Device:D D9
-U 1 1 5C67C13C
-P 5800 4450
-F 0 "D9" H 5800 4250 50  0000 C CNN
-F 1 "D" H 5800 4350 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 5800 4450 50  0001 C CNN
-F 3 "~" H 5800 4450 50  0001 C CNN
-	1    5800 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3700 4250 4000 4250
-Text Label 5950 4450 0    50   ~ 0
-A3
-Text Label 3700 3150 0    60   ~ 0
-GPIO#1
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S8
-U 1 1 5C67C145
-P 5050 3550
-F 0 "S8" H 5050 3150 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 5050 3900 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 5050 3550 60  0001 C CNN
-F 3 "" H 5050 3550 60  0001 C CNN
-	1    5050 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C8
-U 1 1 5C67C14B
-P 6300 3650
-F 0 "C8" H 6450 3350 60  0000 C CNN
-F 1 "WS2811" H 6300 3850 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 6300 3800 60  0001 C CNN
-F 3 "" H 6300 3800 60  0001 C CNN
-	1    6300 3650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6750 3650
-Text Label 6750 3550 0    60   ~ 0
-USB_1
-Wire Wire Line
-	5850 3550 5550 3550
-Wire Wire Line
-	5850 3650 5550 3650
-Wire Wire Line
-	5550 3650 5550 3700
-Wire Wire Line
-	5850 3750 5550 3750
-Wire Wire Line
-	5550 3750 5550 3850
-Wire Wire Line
-	5850 3850 5850 3950
-Wire Wire Line
-	5850 3950 5550 3950
-Text Label 5550 3950 0    60   ~ 0
-GND_1
-Text Label 4250 3550 0    50   ~ 0
-USB_1
-Wire Wire Line
-	4500 3550 4250 3550
-$Comp
-L Device:D D8
-U 1 1 5C67C15D
-P 5800 3350
-F 0 "D8" H 5800 3150 50  0000 C CNN
-F 1 "D" H 5800 3250 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 5800 3350 50  0001 C CNN
-F 3 "~" H 5800 3350 50  0001 C CNN
-	1    5800 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3700 3150 4050 3150
-Text Label 5950 3350 0    50   ~ 0
-A3
-Wire Wire Line
-	6750 3850 6850 3850
-Wire Wire Line
-	6850 3850 6850 4850
-Wire Wire Line
-	6850 4850 6750 4850
-Text Label 3700 5350 0    60   ~ 0
-SCL
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S10
-U 1 1 5C67C169
-P 5050 5750
-F 0 "S10" H 5050 5350 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 5050 6100 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 5050 5750 60  0001 C CNN
-F 3 "" H 5050 5750 60  0001 C CNN
-	1    5050 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C10
-U 1 1 5C67C16F
-P 6300 5850
-F 0 "C10" H 6450 5550 60  0000 C CNN
-F 1 "WS2811" H 6300 6050 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 6300 6000 60  0001 C CNN
-F 3 "" H 6300 6000 60  0001 C CNN
-	1    6300 5850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6750 5850
-Text Label 6750 5750 0    60   ~ 0
-USB_1
-Wire Wire Line
-	5850 5750 5550 5750
-Wire Wire Line
-	5850 5850 5550 5850
-Wire Wire Line
-	5550 5850 5550 5900
-Wire Wire Line
-	5850 5950 5550 5950
-Wire Wire Line
-	5550 5950 5550 6050
-Wire Wire Line
-	5850 6050 5850 6150
-Wire Wire Line
-	5850 6150 5550 6150
-Text Label 5550 6150 0    60   ~ 0
-GND_1
-Text Label 4250 5750 0    50   ~ 0
-USB_1
-Wire Wire Line
-	4500 5750 4250 5750
-$Comp
-L Device:D D10
-U 1 1 5C67C181
-P 5800 5550
-F 0 "D10" H 5800 5350 50  0000 C CNN
-F 1 "D" H 5800 5450 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 5800 5550 50  0001 C CNN
-F 3 "~" H 5800 5550 50  0001 C CNN
-	1    5800 5550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3700 5350 4050 5350
-Text Label 5950 5550 0    50   ~ 0
-A3
-Wire Wire Line
-	6850 4950 6850 5950
-Wire Wire Line
-	6850 5950 6750 5950
-Wire Wire Line
-	6750 2750 6850 2750
-Wire Wire Line
-	6850 2750 6850 3750
-Wire Wire Line
-	6850 3750 6750 3750
-Wire Wire Line
-	6750 4950 6850 4950
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H9
-U 1 1 5C67C18F
-P 4400 4150
-F 0 "H9" H 4400 4375 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 4400 4284 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 4400 4150 50  0001 C CNN
-F 3 "" H 4400 4150 50  0001 C CNN
-	1    4400 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 4450 5650 4150
-Wire Wire Line
-	5650 4150 4750 4150
-Wire Wire Line
-	5550 4450 5650 4450
-Connection ~ 5650 4450
-Wire Wire Line
-	4000 4250 4000 4450
-Wire Wire Line
-	4000 4450 4500 4450
-Connection ~ 4000 4250
-Wire Wire Line
-	4000 4250 4050 4250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H8
-U 1 1 5C67C19D
-P 4400 3050
-F 0 "H8" H 4400 3275 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 4400 3184 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 4400 3050 50  0001 C CNN
-F 3 "" H 4400 3050 50  0001 C CNN
-	1    4400 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 3350 4050 3350
-Wire Wire Line
-	4050 3350 4050 3150
-Connection ~ 4050 3150
-Wire Wire Line
-	4750 3050 5600 3050
-Wire Wire Line
-	5600 3050 5600 3350
-Wire Wire Line
-	5600 3350 5550 3350
-Wire Wire Line
-	5600 3350 5650 3350
-Connection ~ 5600 3350
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H7
-U 1 1 5C67C1AB
-P 4400 1950
-F 0 "H7" H 4400 2175 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 4400 2084 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 4400 1950 50  0001 C CNN
-F 3 "" H 4400 1950 50  0001 C CNN
-	1    4400 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 2050 4050 2250
-Wire Wire Line
-	4050 2250 4500 2250
-Connection ~ 4050 2050
-Wire Wire Line
-	5650 2250 5600 2250
-Wire Wire Line
-	5600 2250 5600 1950
-Wire Wire Line
-	5600 1950 4750 1950
-Wire Wire Line
-	5550 2250 5600 2250
-Connection ~ 5600 2250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H6
-U 1 1 5C67C1B9
-P 4400 850
-F 0 "H6" H 4400 1075 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 4400 984 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 4400 850 50  0001 C CNN
-F 3 "" H 4400 850 50  0001 C CNN
-	1    4400 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 950  4050 1150
-Wire Wire Line
-	4050 1150 4500 1150
-Connection ~ 4050 950 
-Wire Wire Line
-	5650 1150 5600 1150
-Wire Wire Line
-	5600 1150 5600 850 
-Wire Wire Line
-	5600 850  4750 850 
-Connection ~ 5600 1150
-Wire Wire Line
-	5600 1150 5550 1150
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H10
-U 1 1 5C67C1C7
-P 4400 5250
-F 0 "H10" H 4400 5475 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 4400 5384 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 4400 5250 50  0001 C CNN
-F 3 "" H 4400 5250 50  0001 C CNN
-	1    4400 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 5350 4050 5550
-Wire Wire Line
-	4050 5550 4500 5550
-Connection ~ 4050 5350
-Wire Wire Line
-	5650 5550 5600 5550
-Wire Wire Line
-	5600 5550 5600 5250
-Wire Wire Line
-	5600 5250 4750 5250
-Connection ~ 5600 5550
-Wire Wire Line
-	5600 5550 5550 5550
-Wire Wire Line
-	3250 6050 3600 6050
-Wire Wire Line
-	3600 6050 3600 550 
-Wire Wire Line
-	3600 550  6850 550 
-Wire Wire Line
-	6850 550  6850 1550
-Wire Wire Line
-	6850 1550 6750 1550
-Text Label 7200 2050 0    60   ~ 0
-GPIO#4
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S12
-U 1 1 5C692E63
-P 8550 2450
-F 0 "S12" H 8550 2050 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 8550 2800 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 8550 2450 60  0001 C CNN
-F 3 "" H 8550 2450 60  0001 C CNN
-	1    8550 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C12
-U 1 1 5C692E69
-P 9800 2550
-F 0 "C12" H 9950 2250 60  0000 C CNN
-F 1 "WS2811" H 9800 2750 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 9800 2700 60  0001 C CNN
-F 3 "" H 9800 2700 60  0001 C CNN
-	1    9800 2550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10250 2550
-Text Label 10250 2450 0    60   ~ 0
-USB_1
-Wire Wire Line
-	9350 2450 9050 2450
-Wire Wire Line
-	9350 2550 9050 2550
-Wire Wire Line
-	9050 2550 9050 2600
-Wire Wire Line
-	9350 2650 9050 2650
-Wire Wire Line
-	9050 2650 9050 2750
-Wire Wire Line
-	9350 2750 9350 2850
-Wire Wire Line
-	9350 2850 9050 2850
-Text Label 9050 2850 0    60   ~ 0
-GND_1
-Text Label 7750 2450 0    50   ~ 0
-USB_1
-Wire Wire Line
-	8000 2450 7750 2450
-$Comp
-L Device:D D12
-U 1 1 5C692E7B
-P 9300 2250
-F 0 "D12" H 9300 2050 50  0000 C CNN
-F 1 "D" H 9300 2150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9300 2250 50  0001 C CNN
-F 3 "~" H 9300 2250 50  0001 C CNN
-	1    9300 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 2050 7550 2050
-Text Label 9450 2250 0    50   ~ 0
-A4
-Text Label 7200 950  0    60   ~ 0
-GPIO#3
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S11
-U 1 1 5C692E84
-P 8550 1350
-F 0 "S11" H 8550 950 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 8550 1700 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 8550 1350 60  0001 C CNN
-F 3 "" H 8550 1350 60  0001 C CNN
-	1    8550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C11
-U 1 1 5C692E8A
-P 9800 1450
-F 0 "C11" H 9950 1150 60  0000 C CNN
-F 1 "WS2811" H 9800 1650 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 9800 1600 60  0001 C CNN
-F 3 "" H 9800 1600 60  0001 C CNN
-	1    9800 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10250 1450
-Text Label 10250 1350 0    60   ~ 0
-USB_1
-Wire Wire Line
-	9350 1350 9050 1350
-Wire Wire Line
-	9350 1450 9050 1450
-Wire Wire Line
-	9050 1450 9050 1500
-Wire Wire Line
-	9350 1550 9050 1550
-Wire Wire Line
-	9050 1550 9050 1650
-Wire Wire Line
-	9350 1650 9350 1750
-Wire Wire Line
-	9350 1750 9050 1750
-Text Label 9050 1750 0    60   ~ 0
-GND_1
-Text Label 7750 1350 0    50   ~ 0
-USB_1
-Wire Wire Line
-	8000 1350 7750 1350
-$Comp
-L Device:D D11
-U 1 1 5C692E9D
-P 9300 1150
-F 0 "D11" H 9300 950 50  0000 C CNN
-F 1 "D" H 9300 1050 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9300 1150 50  0001 C CNN
-F 3 "~" H 9300 1150 50  0001 C CNN
-	1    9300 1150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 950  7550 950 
-Text Label 9450 1150 0    50   ~ 0
-A4
-Wire Wire Line
-	10250 1650 10350 1650
-Wire Wire Line
-	10350 1650 10350 2650
-Wire Wire Line
-	10350 2650 10250 2650
-Text Label 7200 4250 0    60   ~ 0
-SDA
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S14
-U 1 1 5C692EA9
-P 8550 4650
-F 0 "S14" H 8550 4250 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 8550 5000 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 8550 4650 60  0001 C CNN
-F 3 "" H 8550 4650 60  0001 C CNN
-	1    8550 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C14
-U 1 1 5C692EAF
-P 9800 4750
-F 0 "C14" H 9950 4450 60  0000 C CNN
-F 1 "WS2811" H 9800 4950 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 9800 4900 60  0001 C CNN
-F 3 "" H 9800 4900 60  0001 C CNN
-	1    9800 4750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10250 4750
-Text Label 10250 4650 0    60   ~ 0
-USB_1
-Wire Wire Line
-	9350 4650 9050 4650
-Wire Wire Line
-	9350 4750 9050 4750
-Wire Wire Line
-	9050 4750 9050 4800
-Wire Wire Line
-	9350 4850 9050 4850
-Wire Wire Line
-	9050 4850 9050 4950
-Wire Wire Line
-	9350 4950 9350 5050
-Wire Wire Line
-	9350 5050 9050 5050
-Text Label 9050 5050 0    60   ~ 0
-GND_1
-Text Label 7750 4650 0    50   ~ 0
-USB_1
-Wire Wire Line
-	8000 4650 7750 4650
-$Comp
-L Device:D D14
-U 1 1 5C692EC1
-P 9300 4450
-F 0 "D14" H 9300 4250 50  0000 C CNN
-F 1 "D" H 9300 4350 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9300 4450 50  0001 C CNN
-F 3 "~" H 9300 4450 50  0001 C CNN
-	1    9300 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 4250 7500 4250
-Text Label 9450 4450 0    50   ~ 0
-A4
-Text Label 7200 3150 0    60   ~ 0
-GPIO#1
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S13
-U 1 1 5C692ECA
-P 8550 3550
-F 0 "S13" H 8550 3150 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 8550 3900 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 8550 3550 60  0001 C CNN
-F 3 "" H 8550 3550 60  0001 C CNN
-	1    8550 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C13
-U 1 1 5C692ED0
-P 9800 3650
-F 0 "C13" H 9950 3350 60  0000 C CNN
-F 1 "WS2811" H 9800 3850 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 9800 3800 60  0001 C CNN
-F 3 "" H 9800 3800 60  0001 C CNN
-	1    9800 3650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10250 3650
-Text Label 10250 3550 0    60   ~ 0
-USB_1
-Wire Wire Line
-	9350 3550 9050 3550
-Wire Wire Line
-	9350 3650 9050 3650
-Wire Wire Line
-	9050 3650 9050 3700
-Wire Wire Line
-	9350 3750 9050 3750
-Wire Wire Line
-	9050 3750 9050 3850
-Wire Wire Line
-	9350 3850 9350 3950
-Wire Wire Line
-	9350 3950 9050 3950
-Text Label 9050 3950 0    60   ~ 0
-GND_1
-Text Label 7750 3550 0    50   ~ 0
-USB_1
-Wire Wire Line
-	8000 3550 7750 3550
-$Comp
-L Device:D D13
-U 1 1 5C692EE2
-P 9300 3350
-F 0 "D13" H 9300 3150 50  0000 C CNN
-F 1 "D" H 9300 3250 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9300 3350 50  0001 C CNN
-F 3 "~" H 9300 3350 50  0001 C CNN
-	1    9300 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 3150 7550 3150
-Text Label 9450 3350 0    50   ~ 0
-A4
-Wire Wire Line
-	10250 3850 10350 3850
-Wire Wire Line
-	10350 3850 10350 4850
-Wire Wire Line
-	10350 4850 10250 4850
-Text Label 7200 5350 0    60   ~ 0
-SCL
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S15
-U 1 1 5C692EEE
-P 8550 5750
-F 0 "S15" H 8550 5350 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 8550 6100 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 8550 5750 60  0001 C CNN
-F 3 "" H 8550 5750 60  0001 C CNN
-	1    8550 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C15
-U 1 1 5C692EF4
-P 9800 5850
-F 0 "C15" H 9950 5550 60  0000 C CNN
-F 1 "WS2811" H 9800 6050 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 9800 6000 60  0001 C CNN
-F 3 "" H 9800 6000 60  0001 C CNN
-	1    9800 5850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10250 5850
-Text Label 10250 5750 0    60   ~ 0
-USB_1
-Wire Wire Line
-	9350 5750 9050 5750
-Wire Wire Line
-	9350 5850 9050 5850
-Wire Wire Line
-	9050 5850 9050 5900
-Wire Wire Line
-	9350 5950 9050 5950
-Wire Wire Line
-	9050 5950 9050 6050
-Wire Wire Line
-	9350 6050 9350 6150
-Wire Wire Line
-	9350 6150 9050 6150
-Text Label 9050 6150 0    60   ~ 0
-GND_1
-Text Label 7750 5750 0    50   ~ 0
-USB_1
-Wire Wire Line
-	8000 5750 7750 5750
-$Comp
-L Device:D D15
-U 1 1 5C692F06
-P 9300 5550
-F 0 "D15" H 9300 5350 50  0000 C CNN
-F 1 "D" H 9300 5450 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9300 5550 50  0001 C CNN
-F 3 "~" H 9300 5550 50  0001 C CNN
-	1    9300 5550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 5350 7550 5350
-Text Label 9450 5550 0    50   ~ 0
-A4
-Wire Wire Line
-	10350 4950 10350 5950
-Wire Wire Line
-	10350 5950 10250 5950
-Wire Wire Line
-	10250 2750 10350 2750
-Wire Wire Line
-	10350 2750 10350 3750
-Wire Wire Line
-	10350 3750 10250 3750
-Wire Wire Line
-	10250 4950 10350 4950
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H14
-U 1 1 5C692F14
-P 7900 4150
-F 0 "H14" H 7900 4375 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 7900 4284 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 7900 4150 50  0001 C CNN
-F 3 "" H 7900 4150 50  0001 C CNN
-	1    7900 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 4450 9150 4150
-Wire Wire Line
-	9150 4150 8250 4150
-Wire Wire Line
-	9050 4450 9150 4450
-Connection ~ 9150 4450
-Wire Wire Line
-	7500 4250 7500 4450
-Wire Wire Line
-	7500 4450 8000 4450
-Connection ~ 7500 4250
-Wire Wire Line
-	7500 4250 7550 4250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H13
-U 1 1 5C692F22
-P 7900 3050
-F 0 "H13" H 7900 3275 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 7900 3184 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 7900 3050 50  0001 C CNN
-F 3 "" H 7900 3050 50  0001 C CNN
-	1    7900 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 3350 7550 3350
-Wire Wire Line
-	7550 3350 7550 3150
-Connection ~ 7550 3150
-Wire Wire Line
-	8250 3050 9100 3050
-Wire Wire Line
-	9100 3050 9100 3350
-Wire Wire Line
-	9100 3350 9050 3350
-Wire Wire Line
-	9100 3350 9150 3350
-Connection ~ 9100 3350
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H12
-U 1 1 5C692F30
-P 7900 1950
-F 0 "H12" H 7900 2175 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 7900 2084 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 7900 1950 50  0001 C CNN
-F 3 "" H 7900 1950 50  0001 C CNN
-	1    7900 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 2050 7550 2250
-Wire Wire Line
-	7550 2250 8000 2250
-Connection ~ 7550 2050
-Wire Wire Line
-	9150 2250 9100 2250
-Wire Wire Line
-	9100 2250 9100 1950
-Wire Wire Line
-	9100 1950 8250 1950
-Wire Wire Line
-	9050 2250 9100 2250
-Connection ~ 9100 2250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H11
-U 1 1 5C692F3E
-P 7900 850
-F 0 "H11" H 7900 1075 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 7900 984 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 7900 850 50  0001 C CNN
-F 3 "" H 7900 850 50  0001 C CNN
-	1    7900 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 950  7550 1150
-Wire Wire Line
-	7550 1150 8000 1150
-Connection ~ 7550 950 
-Wire Wire Line
-	9150 1150 9100 1150
-Wire Wire Line
-	9100 1150 9100 850 
-Wire Wire Line
-	9100 850  8250 850 
-Connection ~ 9100 1150
-Wire Wire Line
-	9100 1150 9050 1150
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H15
-U 1 1 5C692F4C
-P 7900 5250
-F 0 "H15" H 7900 5475 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 7900 5384 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 7900 5250 50  0001 C CNN
-F 3 "" H 7900 5250 50  0001 C CNN
-	1    7900 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 5350 7550 5550
-Wire Wire Line
-	7550 5550 8000 5550
-Connection ~ 7550 5350
-Wire Wire Line
-	9150 5550 9100 5550
-Wire Wire Line
-	9100 5550 9100 5250
-Wire Wire Line
-	9100 5250 8250 5250
-Connection ~ 9100 5550
-Wire Wire Line
-	9100 5550 9050 5550
-Text Label 10700 2050 0    60   ~ 0
-GPIO#4
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S17
-U 1 1 5C692F5B
-P 12050 2450
-F 0 "S17" H 12050 2050 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 12050 2800 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 12050 2450 60  0001 C CNN
-F 3 "" H 12050 2450 60  0001 C CNN
-	1    12050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C17
-U 1 1 5C692F61
-P 13300 2550
-F 0 "C17" H 13450 2250 60  0000 C CNN
-F 1 "WS2811" H 13300 2750 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 13300 2700 60  0001 C CNN
-F 3 "" H 13300 2700 60  0001 C CNN
-	1    13300 2550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 13750 2550
-Text Label 13750 2450 0    60   ~ 0
-USB_1
-Wire Wire Line
-	12850 2450 12550 2450
-Wire Wire Line
-	12850 2550 12550 2550
-Wire Wire Line
-	12550 2550 12550 2600
-Wire Wire Line
-	12850 2650 12550 2650
-Wire Wire Line
-	12550 2650 12550 2750
-Wire Wire Line
-	12850 2750 12850 2850
-Wire Wire Line
-	12850 2850 12550 2850
-Text Label 12550 2850 0    60   ~ 0
-GND_1
-Text Label 11250 2450 0    50   ~ 0
-USB_1
-Wire Wire Line
-	11500 2450 11250 2450
-$Comp
-L Device:D D17
-U 1 1 5C692F73
-P 12800 2250
-F 0 "D17" H 12800 2050 50  0000 C CNN
-F 1 "D" H 12800 2150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 12800 2250 50  0001 C CNN
-F 3 "~" H 12800 2250 50  0001 C CNN
-	1    12800 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10700 2050 11050 2050
-Text Label 12950 2250 0    50   ~ 0
-A5
-Text Label 10700 950  0    60   ~ 0
-GPIO#3
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S16
-U 1 1 5C692F7C
-P 12050 1350
-F 0 "S16" H 12050 950 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 12050 1700 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 12050 1350 60  0001 C CNN
-F 3 "" H 12050 1350 60  0001 C CNN
-	1    12050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C16
-U 1 1 5C692F82
-P 13300 1450
-F 0 "C16" H 13450 1150 60  0000 C CNN
-F 1 "WS2811" H 13300 1650 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 13300 1600 60  0001 C CNN
-F 3 "" H 13300 1600 60  0001 C CNN
-	1    13300 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 13750 1450
-Text Label 13750 1350 0    60   ~ 0
-USB_1
-Wire Wire Line
-	12850 1350 12550 1350
-Wire Wire Line
-	12850 1450 12550 1450
-Wire Wire Line
-	12550 1450 12550 1500
-Wire Wire Line
-	12850 1550 12550 1550
-Wire Wire Line
-	12550 1550 12550 1650
-Wire Wire Line
-	12850 1650 12850 1750
-Wire Wire Line
-	12850 1750 12550 1750
-Text Label 12550 1750 0    60   ~ 0
-GND_1
-Text Label 11250 1350 0    50   ~ 0
-USB_1
-Wire Wire Line
-	11500 1350 11250 1350
-$Comp
-L Device:D D16
-U 1 1 5C692F94
-P 12800 1150
-F 0 "D16" H 12800 950 50  0000 C CNN
-F 1 "D" H 12800 1050 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 12800 1150 50  0001 C CNN
-F 3 "~" H 12800 1150 50  0001 C CNN
-	1    12800 1150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10700 950  11050 950 
-Text Label 12950 1150 0    50   ~ 0
-A5
-Wire Wire Line
-	13750 1650 13850 1650
-Wire Wire Line
-	13850 1650 13850 2650
-Wire Wire Line
-	13850 2650 13750 2650
-Text Label 10700 4250 0    60   ~ 0
-SDA
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S19
-U 1 1 5C692FA0
-P 12050 4650
-F 0 "S19" H 12050 4250 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 12050 5000 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 12050 4650 60  0001 C CNN
-F 3 "" H 12050 4650 60  0001 C CNN
-	1    12050 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C19
-U 1 1 5C692FA6
-P 13300 4750
-F 0 "C19" H 13450 4450 60  0000 C CNN
-F 1 "WS2811" H 13300 4950 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 13300 4900 60  0001 C CNN
-F 3 "" H 13300 4900 60  0001 C CNN
-	1    13300 4750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 13750 4750
-Text Label 13750 4650 0    60   ~ 0
-USB_1
-Wire Wire Line
-	12850 4650 12550 4650
-Wire Wire Line
-	12850 4750 12550 4750
-Wire Wire Line
-	12550 4750 12550 4800
-Wire Wire Line
-	12850 4850 12550 4850
-Wire Wire Line
-	12550 4850 12550 4950
-Wire Wire Line
-	12850 4950 12850 5050
-Wire Wire Line
-	12850 5050 12550 5050
-Text Label 12550 5050 0    60   ~ 0
-GND_1
-Text Label 11250 4650 0    50   ~ 0
-USB_1
-Wire Wire Line
-	11500 4650 11250 4650
-$Comp
-L Device:D D19
-U 1 1 5C692FB8
-P 12800 4450
-F 0 "D19" H 12800 4250 50  0000 C CNN
-F 1 "D" H 12800 4350 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 12800 4450 50  0001 C CNN
-F 3 "~" H 12800 4450 50  0001 C CNN
-	1    12800 4450
-	-1   0    0    1   
-$EndComp
+	11000 4100 11550 4100
 Wire Wire Line
 	10700 4250 11000 4250
-Text Label 12950 4450 0    50   ~ 0
-A5
-Text Label 10700 3150 0    60   ~ 0
-GPIO#1
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S18
-U 1 1 5C692FC1
-P 12050 3550
-F 0 "S18" H 12050 3150 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 12050 3900 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 12050 3550 60  0001 C CNN
-F 3 "" H 12050 3550 60  0001 C CNN
-	1    12050 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C18
-U 1 1 5C692FC7
-P 13300 3650
-F 0 "C18" H 13450 3350 60  0000 C CNN
-F 1 "WS2811" H 13300 3850 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 13300 3800 60  0001 C CNN
-F 3 "" H 13300 3800 60  0001 C CNN
-	1    13300 3650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 13750 3650
-Text Label 13750 3550 0    60   ~ 0
-USB_1
-Wire Wire Line
-	12850 3550 12550 3550
-Wire Wire Line
-	12850 3650 12550 3650
-Wire Wire Line
-	12550 3650 12550 3700
-Wire Wire Line
-	12850 3750 12550 3750
-Wire Wire Line
-	12550 3750 12550 3850
-Wire Wire Line
-	12850 3850 12850 3950
-Wire Wire Line
-	12850 3950 12550 3950
-Text Label 12550 3950 0    60   ~ 0
-GND_1
-Text Label 11250 3550 0    50   ~ 0
-USB_1
-Wire Wire Line
-	11500 3550 11250 3550
-$Comp
-L Device:D D18
-U 1 1 5C692FD9
-P 12800 3350
-F 0 "D18" H 12800 3150 50  0000 C CNN
-F 1 "D" H 12800 3250 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 12800 3350 50  0001 C CNN
-F 3 "~" H 12800 3350 50  0001 C CNN
-	1    12800 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10700 3150 11050 3150
-Text Label 12950 3350 0    50   ~ 0
-A5
-Wire Wire Line
-	13750 3850 13850 3850
-Wire Wire Line
-	13850 3850 13850 4850
-Wire Wire Line
-	13850 4850 13750 4850
-Text Label 10700 5350 0    60   ~ 0
-SCL
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S20
-U 1 1 5C692FE5
-P 12050 5750
-F 0 "S20" H 12050 5350 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 12050 6100 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 12050 5750 60  0001 C CNN
-F 3 "" H 12050 5750 60  0001 C CNN
-	1    12050 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C20
-U 1 1 5C692FEB
-P 13300 5850
-F 0 "C20" H 13450 5550 60  0000 C CNN
-F 1 "WS2811" H 13300 6050 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 13300 6000 60  0001 C CNN
-F 3 "" H 13300 6000 60  0001 C CNN
-	1    13300 5850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 13750 5850
-Text Label 13750 5750 0    60   ~ 0
-USB_1
-Wire Wire Line
-	12850 5750 12550 5750
-Wire Wire Line
-	12850 5850 12550 5850
-Wire Wire Line
-	12550 5850 12550 5900
-Wire Wire Line
-	12850 5950 12550 5950
-Wire Wire Line
-	12550 5950 12550 6050
-Wire Wire Line
-	12850 6050 12850 6150
-Wire Wire Line
-	12850 6150 12550 6150
-Text Label 12550 6150 0    60   ~ 0
-GND_1
-Text Label 11250 5750 0    50   ~ 0
-USB_1
-Wire Wire Line
-	11500 5750 11250 5750
-$Comp
-L Device:D D20
-U 1 1 5C692FFD
-P 12800 5550
-F 0 "D20" H 12800 5350 50  0000 C CNN
-F 1 "D" H 12800 5450 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 12800 5550 50  0001 C CNN
-F 3 "~" H 12800 5550 50  0001 C CNN
-	1    12800 5550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10700 5350 11050 5350
-Text Label 12950 5550 0    50   ~ 0
-A5
-Wire Wire Line
-	13850 4950 13850 5950
-Wire Wire Line
-	13850 5950 13750 5950
-Wire Wire Line
-	13750 2750 13850 2750
-Wire Wire Line
-	13850 2750 13850 3750
-Wire Wire Line
-	13850 3750 13750 3750
-Wire Wire Line
-	13750 4950 13850 4950
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H19
-U 1 1 5C69300B
-P 11400 4150
-F 0 "H19" H 11400 4375 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 11400 4284 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 11400 4150 50  0001 C CNN
-F 3 "" H 11400 4150 50  0001 C CNN
-	1    11400 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12650 4450 12650 4150
-Wire Wire Line
-	12650 4150 11750 4150
-Wire Wire Line
-	12550 4450 12650 4450
-Connection ~ 12650 4450
-Wire Wire Line
-	11000 4250 11000 4450
-Wire Wire Line
-	11000 4450 11500 4450
-Connection ~ 11000 4250
-Wire Wire Line
-	11000 4250 11050 4250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H18
-U 1 1 5C693019
-P 11400 3050
-F 0 "H18" H 11400 3275 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 11400 3184 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 11400 3050 50  0001 C CNN
-F 3 "" H 11400 3050 50  0001 C CNN
-	1    11400 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11500 3350 11050 3350
-Wire Wire Line
-	11050 3350 11050 3150
-Connection ~ 11050 3150
-Wire Wire Line
-	11750 3050 12600 3050
-Wire Wire Line
-	12600 3050 12600 3350
-Wire Wire Line
-	12600 3350 12550 3350
-Wire Wire Line
-	12600 3350 12650 3350
-Connection ~ 12600 3350
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H17
-U 1 1 5C693027
-P 11400 1950
-F 0 "H17" H 11400 2175 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 11400 2084 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 11400 1950 50  0001 C CNN
-F 3 "" H 11400 1950 50  0001 C CNN
-	1    11400 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11050 2050 11050 2250
-Wire Wire Line
-	11050 2250 11500 2250
-Connection ~ 11050 2050
-Wire Wire Line
-	12650 2250 12600 2250
-Wire Wire Line
-	12600 2250 12600 1950
-Wire Wire Line
-	12600 1950 11750 1950
-Wire Wire Line
-	12550 2250 12600 2250
-Connection ~ 12600 2250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H16
-U 1 1 5C693035
-P 11400 850
-F 0 "H16" H 11400 1075 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 11400 984 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 11400 850 50  0001 C CNN
-F 3 "" H 11400 850 50  0001 C CNN
-	1    11400 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11050 950  11050 1150
-Wire Wire Line
-	11050 1150 11500 1150
-Connection ~ 11050 950 
-Wire Wire Line
-	12650 1150 12600 1150
-Wire Wire Line
-	12600 1150 12600 850 
-Wire Wire Line
-	12600 850  11750 850 
-Connection ~ 12600 1150
-Wire Wire Line
-	12600 1150 12550 1150
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H20
-U 1 1 5C693043
-P 11400 5250
-F 0 "H20" H 11400 5475 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 11400 5384 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 11400 5250 50  0001 C CNN
-F 3 "" H 11400 5250 50  0001 C CNN
-	1    11400 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11050 5350 11050 5550
-Wire Wire Line
-	11050 5550 11500 5550
-Connection ~ 11050 5350
-Wire Wire Line
-	12650 5550 12600 5550
-Wire Wire Line
-	12600 5550 12600 5250
-Wire Wire Line
-	12600 5250 11750 5250
-Connection ~ 12600 5550
-Wire Wire Line
-	12600 5550 12550 5550
-Wire Wire Line
-	10250 6050 10600 6050
-Wire Wire Line
-	10600 6050 10600 550 
-Wire Wire Line
-	10600 550  13850 550 
-Wire Wire Line
-	13850 550  13850 1550
-Wire Wire Line
-	13850 1550 13750 1550
-Text Label 14200 2050 0    60   ~ 0
-GPIO#4
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S22
-U 1 1 5C6BB870
-P 15550 2450
-F 0 "S22" H 15550 2050 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 15550 2800 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 15550 2450 60  0001 C CNN
-F 3 "" H 15550 2450 60  0001 C CNN
-	1    15550 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C22
-U 1 1 5C6BB876
-P 16800 2550
-F 0 "C22" H 16950 2250 60  0000 C CNN
-F 1 "WS2811" H 16800 2750 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 16800 2700 60  0001 C CNN
-F 3 "" H 16800 2700 60  0001 C CNN
-	1    16800 2550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 17250 2550
-Text Label 17250 2450 0    60   ~ 0
-USB_1
-Wire Wire Line
-	16350 2450 16050 2450
-Wire Wire Line
-	16350 2550 16050 2550
-Wire Wire Line
-	16050 2550 16050 2600
-Wire Wire Line
-	16350 2650 16050 2650
-Wire Wire Line
-	16050 2650 16050 2750
-Wire Wire Line
-	16350 2750 16350 2850
-Wire Wire Line
-	16350 2850 16050 2850
-Text Label 16050 2850 0    60   ~ 0
-GND_1
-Text Label 14750 2450 0    50   ~ 0
-USB_1
-Wire Wire Line
-	15000 2450 14750 2450
-$Comp
-L Device:D D22
-U 1 1 5C6BB888
-P 16300 2250
-F 0 "D22" H 16300 2050 50  0000 C CNN
-F 1 "D" H 16300 2150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 16300 2250 50  0001 C CNN
-F 3 "~" H 16300 2250 50  0001 C CNN
-	1    16300 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14200 2050 14550 2050
-Text Label 16450 2250 0    50   ~ 0
-SCK
-Text Label 14200 950  0    60   ~ 0
-GPIO#3
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S21
-U 1 1 5C6BB891
-P 15550 1350
-F 0 "S21" H 15550 950 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 15550 1700 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 15550 1350 60  0001 C CNN
-F 3 "" H 15550 1350 60  0001 C CNN
-	1    15550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C21
-U 1 1 5C6BB897
-P 16800 1450
-F 0 "C21" H 16950 1150 60  0000 C CNN
-F 1 "WS2811" H 16800 1650 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 16800 1600 60  0001 C CNN
-F 3 "" H 16800 1600 60  0001 C CNN
-	1    16800 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 17250 1450
-Text Label 17250 1350 0    60   ~ 0
-USB_1
-Wire Wire Line
-	16350 1350 16050 1350
-Wire Wire Line
-	16350 1450 16050 1450
-Wire Wire Line
-	16050 1450 16050 1500
-Wire Wire Line
-	16350 1550 16050 1550
-Wire Wire Line
-	16050 1550 16050 1650
-Wire Wire Line
-	16350 1650 16350 1750
-Wire Wire Line
-	16350 1750 16050 1750
-Text Label 16050 1750 0    60   ~ 0
-GND_1
-Text Label 14750 1350 0    50   ~ 0
-USB_1
-Wire Wire Line
-	15000 1350 14750 1350
-$Comp
-L Device:D D21
-U 1 1 5C6BB8AA
-P 16300 1150
-F 0 "D21" H 16300 950 50  0000 C CNN
-F 1 "D" H 16300 1050 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 16300 1150 50  0001 C CNN
-F 3 "~" H 16300 1150 50  0001 C CNN
-	1    16300 1150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14200 950  14550 950 
-Text Label 16450 1150 0    50   ~ 0
-SCK
-Wire Wire Line
-	17250 1650 17350 1650
-Wire Wire Line
-	17350 1650 17350 2650
-Wire Wire Line
-	17350 2650 17250 2650
-Text Label 14200 4250 0    60   ~ 0
-SDA
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S24
-U 1 1 5C6BB8B6
-P 15550 4650
-F 0 "S24" H 15550 4250 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 15550 5000 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 15550 4650 60  0001 C CNN
-F 3 "" H 15550 4650 60  0001 C CNN
-	1    15550 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C24
-U 1 1 5C6BB8BC
-P 16800 4750
-F 0 "C24" H 16950 4450 60  0000 C CNN
-F 1 "WS2811" H 16800 4950 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 16800 4900 60  0001 C CNN
-F 3 "" H 16800 4900 60  0001 C CNN
-	1    16800 4750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 17250 4750
-Text Label 17250 4650 0    60   ~ 0
-USB_1
-Wire Wire Line
-	16350 4650 16050 4650
-Wire Wire Line
-	16350 4750 16050 4750
-Wire Wire Line
-	16050 4750 16050 4800
-Wire Wire Line
-	16350 4850 16050 4850
-Wire Wire Line
-	16050 4850 16050 4950
-Wire Wire Line
-	16350 4950 16350 5050
-Wire Wire Line
-	16350 5050 16050 5050
-Text Label 16050 5050 0    60   ~ 0
-GND_1
-Text Label 14750 4650 0    50   ~ 0
-USB_1
-Wire Wire Line
-	15000 4650 14750 4650
-$Comp
-L Device:D D24
-U 1 1 5C6BB8CE
-P 16300 4450
-F 0 "D24" H 16300 4250 50  0000 C CNN
-F 1 "D" H 16300 4350 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 16300 4450 50  0001 C CNN
-F 3 "~" H 16300 4450 50  0001 C CNN
-	1    16300 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14200 4250 14500 4250
-Text Label 16450 4450 0    50   ~ 0
-SCK
-Text Label 14200 3150 0    60   ~ 0
-GPIO#1
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S23
-U 1 1 5C6BB8D7
-P 15550 3550
-F 0 "S23" H 15550 3150 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 15550 3900 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 15550 3550 60  0001 C CNN
-F 3 "" H 15550 3550 60  0001 C CNN
-	1    15550 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C23
-U 1 1 5C6BB8DD
-P 16800 3650
-F 0 "C23" H 16950 3350 60  0000 C CNN
-F 1 "WS2811" H 16800 3850 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 16800 3800 60  0001 C CNN
-F 3 "" H 16800 3800 60  0001 C CNN
-	1    16800 3650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 17250 3650
-Text Label 17250 3550 0    60   ~ 0
-USB_1
-Wire Wire Line
-	16350 3550 16050 3550
-Wire Wire Line
-	16350 3650 16050 3650
-Wire Wire Line
-	16050 3650 16050 3700
-Wire Wire Line
-	16350 3750 16050 3750
-Wire Wire Line
-	16050 3750 16050 3850
-Wire Wire Line
-	16350 3850 16350 3950
-Wire Wire Line
-	16350 3950 16050 3950
-Text Label 16050 3950 0    60   ~ 0
-GND_1
-Text Label 14750 3550 0    50   ~ 0
-USB_1
-Wire Wire Line
-	15000 3550 14750 3550
-$Comp
-L Device:D D23
-U 1 1 5C6BB8EF
-P 16300 3350
-F 0 "D23" H 16300 3150 50  0000 C CNN
-F 1 "D" H 16300 3250 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 16300 3350 50  0001 C CNN
-F 3 "~" H 16300 3350 50  0001 C CNN
-	1    16300 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14200 3150 14550 3150
-Text Label 16450 3350 0    50   ~ 0
-SCK
-Wire Wire Line
-	17250 3850 17350 3850
-Wire Wire Line
-	17350 3850 17350 4850
-Wire Wire Line
-	17350 4850 17250 4850
-Text Label 14200 5350 0    60   ~ 0
-SCL
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S25
-U 1 1 5C6BB8FB
-P 15550 5750
-F 0 "S25" H 15550 5350 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 15550 6100 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 15550 5750 60  0001 C CNN
-F 3 "" H 15550 5750 60  0001 C CNN
-	1    15550 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C25
-U 1 1 5C6BB901
-P 16800 5850
-F 0 "C25" H 16950 5550 60  0000 C CNN
-F 1 "WS2811" H 16800 6050 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 16800 6000 60  0001 C CNN
-F 3 "" H 16800 6000 60  0001 C CNN
-	1    16800 5850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 17250 5850
-Text Label 17250 5750 0    60   ~ 0
-USB_1
-Wire Wire Line
-	16350 5750 16050 5750
-Wire Wire Line
-	16350 5850 16050 5850
-Wire Wire Line
-	16050 5850 16050 5900
-Wire Wire Line
-	16350 5950 16050 5950
-Wire Wire Line
-	16050 5950 16050 6050
-Wire Wire Line
-	16350 6050 16350 6150
-Wire Wire Line
-	16350 6150 16050 6150
-Text Label 16050 6150 0    60   ~ 0
-GND_1
-Text Label 14750 5750 0    50   ~ 0
-USB_1
-Wire Wire Line
-	15000 5750 14750 5750
-$Comp
-L Device:D D25
-U 1 1 5C6BB913
-P 16300 5550
-F 0 "D25" H 16300 5350 50  0000 C CNN
-F 1 "D" H 16300 5450 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 16300 5550 50  0001 C CNN
-F 3 "~" H 16300 5550 50  0001 C CNN
-	1    16300 5550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14200 5350 14550 5350
-Text Label 16450 5550 0    50   ~ 0
-SCK
-Wire Wire Line
-	17350 4950 17350 5950
-Wire Wire Line
-	17350 5950 17250 5950
-Wire Wire Line
-	17250 2750 17350 2750
-Wire Wire Line
-	17350 2750 17350 3750
-Wire Wire Line
-	17350 3750 17250 3750
-Wire Wire Line
-	17250 4950 17350 4950
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H24
-U 1 1 5C6BB921
-P 14900 4150
-F 0 "H24" H 14900 4375 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 14900 4284 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 14900 4150 50  0001 C CNN
-F 3 "" H 14900 4150 50  0001 C CNN
-	1    14900 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16150 4450 16150 4150
-Wire Wire Line
-	16150 4150 15250 4150
-Wire Wire Line
-	16050 4450 16150 4450
-Connection ~ 16150 4450
-Wire Wire Line
-	14500 4250 14500 4450
-Wire Wire Line
-	14500 4450 15000 4450
-Connection ~ 14500 4250
-Wire Wire Line
-	14500 4250 14550 4250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H23
-U 1 1 5C6BB92F
-P 14900 3050
-F 0 "H23" H 14900 3275 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 14900 3184 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 14900 3050 50  0001 C CNN
-F 3 "" H 14900 3050 50  0001 C CNN
-	1    14900 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15000 3350 14550 3350
-Wire Wire Line
-	14550 3350 14550 3150
-Connection ~ 14550 3150
-Wire Wire Line
-	15250 3050 16100 3050
-Wire Wire Line
-	16100 3050 16100 3350
-Wire Wire Line
-	16100 3350 16050 3350
-Wire Wire Line
-	16100 3350 16150 3350
-Connection ~ 16100 3350
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H22
-U 1 1 5C6BB93D
-P 14900 1950
-F 0 "H22" H 14900 2175 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 14900 2084 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 14900 1950 50  0001 C CNN
-F 3 "" H 14900 1950 50  0001 C CNN
-	1    14900 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14550 2050 14550 2250
-Wire Wire Line
-	14550 2250 15000 2250
-Connection ~ 14550 2050
-Wire Wire Line
-	16150 2250 16100 2250
-Wire Wire Line
-	16100 2250 16100 1950
-Wire Wire Line
-	16100 1950 15250 1950
-Wire Wire Line
-	16050 2250 16100 2250
-Connection ~ 16100 2250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H21
-U 1 1 5C6BB94B
-P 14900 850
-F 0 "H21" H 14900 1075 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 14900 984 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 14900 850 50  0001 C CNN
-F 3 "" H 14900 850 50  0001 C CNN
-	1    14900 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14550 950  14550 1150
-Wire Wire Line
-	14550 1150 15000 1150
-Connection ~ 14550 950 
-Wire Wire Line
-	16150 1150 16100 1150
-Wire Wire Line
-	16100 1150 16100 850 
-Wire Wire Line
-	16100 850  15250 850 
-Connection ~ 16100 1150
-Wire Wire Line
-	16100 1150 16050 1150
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H25
-U 1 1 5C6BB959
-P 14900 5250
-F 0 "H25" H 14900 5475 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 14900 5384 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 14900 5250 50  0001 C CNN
-F 3 "" H 14900 5250 50  0001 C CNN
-	1    14900 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14550 5350 14550 5550
-Wire Wire Line
-	14550 5550 15000 5550
-Connection ~ 14550 5350
-Wire Wire Line
-	16150 5550 16100 5550
-Wire Wire Line
-	16100 5550 16100 5250
-Wire Wire Line
-	16100 5250 15250 5250
-Connection ~ 16100 5550
-Wire Wire Line
-	16100 5550 16050 5550
-Text Label 17700 2050 0    60   ~ 0
-GPIO#4
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S27
-U 1 1 5C6BB968
-P 19050 2450
-F 0 "S27" H 19050 2050 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 19050 2800 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 19050 2450 60  0001 C CNN
-F 3 "" H 19050 2450 60  0001 C CNN
-	1    19050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C27
-U 1 1 5C6BB96E
-P 20300 2550
-F 0 "C27" H 20450 2250 60  0000 C CNN
-F 1 "WS2811" H 20300 2750 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 20300 2700 60  0001 C CNN
-F 3 "" H 20300 2700 60  0001 C CNN
-	1    20300 2550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 20750 2550
-Text Label 20750 2450 0    60   ~ 0
-USB_1
-Wire Wire Line
-	19850 2450 19550 2450
-Wire Wire Line
-	19850 2550 19550 2550
-Wire Wire Line
-	19550 2550 19550 2600
-Wire Wire Line
-	19850 2650 19550 2650
-Wire Wire Line
-	19550 2650 19550 2750
-Wire Wire Line
-	19850 2750 19850 2850
-Wire Wire Line
-	19850 2850 19550 2850
-Text Label 19550 2850 0    60   ~ 0
-GND_1
-Text Label 18250 2450 0    50   ~ 0
-USB_1
-Wire Wire Line
-	18500 2450 18250 2450
-$Comp
-L Device:D D27
-U 1 1 5C6BB980
-P 19800 2250
-F 0 "D27" H 19800 2050 50  0000 C CNN
-F 1 "D" H 19800 2150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 19800 2250 50  0001 C CNN
-F 3 "~" H 19800 2250 50  0001 C CNN
-	1    19800 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	17700 2050 18050 2050
-Text Label 19950 2250 0    50   ~ 0
-MO
-Text Label 17700 950  0    60   ~ 0
-GPIO#3
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S26
-U 1 1 5C6BB989
-P 19050 1350
-F 0 "S26" H 19050 950 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 19050 1700 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 19050 1350 60  0001 C CNN
-F 3 "" H 19050 1350 60  0001 C CNN
-	1    19050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C26
-U 1 1 5C6BB98F
-P 20300 1450
-F 0 "C26" H 20450 1150 60  0000 C CNN
-F 1 "WS2811" H 20300 1650 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 20300 1600 60  0001 C CNN
-F 3 "" H 20300 1600 60  0001 C CNN
-	1    20300 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 20750 1450
-Text Label 20750 1350 0    60   ~ 0
-USB_1
 Wire Wire Line
-	19850 1350 19550 1350
+	11050 4350 11050 4300
 Wire Wire Line
-	19850 1450 19550 1450
+	11050 4300 11550 4300
 Wire Wire Line
-	19550 1450 19550 1500
+	10700 4350 11050 4350
 Wire Wire Line
-	19850 1550 19550 1550
+	11550 4450 11550 4500
 Wire Wire Line
-	19550 1550 19550 1650
-Wire Wire Line
-	19850 1650 19850 1750
-Wire Wire Line
-	19850 1750 19550 1750
-Text Label 19550 1750 0    60   ~ 0
-GND_1
-Text Label 18250 1350 0    50   ~ 0
-USB_1
-Wire Wire Line
-	18500 1350 18250 1350
-$Comp
-L Device:D D26
-U 1 1 5C6BB9A1
-P 19800 1150
-F 0 "D26" H 19800 950 50  0000 C CNN
-F 1 "D" H 19800 1050 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 19800 1150 50  0001 C CNN
-F 3 "~" H 19800 1150 50  0001 C CNN
-	1    19800 1150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	17700 950  18050 950 
-Text Label 19950 1150 0    50   ~ 0
-MO
-Wire Wire Line
-	20750 1650 20850 1650
-Wire Wire Line
-	20850 1650 20850 2650
-Wire Wire Line
-	20850 2650 20750 2650
-Text Label 17700 4250 0    60   ~ 0
-SDA
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S29
-U 1 1 5C6BB9AD
-P 19050 4650
-F 0 "S29" H 19050 4250 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 19050 5000 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 19050 4650 60  0001 C CNN
-F 3 "" H 19050 4650 60  0001 C CNN
-	1    19050 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C29
-U 1 1 5C6BB9B3
-P 20300 4750
-F 0 "C29" H 20450 4450 60  0000 C CNN
-F 1 "WS2811" H 20300 4950 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 20300 4900 60  0001 C CNN
-F 3 "" H 20300 4900 60  0001 C CNN
-	1    20300 4750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 20750 4750
-Text Label 20750 4650 0    60   ~ 0
-USB_1
-Wire Wire Line
-	19850 4650 19550 4650
-Wire Wire Line
-	19850 4750 19550 4750
-Wire Wire Line
-	19550 4750 19550 4800
-Wire Wire Line
-	19850 4850 19550 4850
-Wire Wire Line
-	19550 4850 19550 4950
-Wire Wire Line
-	19850 4950 19850 5050
-Wire Wire Line
-	19850 5050 19550 5050
-Text Label 19550 5050 0    60   ~ 0
-GND_1
-Text Label 18250 4650 0    50   ~ 0
-USB_1
-Wire Wire Line
-	18500 4650 18250 4650
-$Comp
-L Device:D D29
-U 1 1 5C6BB9C5
-P 19800 4450
-F 0 "D29" H 19800 4250 50  0000 C CNN
-F 1 "D" H 19800 4350 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 19800 4450 50  0001 C CNN
-F 3 "~" H 19800 4450 50  0001 C CNN
-	1    19800 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	17700 4250 18000 4250
-Text Label 19950 4450 0    50   ~ 0
-MO
-Text Label 17700 3150 0    60   ~ 0
-GPIO#1
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S28
-U 1 1 5C6BB9CE
-P 19050 3550
-F 0 "S28" H 19050 3150 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 19050 3900 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 19050 3550 60  0001 C CNN
-F 3 "" H 19050 3550 60  0001 C CNN
-	1    19050 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C28
-U 1 1 5C6BB9D4
-P 20300 3650
-F 0 "C28" H 20450 3350 60  0000 C CNN
-F 1 "WS2811" H 20300 3850 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 20300 3800 60  0001 C CNN
-F 3 "" H 20300 3800 60  0001 C CNN
-	1    20300 3650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 20750 3650
-Text Label 20750 3550 0    60   ~ 0
-USB_1
-Wire Wire Line
-	19850 3550 19550 3550
-Wire Wire Line
-	19850 3650 19550 3650
-Wire Wire Line
-	19550 3650 19550 3700
-Wire Wire Line
-	19850 3750 19550 3750
-Wire Wire Line
-	19550 3750 19550 3850
-Wire Wire Line
-	19850 3850 19850 3950
-Wire Wire Line
-	19850 3950 19550 3950
-Text Label 19550 3950 0    60   ~ 0
-GND_1
-Text Label 18250 3550 0    50   ~ 0
-USB_1
-Wire Wire Line
-	18500 3550 18250 3550
-$Comp
-L Device:D D28
-U 1 1 5C6BB9E6
-P 19800 3350
-F 0 "D28" H 19800 3150 50  0000 C CNN
-F 1 "D" H 19800 3250 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 19800 3350 50  0001 C CNN
-F 3 "~" H 19800 3350 50  0001 C CNN
-	1    19800 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	17700 3150 18050 3150
-Text Label 19950 3350 0    50   ~ 0
-MO
-Wire Wire Line
-	20750 3850 20850 3850
-Wire Wire Line
-	20850 3850 20850 4850
-Wire Wire Line
-	20850 4850 20750 4850
-Text Label 17700 5350 0    60   ~ 0
-SCL
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S30
-U 1 1 5C6BB9F2
-P 19050 5750
-F 0 "S30" H 19050 5350 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 19050 6100 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 19050 5750 60  0001 C CNN
-F 3 "" H 19050 5750 60  0001 C CNN
-	1    19050 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C30
-U 1 1 5C6BB9F8
-P 20300 5850
-F 0 "C30" H 20450 5550 60  0000 C CNN
-F 1 "WS2811" H 20300 6050 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 20300 6000 60  0001 C CNN
-F 3 "" H 20300 6000 60  0001 C CNN
-	1    20300 5850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 20750 5850
-Text Label 20750 5750 0    60   ~ 0
-USB_1
-Wire Wire Line
-	19850 5750 19550 5750
-Wire Wire Line
-	19850 5850 19550 5850
-Wire Wire Line
-	19550 5850 19550 5900
-Wire Wire Line
-	19850 5950 19550 5950
-Wire Wire Line
-	19550 5950 19550 6050
-Wire Wire Line
-	19850 6050 19850 6150
-Wire Wire Line
-	19850 6150 19550 6150
-Text Label 19550 6150 0    60   ~ 0
-GND_1
-Text Label 18250 5750 0    50   ~ 0
-USB_1
-Wire Wire Line
-	18500 5750 18250 5750
-$Comp
-L Device:D D30
-U 1 1 5C6BBA0A
-P 19800 5550
-F 0 "D30" H 19800 5350 50  0000 C CNN
-F 1 "D" H 19800 5450 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 19800 5550 50  0001 C CNN
-F 3 "~" H 19800 5550 50  0001 C CNN
-	1    19800 5550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	17700 5350 18050 5350
-Text Label 19950 5550 0    50   ~ 0
-MO
-Wire Wire Line
-	20850 4950 20850 5950
-Wire Wire Line
-	20850 5950 20750 5950
-Wire Wire Line
-	20750 2750 20850 2750
-Wire Wire Line
-	20850 2750 20850 3750
-Wire Wire Line
-	20850 3750 20750 3750
-Wire Wire Line
-	20750 4950 20850 4950
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H29
-U 1 1 5C6BBA18
-P 18400 4150
-F 0 "H29" H 18400 4375 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 18400 4284 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 18400 4150 50  0001 C CNN
-F 3 "" H 18400 4150 50  0001 C CNN
-	1    18400 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19650 4450 19650 4150
-Wire Wire Line
-	19650 4150 18750 4150
-Wire Wire Line
-	19550 4450 19650 4450
-Connection ~ 19650 4450
-Wire Wire Line
-	18000 4250 18000 4450
-Wire Wire Line
-	18000 4450 18500 4450
-Connection ~ 18000 4250
-Wire Wire Line
-	18000 4250 18050 4250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H28
-U 1 1 5C6BBA26
-P 18400 3050
-F 0 "H28" H 18400 3275 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 18400 3184 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 18400 3050 50  0001 C CNN
-F 3 "" H 18400 3050 50  0001 C CNN
-	1    18400 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18500 3350 18050 3350
-Wire Wire Line
-	18050 3350 18050 3150
-Connection ~ 18050 3150
-Wire Wire Line
-	18750 3050 19600 3050
-Wire Wire Line
-	19600 3050 19600 3350
-Wire Wire Line
-	19600 3350 19550 3350
-Wire Wire Line
-	19600 3350 19650 3350
-Connection ~ 19600 3350
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H27
-U 1 1 5C6BBA34
-P 18400 1950
-F 0 "H27" H 18400 2175 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 18400 2084 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 18400 1950 50  0001 C CNN
-F 3 "" H 18400 1950 50  0001 C CNN
-	1    18400 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18050 2050 18050 2250
-Wire Wire Line
-	18050 2250 18500 2250
-Connection ~ 18050 2050
-Wire Wire Line
-	19650 2250 19600 2250
-Wire Wire Line
-	19600 2250 19600 1950
-Wire Wire Line
-	19600 1950 18750 1950
-Wire Wire Line
-	19550 2250 19600 2250
-Connection ~ 19600 2250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H26
-U 1 1 5C6BBA42
-P 18400 850
-F 0 "H26" H 18400 1075 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 18400 984 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 18400 850 50  0001 C CNN
-F 3 "" H 18400 850 50  0001 C CNN
-	1    18400 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18050 950  18050 1150
-Wire Wire Line
-	18050 1150 18500 1150
-Connection ~ 18050 950 
-Wire Wire Line
-	19650 1150 19600 1150
-Wire Wire Line
-	19600 1150 19600 850 
-Wire Wire Line
-	19600 850  18750 850 
-Connection ~ 19600 1150
-Wire Wire Line
-	19600 1150 19550 1150
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H30
-U 1 1 5C6BBA50
-P 18400 5250
-F 0 "H30" H 18400 5475 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 18400 5384 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 18400 5250 50  0001 C CNN
-F 3 "" H 18400 5250 50  0001 C CNN
-	1    18400 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18050 5350 18050 5550
-Wire Wire Line
-	18050 5550 18500 5550
-Connection ~ 18050 5350
-Wire Wire Line
-	19650 5550 19600 5550
-Wire Wire Line
-	19600 5550 19600 5250
-Wire Wire Line
-	19600 5250 18750 5250
-Connection ~ 19600 5550
-Wire Wire Line
-	19600 5550 19550 5550
-Wire Wire Line
-	17250 6050 17600 6050
-Wire Wire Line
-	17600 6050 17600 550 
-Wire Wire Line
-	17600 550  20850 550 
-Wire Wire Line
-	20850 550  20850 1550
-Wire Wire Line
-	20850 1550 20750 1550
-Text Label 21200 2050 0    60   ~ 0
-GPIO#4
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S32
-U 1 1 5C6BBA64
-P 22550 2450
-F 0 "S32" H 22550 2050 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 22550 2800 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 22550 2450 60  0001 C CNN
-F 3 "" H 22550 2450 60  0001 C CNN
-	1    22550 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C32
-U 1 1 5C6BBA6A
-P 23800 2550
-F 0 "C32" H 23950 2250 60  0000 C CNN
-F 1 "WS2811" H 23800 2750 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 23800 2700 60  0001 C CNN
-F 3 "" H 23800 2700 60  0001 C CNN
-	1    23800 2550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 24250 2550
-Text Label 24250 2450 0    60   ~ 0
-USB_1
-Wire Wire Line
-	23350 2450 23050 2450
-Wire Wire Line
-	23350 2550 23050 2550
-Wire Wire Line
-	23050 2550 23050 2600
-Wire Wire Line
-	23350 2650 23050 2650
-Wire Wire Line
-	23050 2650 23050 2750
-Wire Wire Line
-	23350 2750 23350 2850
-Wire Wire Line
-	23350 2850 23050 2850
-Text Label 23050 2850 0    60   ~ 0
-GND_1
-Text Label 21750 2450 0    50   ~ 0
-USB_1
-Wire Wire Line
-	22000 2450 21750 2450
-$Comp
-L Device:D D32
-U 1 1 5C6BBA7C
-P 23300 2250
-F 0 "D32" H 23300 2050 50  0000 C CNN
-F 1 "D" H 23300 2150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 23300 2250 50  0001 C CNN
-F 3 "~" H 23300 2250 50  0001 C CNN
-	1    23300 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	21200 2050 21550 2050
-Text Label 23450 2250 0    50   ~ 0
-MI
-Text Label 21200 950  0    60   ~ 0
-GPIO#3
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S31
-U 1 1 5C6BBA85
-P 22550 1350
-F 0 "S31" H 22550 950 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 22550 1700 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 22550 1350 60  0001 C CNN
-F 3 "" H 22550 1350 60  0001 C CNN
-	1    22550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C31
-U 1 1 5C6BBA8B
-P 23800 1450
-F 0 "C31" H 23950 1150 60  0000 C CNN
-F 1 "WS2811" H 23800 1650 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 23800 1600 60  0001 C CNN
-F 3 "" H 23800 1600 60  0001 C CNN
-	1    23800 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 24250 1450
-Text Label 24250 1350 0    60   ~ 0
-USB_1
-Wire Wire Line
-	23350 1350 23050 1350
-Wire Wire Line
-	23350 1450 23050 1450
-Wire Wire Line
-	23050 1450 23050 1500
-Wire Wire Line
-	23350 1550 23050 1550
-Wire Wire Line
-	23050 1550 23050 1650
-Wire Wire Line
-	23350 1650 23350 1750
-Wire Wire Line
-	23350 1750 23050 1750
-Text Label 23050 1750 0    60   ~ 0
-GND_1
-Text Label 21750 1350 0    50   ~ 0
-USB_1
-Wire Wire Line
-	22000 1350 21750 1350
-$Comp
-L Device:D D31
-U 1 1 5C6BBA9E
-P 23300 1150
-F 0 "D31" H 23300 950 50  0000 C CNN
-F 1 "D" H 23300 1050 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 23300 1150 50  0001 C CNN
-F 3 "~" H 23300 1150 50  0001 C CNN
-	1    23300 1150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	21200 950  21550 950 
-Text Label 23450 1150 0    50   ~ 0
-MI
-Wire Wire Line
-	24250 1650 24350 1650
-Wire Wire Line
-	24350 1650 24350 2650
-Wire Wire Line
-	24350 2650 24250 2650
-Text Label 21200 4250 0    60   ~ 0
-SDA
+	10700 4450 11550 4450
 $Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S34
-U 1 1 5C6BBAAA
-P 22550 4650
-F 0 "S34" H 22550 4250 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 22550 5000 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 22550 4650 60  0001 C CNN
-F 3 "" H 22550 4650 60  0001 C CNN
-	1    22550 4650
+L WoodElf_01:BlankThrough-Hole T5
+U 1 1 5D2753FF
+P 11700 4700
+F 0 "T5" H 11819 4746 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 4655 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 4700 50  0001 C CNN
+F 3 "" H 11700 4700 50  0001 C CNN
+	1    11700 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L WoodElf_01-rescue:WS2811 C34
-U 1 1 5C6BBAB0
-P 23800 4750
-F 0 "C34" H 23950 4450 60  0000 C CNN
-F 1 "WS2811" H 23800 4950 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 23800 4900 60  0001 C CNN
-F 3 "" H 23800 4900 60  0001 C CNN
-	1    23800 4750
+L WoodElf_01:BlankThrough-Hole T6
+U 1 1 5D275405
+P 11700 4900
+F 0 "T6" H 11819 4946 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 4855 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 4900 50  0001 C CNN
+F 3 "" H 11700 4900 50  0001 C CNN
+	1    11700 4900
 	1    0    0    -1  
-$EndComp
-NoConn ~ 24250 4750
-Text Label 24250 4650 0    60   ~ 0
-USB_1
-Wire Wire Line
-	23350 4650 23050 4650
-Wire Wire Line
-	23350 4750 23050 4750
-Wire Wire Line
-	23050 4750 23050 4800
-Wire Wire Line
-	23350 4850 23050 4850
-Wire Wire Line
-	23050 4850 23050 4950
-Wire Wire Line
-	23350 4950 23350 5050
-Wire Wire Line
-	23350 5050 23050 5050
-Text Label 23050 5050 0    60   ~ 0
-GND_1
-Text Label 21750 4650 0    50   ~ 0
-USB_1
-Wire Wire Line
-	22000 4650 21750 4650
-$Comp
-L Device:D D34
-U 1 1 5C6BBAC2
-P 23300 4450
-F 0 "D34" H 23300 4250 50  0000 C CNN
-F 1 "D" H 23300 4350 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 23300 4450 50  0001 C CNN
-F 3 "~" H 23300 4450 50  0001 C CNN
-	1    23300 4450
-	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	21200 4250 21500 4250
-Text Label 23450 4450 0    50   ~ 0
-MI
-Text Label 21200 3150 0    60   ~ 0
-GPIO#1
 $Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S33
-U 1 1 5C6BBACB
-P 22550 3550
-F 0 "S33" H 22550 3150 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 22550 3900 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 22550 3550 60  0001 C CNN
-F 3 "" H 22550 3550 60  0001 C CNN
-	1    22550 3550
+L WoodElf_01:BlankThrough-Hole T7
+U 1 1 5D27540B
+P 11700 5100
+F 0 "T7" H 11819 5146 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 5055 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 5100 50  0001 C CNN
+F 3 "" H 11700 5100 50  0001 C CNN
+	1    11700 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L WoodElf_01-rescue:WS2811 C33
-U 1 1 5C6BBAD1
-P 23800 3650
-F 0 "C33" H 23950 3350 60  0000 C CNN
-F 1 "WS2811" H 23800 3850 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 23800 3800 60  0001 C CNN
-F 3 "" H 23800 3800 60  0001 C CNN
-	1    23800 3650
+L WoodElf_01:BlankThrough-Hole T8
+U 1 1 5D275411
+P 11700 5300
+F 0 "T8" H 11819 5346 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 5255 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 5300 50  0001 C CNN
+F 3 "" H 11700 5300 50  0001 C CNN
+	1    11700 5300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 24250 3650
-Text Label 24250 3550 0    60   ~ 0
-USB_1
-Wire Wire Line
-	23350 3550 23050 3550
 Wire Wire Line
-	23350 3650 23050 3650
+	11550 4550 11550 4700
 Wire Wire Line
-	23050 3650 23050 3700
+	10700 4550 11550 4550
 Wire Wire Line
-	23350 3750 23050 3750
+	11500 4650 11500 4900
 Wire Wire Line
-	23050 3750 23050 3850
+	11500 4900 11550 4900
 Wire Wire Line
-	23350 3850 23350 3950
+	10700 4650 11500 4650
 Wire Wire Line
-	23350 3950 23050 3950
-Text Label 23050 3950 0    60   ~ 0
-GND_1
-Text Label 21750 3550 0    50   ~ 0
-USB_1
+	11450 4750 11450 5100
 Wire Wire Line
-	22000 3550 21750 3550
-$Comp
-L Device:D D33
-U 1 1 5C6BBAE3
-P 23300 3350
-F 0 "D33" H 23300 3150 50  0000 C CNN
-F 1 "D" H 23300 3250 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 23300 3350 50  0001 C CNN
-F 3 "~" H 23300 3350 50  0001 C CNN
-	1    23300 3350
-	-1   0    0    1   
-$EndComp
+	11450 5100 11550 5100
 Wire Wire Line
-	21200 3150 21550 3150
-Text Label 23450 3350 0    50   ~ 0
-MI
+	10700 4750 11450 4750
 Wire Wire Line
-	24250 3850 24350 3850
+	11400 4850 11400 5300
 Wire Wire Line
-	24350 3850 24350 4850
+	11400 5300 11550 5300
 Wire Wire Line
-	24350 4850 24250 4850
-Text Label 21200 5350 0    60   ~ 0
-SCL
+	10700 4850 11400 4850
 $Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S35
-U 1 1 5C6BBAEF
-P 22550 5750
-F 0 "S35" H 22550 5350 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 22550 6100 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 22550 5750 60  0001 C CNN
-F 3 "" H 22550 5750 60  0001 C CNN
-	1    22550 5750
+L WoodElf_01:BlankThrough-Hole T9
+U 1 1 5D2F4E18
+P 11700 5500
+F 0 "T9" H 11819 5546 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 5455 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 5500 50  0001 C CNN
+F 3 "" H 11700 5500 50  0001 C CNN
+	1    11700 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L WoodElf_01-rescue:WS2811 C35
-U 1 1 5C6BBAF5
-P 23800 5850
-F 0 "C35" H 23950 5550 60  0000 C CNN
-F 1 "WS2811" H 23800 6050 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 23800 6000 60  0001 C CNN
-F 3 "" H 23800 6000 60  0001 C CNN
-	1    23800 5850
+L WoodElf_01:BlankThrough-Hole T10
+U 1 1 5D2F4E1E
+P 11700 5700
+F 0 "T10" H 11819 5746 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 5655 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 5700 50  0001 C CNN
+F 3 "" H 11700 5700 50  0001 C CNN
+	1    11700 5700
 	1    0    0    -1  
-$EndComp
-NoConn ~ 24250 5850
-Text Label 24250 5750 0    60   ~ 0
-USB_1
-Wire Wire Line
-	23350 5750 23050 5750
-Wire Wire Line
-	23350 5850 23050 5850
-Wire Wire Line
-	23050 5850 23050 5900
-Wire Wire Line
-	23350 5950 23050 5950
-Wire Wire Line
-	23050 5950 23050 6050
-Wire Wire Line
-	23350 6050 23350 6150
-Wire Wire Line
-	23350 6150 23050 6150
-Text Label 23050 6150 0    60   ~ 0
-GND_1
-Text Label 21750 5750 0    50   ~ 0
-USB_1
-Wire Wire Line
-	22000 5750 21750 5750
-$Comp
-L Device:D D35
-U 1 1 5C6BBB07
-P 23300 5550
-F 0 "D35" H 23300 5350 50  0000 C CNN
-F 1 "D" H 23300 5450 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 23300 5550 50  0001 C CNN
-F 3 "~" H 23300 5550 50  0001 C CNN
-	1    23300 5550
-	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	21200 5350 21550 5350
-Text Label 23450 5550 0    50   ~ 0
-MI
-Wire Wire Line
-	24350 4950 24350 5950
-Wire Wire Line
-	24350 5950 24250 5950
-Wire Wire Line
-	24250 2750 24350 2750
-Wire Wire Line
-	24350 2750 24350 3750
-Wire Wire Line
-	24350 3750 24250 3750
-Wire Wire Line
-	24250 4950 24350 4950
 $Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H34
-U 1 1 5C6BBB15
-P 21900 4150
-F 0 "H34" H 21900 4375 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 21900 4284 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 21900 4150 50  0001 C CNN
-F 3 "" H 21900 4150 50  0001 C CNN
-	1    21900 4150
+L WoodElf_01:BlankThrough-Hole T11
+U 1 1 5D2F4E24
+P 11700 5900
+F 0 "T11" H 11819 5946 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 5855 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 5900 50  0001 C CNN
+F 3 "" H 11700 5900 50  0001 C CNN
+	1    11700 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	23150 4450 23150 4150
 Wire Wire Line
-	23150 4150 22250 4150
+	11350 5050 11350 5500
 Wire Wire Line
-	23050 4450 23150 4450
-Connection ~ 23150 4450
+	11350 5500 11550 5500
 Wire Wire Line
-	21500 4250 21500 4450
-Wire Wire Line
-	21500 4450 22000 4450
-Connection ~ 21500 4250
-Wire Wire Line
-	21500 4250 21550 4250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H33
-U 1 1 5C6BBB23
-P 21900 3050
-F 0 "H33" H 21900 3275 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 21900 3184 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 21900 3050 50  0001 C CNN
-F 3 "" H 21900 3050 50  0001 C CNN
-	1    21900 3050
-	1    0    0    -1  
-$EndComp
+	10700 5050 11350 5050
 Wire Wire Line
-	22000 3350 21550 3350
+	11300 5250 11300 5700
 Wire Wire Line
-	21550 3350 21550 3150
-Connection ~ 21550 3150
+	11300 5700 11550 5700
 Wire Wire Line
-	22250 3050 23100 3050
+	10700 5250 11300 5250
 Wire Wire Line
-	23100 3050 23100 3350
+	11250 5350 11250 5900
 Wire Wire Line
-	23100 3350 23050 3350
+	11250 5900 11550 5900
 Wire Wire Line
-	23100 3350 23150 3350
-Connection ~ 23100 3350
+	10700 5350 11250 5350
 $Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H32
-U 1 1 5C6BBB31
-P 21900 1950
-F 0 "H32" H 21900 2175 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 21900 2084 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 21900 1950 50  0001 C CNN
-F 3 "" H 21900 1950 50  0001 C CNN
-	1    21900 1950
+L WoodElf_01:BlankThrough-Hole T12
+U 1 1 5D3597DA
+P 11700 6100
+F 0 "T12" H 11819 6146 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 6055 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 6100 50  0001 C CNN
+F 3 "" H 11700 6100 50  0001 C CNN
+	1    11700 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	21550 2050 21550 2250
-Wire Wire Line
-	21550 2250 22000 2250
-Connection ~ 21550 2050
-Wire Wire Line
-	23150 2250 23100 2250
-Wire Wire Line
-	23100 2250 23100 1950
-Wire Wire Line
-	23100 1950 22250 1950
-Wire Wire Line
-	23050 2250 23100 2250
-Connection ~ 23100 2250
 $Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H31
-U 1 1 5C6BBB3F
-P 21900 850
-F 0 "H31" H 21900 1075 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 21900 984 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 21900 850 50  0001 C CNN
-F 3 "" H 21900 850 50  0001 C CNN
-	1    21900 850 
+L WoodElf_01:BlankThrough-Hole T13
+U 1 1 5D3598A6
+P 11700 6300
+F 0 "T13" H 11819 6346 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 11819 6255 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 11700 6300 50  0001 C CNN
+F 3 "" H 11700 6300 50  0001 C CNN
+	1    11700 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21550 950  21550 1150
+	11550 6100 11200 6100
 Wire Wire Line
-	21550 1150 22000 1150
-Connection ~ 21550 950 
+	11200 6100 11200 5450
 Wire Wire Line
-	23150 1150 23100 1150
+	11200 5450 10700 5450
 Wire Wire Line
-	23100 1150 23100 850 
+	10700 5550 11150 5550
 Wire Wire Line
-	23100 850  22250 850 
-Connection ~ 23100 1150
+	11150 5550 11150 6300
 Wire Wire Line
-	23100 1150 23050 1150
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H35
-U 1 1 5C6BBB4D
-P 21900 5250
-F 0 "H35" H 21900 5475 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 21900 5384 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 21900 5250 50  0001 C CNN
-F 3 "" H 21900 5250 50  0001 C CNN
-	1    21900 5250
-	1    0    0    -1  
-$EndComp
+	11150 6300 11550 6300
+$Sheet
+S 900  850  1050 350 
+U 5D3A9736
+F0 "SingleKey_HotSwapRGB_001" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 900 1100 50 
+F3 "Do" O R 1950 1100 50 
+F4 "SWo" O R 1950 950 50 
+F5 "SWin" I L 900 950 50 
+$EndSheet
 Wire Wire Line
-	21550 5350 21550 5550
+	900  950  750  950 
 Wire Wire Line
-	21550 5550 22000 5550
-Connection ~ 21550 5350
+	750  1600 900  1600
 Wire Wire Line
-	23150 5550 23100 5550
+	2350 950  2200 950 
 Wire Wire Line
-	23100 5550 23100 5250
+	2200 1600 2350 1600
 Wire Wire Line
-	23100 5250 22250 5250
-Connection ~ 23100 5550
+	1950 950  2050 950 
 Wire Wire Line
-	23100 5550 23050 5550
-Text Label 24700 2050 0    60   ~ 0
-GPIO#4
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S37
-U 1 1 5C6BBB5C
-P 26050 2450
-F 0 "S37" H 26050 2050 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 26050 2800 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 26050 2450 60  0001 C CNN
-F 3 "" H 26050 2450 60  0001 C CNN
-	1    26050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C37
-U 1 1 5C6BBB62
-P 27300 2550
-F 0 "C37" H 27450 2250 60  0000 C CNN
-F 1 "WS2811" H 27300 2750 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 27300 2700 60  0001 C CNN
-F 3 "" H 27300 2700 60  0001 C CNN
-	1    27300 2550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 27750 2550
-Text Label 27750 2450 0    60   ~ 0
-USB_1
+	2050 950  2050 750 
 Wire Wire Line
-	26850 2450 26550 2450
+	3500 750  3500 950 
 Wire Wire Line
-	26850 2550 26550 2550
+	3500 1600 3500 1400
 Wire Wire Line
-	26550 2550 26550 2600
+	2050 1400 2050 1600
 Wire Wire Line
-	26850 2650 26550 2650
+	2050 1600 1950 1600
 Wire Wire Line
-	26550 2650 26550 2750
+	1950 1100 2350 1100
 Wire Wire Line
-	26850 2750 26850 2850
+	1950 1750 2350 1750
 Wire Wire Line
-	26850 2850 26550 2850
-Text Label 26550 2850 0    60   ~ 0
-GND_1
-Text Label 25250 2450 0    50   ~ 0
-USB_1
+	3400 1600 3500 1600
 Wire Wire Line
-	25500 2450 25250 2450
-$Comp
-L Device:D D37
-U 1 1 5C6BBB74
-P 26800 2250
-F 0 "D37" H 26800 2050 50  0000 C CNN
-F 1 "D" H 26800 2150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 26800 2250 50  0001 C CNN
-F 3 "~" H 26800 2250 50  0001 C CNN
-	1    26800 2250
-	-1   0    0    1   
-$EndComp
+	3500 950  3400 950 
 Wire Wire Line
-	24700 2050 25050 2050
-Text Label 26950 2250 0    50   ~ 0
-GPIO#2
-Text Label 24700 950  0    60   ~ 0
-GPIO#3
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S36
-U 1 1 5C6BBB7D
-P 26050 1350
-F 0 "S36" H 26050 950 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 26050 1700 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 26050 1350 60  0001 C CNN
-F 3 "" H 26050 1350 60  0001 C CNN
-	1    26050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C36
-U 1 1 5C6BBB83
-P 27300 1450
-F 0 "C36" H 27450 1150 60  0000 C CNN
-F 1 "WS2811" H 27300 1650 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 27300 1600 60  0001 C CNN
-F 3 "" H 27300 1600 60  0001 C CNN
-	1    27300 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 27750 1450
-Text Label 27750 1350 0    60   ~ 0
-USB_1
+	3850 950  3700 950 
 Wire Wire Line
-	26850 1350 26550 1350
+	3700 1600 3850 1600
 Wire Wire Line
-	26850 1450 26550 1450
+	5300 950  5150 950 
 Wire Wire Line
-	26550 1450 26550 1500
+	5150 1600 5300 1600
 Wire Wire Line
-	26850 1550 26550 1550
+	4900 950  5000 950 
 Wire Wire Line
-	26550 1550 26550 1650
+	5000 950  5000 750 
 Wire Wire Line
-	26850 1650 26850 1750
+	6450 750  6450 950 
 Wire Wire Line
-	26850 1750 26550 1750
-Text Label 26550 1750 0    60   ~ 0
-GND_1
-Text Label 25250 1350 0    50   ~ 0
-USB_1
+	6450 1600 6450 1400
 Wire Wire Line
-	25500 1350 25250 1350
-$Comp
-L Device:D D36
-U 1 1 5C6BBB95
-P 26800 1150
-F 0 "D36" H 26800 950 50  0000 C CNN
-F 1 "D" H 26800 1050 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 26800 1150 50  0001 C CNN
-F 3 "~" H 26800 1150 50  0001 C CNN
-	1    26800 1150
-	-1   0    0    1   
-$EndComp
+	5000 1400 5000 1600
 Wire Wire Line
-	24700 950  25050 950 
-Text Label 26950 1150 0    50   ~ 0
-GPIO#2
+	5000 1600 4900 1600
 Wire Wire Line
-	27750 1650 27850 1650
+	4900 1100 5300 1100
 Wire Wire Line
-	27850 1650 27850 2650
+	4900 1750 5300 1750
 Wire Wire Line
-	27850 2650 27750 2650
-Text Label 24700 4250 0    60   ~ 0
-SDA
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S39
-U 1 1 5C6BBBA1
-P 26050 4650
-F 0 "S39" H 26050 4250 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 26050 5000 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 26050 4650 60  0001 C CNN
-F 3 "" H 26050 4650 60  0001 C CNN
-	1    26050 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C39
-U 1 1 5C6BBBA7
-P 27300 4750
-F 0 "C39" H 27450 4450 60  0000 C CNN
-F 1 "WS2811" H 27300 4950 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 27300 4900 60  0001 C CNN
-F 3 "" H 27300 4900 60  0001 C CNN
-	1    27300 4750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 27750 4750
-Text Label 27750 4650 0    60   ~ 0
-USB_1
+	6350 1600 6450 1600
 Wire Wire Line
-	26850 4650 26550 4650
+	6450 950  6350 950 
 Wire Wire Line
-	26850 4750 26550 4750
+	3400 1100 3850 1100
 Wire Wire Line
-	26550 4750 26550 4800
+	6750 950  6600 950 
 Wire Wire Line
-	26850 4850 26550 4850
+	6600 1600 6750 1600
 Wire Wire Line
-	26550 4850 26550 4950
+	7900 750  7900 950 
 Wire Wire Line
-	26850 4950 26850 5050
+	7900 1600 7900 1400
 Wire Wire Line
-	26850 5050 26550 5050
-Text Label 26550 5050 0    60   ~ 0
-GND_1
-Text Label 25250 4650 0    50   ~ 0
-USB_1
+	6350 1100 6750 1100
 Wire Wire Line
-	25500 4650 25250 4650
-$Comp
-L Device:D D39
-U 1 1 5C6BBBB9
-P 26800 4450
-F 0 "D39" H 26800 4250 50  0000 C CNN
-F 1 "D" H 26800 4350 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 26800 4450 50  0001 C CNN
-F 3 "~" H 26800 4450 50  0001 C CNN
-	1    26800 4450
-	-1   0    0    1   
-$EndComp
+	6350 1750 6750 1750
 Wire Wire Line
-	24700 4250 25000 4250
-Text Label 26950 4450 0    50   ~ 0
-GPIO#2
-Text Label 24700 3150 0    60   ~ 0
-GPIO#1
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S38
-U 1 1 5C6BBBC2
-P 26050 3550
-F 0 "S38" H 26050 3150 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 26050 3900 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 26050 3550 60  0001 C CNN
-F 3 "" H 26050 3550 60  0001 C CNN
-	1    26050 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C38
-U 1 1 5C6BBBC8
-P 27300 3650
-F 0 "C38" H 27450 3350 60  0000 C CNN
-F 1 "WS2811" H 27300 3850 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 27300 3800 60  0001 C CNN
-F 3 "" H 27300 3800 60  0001 C CNN
-	1    27300 3650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 27750 3650
-Text Label 27750 3550 0    60   ~ 0
-USB_1
+	7800 1600 7900 1600
 Wire Wire Line
-	26850 3550 26550 3550
+	7900 950  7800 950 
 Wire Wire Line
-	26850 3650 26550 3650
+	7800 1100 7900 1100
 Wire Wire Line
-	26550 3650 26550 3700
+	7900 1100 7900 1300
 Wire Wire Line
-	26850 3750 26550 3750
+	7900 1300 800  1300
 Wire Wire Line
-	26550 3750 26550 3850
+	800  1300 800  1750
 Wire Wire Line
-	26850 3850 26850 3950
+	800  1750 900  1750
 Wire Wire Line
-	26850 3950 26550 3950
-Text Label 26550 3950 0    60   ~ 0
-GND_1
-Text Label 25250 3550 0    50   ~ 0
-USB_1
+	900  2200 750  2200
 Wire Wire Line
-	25500 3550 25250 3550
-$Comp
-L Device:D D38
-U 1 1 5C6BBBDA
-P 26800 3350
-F 0 "D38" H 26800 3150 50  0000 C CNN
-F 1 "D" H 26800 3250 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 26800 3350 50  0001 C CNN
-F 3 "~" H 26800 3350 50  0001 C CNN
-	1    26800 3350
-	-1   0    0    1   
-$EndComp
+	750  2850 900  2850
 Wire Wire Line
-	24700 3150 25050 3150
-Text Label 26950 3350 0    50   ~ 0
-GPIO#2
+	2350 2200 2200 2200
 Wire Wire Line
-	27750 3850 27850 3850
+	2200 2850 2350 2850
 Wire Wire Line
-	27850 3850 27850 4850
+	1950 2200 2050 2200
 Wire Wire Line
-	27850 4850 27750 4850
-Text Label 24700 5350 0    60   ~ 0
-SCL
-$Comp
-L WoodElf_01-rescue:Kailh_RGB_Switch S40
-U 1 1 5C6BBBE6
-P 26050 5750
-F 0 "S40" H 26050 5350 60  0000 C CNN
-F 1 "Kailh_RGB_Switch" H 26050 6100 60  0000 C CNN
-F 2 "WoodElfLib:SW_Cherry_MX1A_1.00u_PCB" H 26050 5750 60  0001 C CNN
-F 3 "" H 26050 5750 60  0001 C CNN
-	1    26050 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WoodElf_01-rescue:WS2811 C40
-U 1 1 5C6BBBEC
-P 27300 5850
-F 0 "C40" H 27450 5550 60  0000 C CNN
-F 1 "WS2811" H 27300 6050 60  0000 C CNN
-F 2 "WoodElfLib:WS2811" H 27300 6000 60  0001 C CNN
-F 3 "" H 27300 6000 60  0001 C CNN
-	1    27300 5850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 27750 5850
-Text Label 27750 5750 0    60   ~ 0
-USB_1
+	2050 2200 2050 2000
 Wire Wire Line
-	26850 5750 26550 5750
+	3500 2000 3500 2200
 Wire Wire Line
-	26850 5850 26550 5850
+	3500 2850 3500 2650
 Wire Wire Line
-	26550 5850 26550 5900
+	2050 2650 2050 2850
 Wire Wire Line
-	26850 5950 26550 5950
+	2050 2850 1950 2850
 Wire Wire Line
-	26550 5950 26550 6050
+	1950 2350 2350 2350
 Wire Wire Line
-	26850 6050 26850 6150
+	1950 3000 2350 3000
 Wire Wire Line
-	26850 6150 26550 6150
-Text Label 26550 6150 0    60   ~ 0
-GND_1
-Text Label 25250 5750 0    50   ~ 0
-USB_1
+	3400 2850 3500 2850
 Wire Wire Line
-	25500 5750 25250 5750
-$Comp
-L Device:D D40
-U 1 1 5C6BBBFE
-P 26800 5550
-F 0 "D40" H 26800 5350 50  0000 C CNN
-F 1 "D" H 26800 5450 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 26800 5550 50  0001 C CNN
-F 3 "~" H 26800 5550 50  0001 C CNN
-	1    26800 5550
-	-1   0    0    1   
-$EndComp
+	3500 2200 3400 2200
 Wire Wire Line
-	24700 5350 25050 5350
-Text Label 26950 5550 0    50   ~ 0
-GPIO#2
+	3850 2200 3700 2200
 Wire Wire Line
-	27850 4950 27850 5950
+	3700 2850 3850 2850
 Wire Wire Line
-	27850 5950 27750 5950
+	5300 2200 5150 2200
 Wire Wire Line
-	27750 2750 27850 2750
+	5150 2850 5300 2850
 Wire Wire Line
-	27850 2750 27850 3750
+	4900 2200 5000 2200
 Wire Wire Line
-	27850 3750 27750 3750
+	5000 2200 5000 2000
 Wire Wire Line
-	27750 4950 27850 4950
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H39
-U 1 1 5C6BBC0C
-P 25400 4150
-F 0 "H39" H 25400 4375 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 25400 4284 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 25400 4150 50  0001 C CNN
-F 3 "" H 25400 4150 50  0001 C CNN
-	1    25400 4150
-	1    0    0    -1  
-$EndComp
+	6450 2000 6450 2200
 Wire Wire Line
-	26650 4450 26650 4150
+	6450 2850 6450 2650
 Wire Wire Line
-	26650 4150 25750 4150
+	5000 2650 5000 2850
 Wire Wire Line
-	26550 4450 26650 4450
-Connection ~ 26650 4450
+	5000 2850 4900 2850
 Wire Wire Line
-	25000 4250 25000 4450
+	4900 2350 5300 2350
 Wire Wire Line
-	25000 4450 25500 4450
-Connection ~ 25000 4250
+	4900 3000 5300 3000
 Wire Wire Line
-	25000 4250 25050 4250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H38
-U 1 1 5C6BBC1A
-P 25400 3050
-F 0 "H38" H 25400 3275 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 25400 3184 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 25400 3050 50  0001 C CNN
-F 3 "" H 25400 3050 50  0001 C CNN
-	1    25400 3050
-	1    0    0    -1  
-$EndComp
+	6350 2850 6450 2850
 Wire Wire Line
-	25500 3350 25050 3350
+	6450 2200 6350 2200
 Wire Wire Line
-	25050 3350 25050 3150
-Connection ~ 25050 3150
+	3400 2350 3850 2350
 Wire Wire Line
-	25750 3050 26600 3050
+	6750 2200 6600 2200
 Wire Wire Line
-	26600 3050 26600 3350
+	6600 2850 6750 2850
 Wire Wire Line
-	26600 3350 26550 3350
+	7900 2000 7900 2200
 Wire Wire Line
-	26600 3350 26650 3350
-Connection ~ 26600 3350
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H37
-U 1 1 5C6BBC28
-P 25400 1950
-F 0 "H37" H 25400 2175 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 25400 2084 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 25400 1950 50  0001 C CNN
-F 3 "" H 25400 1950 50  0001 C CNN
-	1    25400 1950
-	1    0    0    -1  
-$EndComp
+	7900 2850 7900 2650
 Wire Wire Line
-	25050 2050 25050 2250
+	6350 2350 6750 2350
 Wire Wire Line
-	25050 2250 25500 2250
-Connection ~ 25050 2050
+	6350 3000 6750 3000
 Wire Wire Line
-	26650 2250 26600 2250
+	7800 2850 7900 2850
 Wire Wire Line
-	26600 2250 26600 1950
+	7900 2200 7800 2200
 Wire Wire Line
-	26600 1950 25750 1950
+	7800 2350 7900 2350
 Wire Wire Line
-	26550 2250 26600 2250
-Connection ~ 26600 2250
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H36
-U 1 1 5C6BBC36
-P 25400 850
-F 0 "H36" H 25400 1075 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 25400 984 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 25400 850 50  0001 C CNN
-F 3 "" H 25400 850 50  0001 C CNN
-	1    25400 850 
-	1    0    0    -1  
-$EndComp
+	7900 2350 7900 2550
 Wire Wire Line
-	25050 950  25050 1150
+	7900 2550 800  2550
 Wire Wire Line
-	25050 1150 25500 1150
-Connection ~ 25050 950 
+	800  2550 800  3000
 Wire Wire Line
-	26650 1150 26600 1150
+	800  3000 900  3000
 Wire Wire Line
-	26600 1150 26600 850 
+	750  3500 900  3500
 Wire Wire Line
-	26600 850  25750 850 
-Connection ~ 26600 1150
+	2200 3500 2350 3500
 Wire Wire Line
-	26600 1150 26550 1150
-$Comp
-L WoodElf_01:Kailh_HotSwap_SwitchMount H40
-U 1 1 5C6BBC44
-P 25400 5250
-F 0 "H40" H 25400 5475 50  0000 C CNN
-F 1 "Kailh_HotSwap_SwitchMount" H 25400 5384 50  0000 C CNN
-F 2 "WoodElfLib:Kailh_HotSwap_Socket" H 25400 5250 50  0001 C CNN
-F 3 "" H 25400 5250 50  0001 C CNN
-	1    25400 5250
-	1    0    0    -1  
-$EndComp
+	3500 3500 3500 3300
 Wire Wire Line
-	25050 5350 25050 5550
+	2050 3300 2050 3500
 Wire Wire Line
-	25050 5550 25500 5550
-Connection ~ 25050 5350
+	2050 3500 1950 3500
 Wire Wire Line
-	26650 5550 26600 5550
+	1950 3650 2350 3650
 Wire Wire Line
-	26600 5550 26600 5250
+	3400 3500 3500 3500
 Wire Wire Line
-	26600 5250 25750 5250
-Connection ~ 26600 5550
+	3700 3500 3850 3500
 Wire Wire Line
-	26600 5550 26550 5550
+	5150 3500 5300 3500
 Wire Wire Line
-	24250 6050 24600 6050
+	6450 3500 6450 3300
 Wire Wire Line
-	24600 6050 24600 550 
+	5000 3300 5000 3500
 Wire Wire Line
-	24600 550  27850 550 
+	5000 3500 4900 3500
 Wire Wire Line
-	27850 550  27850 1550
+	4900 3650 5300 3650
 Wire Wire Line
-	27850 1550 27750 1550
-Text Label 8700 14050 0    50   ~ 0
-MO
+	6350 3500 6450 3500
 Wire Wire Line
-	8700 14050 9100 14050
-Text Label 8700 14150 0    50   ~ 0
-MI
+	6600 3500 6750 3500
 Wire Wire Line
-	8700 14150 9100 14150
-Text Label 9400 14950 1    50   ~ 0
-GPIO#2
+	7900 3500 7900 3300
 Wire Wire Line
-	9400 14950 9400 14650
+	6350 3650 6750 3650
 Wire Wire Line
-	6750 6050 7100 6050
+	7800 3500 7900 3500
 Wire Wire Line
-	7100 6050 7100 550 
+	800  3200 800  3650
 Wire Wire Line
-	7100 550  10350 550 
+	800  3650 900  3650
 Wire Wire Line
-	10350 550  10350 1550
+	7800 3000 7900 3000
 Wire Wire Line
-	10350 1550 10250 1550
+	7900 3000 7900 3200
 Wire Wire Line
-	13750 6050 14100 6050
+	7900 3200 800  3200
+NoConn ~ 7800 3650
+Text Label 7900 750  0    50   ~ 0
+Col5
+Text Label 6450 750  0    50   ~ 0
+Col4
+Text Label 5000 750  0    50   ~ 0
+Col3
+Text Label 3500 750  0    50   ~ 0
+Col2
+Text Label 2050 750  0    50   ~ 0
+Col1
+Text Label 750  950  0    50   ~ 0
+Row1
+Text Label 750  1600 0    50   ~ 0
+Row2
+Text Label 750  2200 0    50   ~ 0
+Row3
+Text Label 750  2850 0    50   ~ 0
+Row4
+Text Label 750  3500 0    50   ~ 0
+Row5
 Wire Wire Line
-	14100 6050 14100 550 
+	900  1100 550  1100
+Text Label 550  1100 0    50   ~ 0
+Din
+Text Label 2200 950  0    50   ~ 0
+Row1
+Text Label 3700 950  0    50   ~ 0
+Row1
+Text Label 5150 950  0    50   ~ 0
+Row1
+Text Label 6600 950  0    50   ~ 0
+Row1
+Text Label 2200 1600 0    50   ~ 0
+Row2
+Text Label 3700 1600 0    50   ~ 0
+Row2
+Text Label 5150 1600 0    50   ~ 0
+Row2
+Text Label 6600 1600 0    50   ~ 0
+Row2
+Text Label 2200 2200 0    50   ~ 0
+Row3
+Text Label 3700 2200 0    50   ~ 0
+Row3
+Text Label 5150 2200 0    50   ~ 0
+Row3
+Text Label 6600 2200 0    50   ~ 0
+Row3
+Text Label 2200 2850 0    50   ~ 0
+Row4
+Text Label 3700 2850 0    50   ~ 0
+Row4
+Text Label 5150 2850 0    50   ~ 0
+Row4
+Text Label 6600 2850 0    50   ~ 0
+Row4
+Text Label 2200 3500 0    50   ~ 0
+Row5
+Text Label 3700 3500 0    50   ~ 0
+Row5
+Text Label 5150 3500 0    50   ~ 0
+Row5
+Text Label 6600 3500 0    50   ~ 0
+Row5
+Text Label 2050 1400 0    50   ~ 0
+Col1
+Text Label 2050 2000 0    50   ~ 0
+Col1
+Text Label 2050 2650 0    50   ~ 0
+Col1
+Text Label 2050 3300 0    50   ~ 0
+Col1
+Text Label 3500 1400 0    50   ~ 0
+Col2
+Text Label 3500 2000 0    50   ~ 0
+Col2
+Text Label 3500 2650 0    50   ~ 0
+Col2
+Text Label 3500 3300 0    50   ~ 0
+Col2
+Text Label 5000 1400 0    50   ~ 0
+Col3
+Text Label 5000 2000 0    50   ~ 0
+Col3
+Text Label 5000 2650 0    50   ~ 0
+Col3
+Text Label 5000 3300 0    50   ~ 0
+Col3
+Text Label 6450 1400 0    50   ~ 0
+Col4
+Text Label 6450 2000 0    50   ~ 0
+Col4
+Text Label 6450 2650 0    50   ~ 0
+Col4
+Text Label 6450 3300 0    50   ~ 0
+Col4
+Text Label 7900 1400 0    50   ~ 0
+Col5
+Text Label 7900 2000 0    50   ~ 0
+Col5
+Text Label 7900 2650 0    50   ~ 0
+Col5
+Text Label 7900 3300 0    50   ~ 0
+Col5
 Wire Wire Line
-	14100 550  17350 550 
+	3400 1750 3850 1750
 Wire Wire Line
-	17350 550  17350 1550
+	3400 3000 3850 3000
 Wire Wire Line
-	17350 1550 17250 1550
+	3850 3650 3400 3650
 Wire Wire Line
-	20750 6050 21100 6050
+	7800 1750 7900 1750
 Wire Wire Line
-	21100 6050 21100 550 
+	7900 1750 7900 1900
 Wire Wire Line
-	21100 550  24350 550 
+	7900 1900 700  1900
 Wire Wire Line
-	24350 550  24350 1550
+	700  1900 700  2350
 Wire Wire Line
-	24350 1550 24250 1550
-NoConn ~ 27750 6050
-NoConn ~ 10300 13250
-NoConn ~ 10300 13350
-NoConn ~ 10300 13450
-NoConn ~ 10300 13550
-NoConn ~ 10300 13650
-NoConn ~ 10300 13750
+	700  2350 900  2350
+$Sheet
+S 6750 3400 1050 350 
+U 5D545204
+F0 "sheet5D545204" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 6750 3650 50 
+F3 "Do" O R 7800 3650 50 
+F4 "SWo" O R 7800 3500 50 
+F5 "SWin" I L 6750 3500 50 
+$EndSheet
+$Sheet
+S 5300 3400 1050 350 
+U 5D53D8D4
+F0 "sheet5D53D8D4" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 5300 3650 50 
+F3 "Do" O R 6350 3650 50 
+F4 "SWo" O R 6350 3500 50 
+F5 "SWin" I L 5300 3500 50 
+$EndSheet
+$Sheet
+S 3850 3400 1050 350 
+U 5D535FA4
+F0 "sheet5D535FA4" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 3850 3650 50 
+F3 "Do" O R 4900 3650 50 
+F4 "SWo" O R 4900 3500 50 
+F5 "SWin" I L 3850 3500 50 
+$EndSheet
+$Sheet
+S 2350 3400 1050 350 
+U 5D52E674
+F0 "sheet5D52E674" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 2350 3650 50 
+F3 "Do" O R 3400 3650 50 
+F4 "SWo" O R 3400 3500 50 
+F5 "SWin" I L 2350 3500 50 
+$EndSheet
+$Sheet
+S 900  3400 1050 350 
+U 5D526D44
+F0 "sheet5D526D44" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 900 3650 50 
+F3 "Do" O R 1950 3650 50 
+F4 "SWo" O R 1950 3500 50 
+F5 "SWin" I L 900 3500 50 
+$EndSheet
+$Sheet
+S 900  2750 1050 350 
+U 5D51F414
+F0 "sheet5D51F414" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 900 3000 50 
+F3 "Do" O R 1950 3000 50 
+F4 "SWo" O R 1950 2850 50 
+F5 "SWin" I L 900 2850 50 
+$EndSheet
+$Sheet
+S 2350 2750 1050 350 
+U 5D517AE4
+F0 "sheet5D517AE4" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 2350 3000 50 
+F3 "Do" O R 3400 3000 50 
+F4 "SWo" O R 3400 2850 50 
+F5 "SWin" I L 2350 2850 50 
+$EndSheet
+$Sheet
+S 3850 2750 1050 350 
+U 5D5101B4
+F0 "sheet5D5101B4" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 3850 3000 50 
+F3 "Do" O R 4900 3000 50 
+F4 "SWo" O R 4900 2850 50 
+F5 "SWin" I L 3850 2850 50 
+$EndSheet
+$Sheet
+S 5300 2750 1050 350 
+U 5D508884
+F0 "sheet5D508884" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 5300 3000 50 
+F3 "Do" O R 6350 3000 50 
+F4 "SWo" O R 6350 2850 50 
+F5 "SWin" I L 5300 2850 50 
+$EndSheet
+$Sheet
+S 6750 2750 1050 350 
+U 5D500F54
+F0 "sheet5D500F54" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 6750 3000 50 
+F3 "Do" O R 7800 3000 50 
+F4 "SWo" O R 7800 2850 50 
+F5 "SWin" I L 6750 2850 50 
+$EndSheet
+$Sheet
+S 6750 2100 1050 350 
+U 5D4F9624
+F0 "sheet5D4F9624" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 6750 2350 50 
+F3 "Do" O R 7800 2350 50 
+F4 "SWo" O R 7800 2200 50 
+F5 "SWin" I L 6750 2200 50 
+$EndSheet
+$Sheet
+S 5300 2100 1050 350 
+U 5D4F1CF4
+F0 "sheet5D4F1CF4" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 5300 2350 50 
+F3 "Do" O R 6350 2350 50 
+F4 "SWo" O R 6350 2200 50 
+F5 "SWin" I L 5300 2200 50 
+$EndSheet
+$Sheet
+S 3850 2100 1050 350 
+U 5D4EA3C4
+F0 "sheet5D4EA3C4" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 3850 2350 50 
+F3 "Do" O R 4900 2350 50 
+F4 "SWo" O R 4900 2200 50 
+F5 "SWin" I L 3850 2200 50 
+$EndSheet
+$Sheet
+S 2350 2100 1050 350 
+U 5D4E2A94
+F0 "sheet5D4E2A94" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 2350 2350 50 
+F3 "Do" O R 3400 2350 50 
+F4 "SWo" O R 3400 2200 50 
+F5 "SWin" I L 2350 2200 50 
+$EndSheet
+$Sheet
+S 900  2100 1050 350 
+U 5D4DB164
+F0 "sheet5D4DB164" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 900 2350 50 
+F3 "Do" O R 1950 2350 50 
+F4 "SWo" O R 1950 2200 50 
+F5 "SWin" I L 900 2200 50 
+$EndSheet
+$Sheet
+S 900  1500 1050 350 
+U 5D4D3834
+F0 "sheet5D4D3834" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 900 1750 50 
+F3 "Do" O R 1950 1750 50 
+F4 "SWo" O R 1950 1600 50 
+F5 "SWin" I L 900 1600 50 
+$EndSheet
+$Sheet
+S 2350 1500 1050 350 
+U 5D4CBF04
+F0 "sheet5D4CBF04" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 2350 1750 50 
+F3 "Do" O R 3400 1750 50 
+F4 "SWo" O R 3400 1600 50 
+F5 "SWin" I L 2350 1600 50 
+$EndSheet
+$Sheet
+S 3850 1500 1050 350 
+U 5D4C45D4
+F0 "sheet5D4C45D4" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 3850 1750 50 
+F3 "Do" O R 4900 1750 50 
+F4 "SWo" O R 4900 1600 50 
+F5 "SWin" I L 3850 1600 50 
+$EndSheet
+$Sheet
+S 5300 1500 1050 350 
+U 5D4BCCA4
+F0 "sheet5D4BCCA4" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 5300 1750 50 
+F3 "Do" O R 6350 1750 50 
+F4 "SWo" O R 6350 1600 50 
+F5 "SWin" I L 5300 1600 50 
+$EndSheet
+$Sheet
+S 6750 1500 1050 350 
+U 5D4B503F
+F0 "sheet5D4B503F" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 6750 1750 50 
+F3 "Do" O R 7800 1750 50 
+F4 "SWo" O R 7800 1600 50 
+F5 "SWin" I L 6750 1600 50 
+$EndSheet
+$Sheet
+S 6750 850  1050 350 
+U 5D4AD70F
+F0 "sheet5D4AD70F" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 6750 1100 50 
+F3 "Do" O R 7800 1100 50 
+F4 "SWo" O R 7800 950 50 
+F5 "SWin" I L 6750 950 50 
+$EndSheet
+$Sheet
+S 5300 850  1050 350 
+U 5D4A5DDF
+F0 "sheet5D4A5DDF" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 5300 1100 50 
+F3 "Do" O R 6350 1100 50 
+F4 "SWo" O R 6350 950 50 
+F5 "SWin" I L 5300 950 50 
+$EndSheet
+$Sheet
+S 3850 850  1050 350 
+U 5D49E3B8
+F0 "sheet5D49E3B8" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 3850 1100 50 
+F3 "Do" O R 4900 1100 50 
+F4 "SWo" O R 4900 950 50 
+F5 "SWin" I L 3850 950 50 
+$EndSheet
+$Sheet
+S 2350 850  1050 350 
+U 5D496A61
+F0 "sheet5D496A61" 39
+F1 "SingleKey_HotSwapRGB.sch" 39
+F2 "Din" I L 2350 1100 50 
+F3 "Do" O R 3400 1100 50 
+F4 "SWo" O R 3400 950 50 
+F5 "SWin" I L 2350 950 50 
+$EndSheet
+Text GLabel 10700 5550 0    50   Input ~ 0
+VSS
+Text GLabel 10700 5450 0    50   Input ~ 0
+VDD
 $EndSCHEMATC
