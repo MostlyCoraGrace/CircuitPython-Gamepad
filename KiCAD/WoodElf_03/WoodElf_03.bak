@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:RKJXV1224005 S1
+U 1 1 5CD583E6
+P 5550 3750
+F 0 "S1" H 6050 4015 50  0000 C CNN
+F 1 "RKJXV1224005" H 6050 3924 50  0000 C CNN
+F 2 "SamacSys_Parts:RKJXV1224005" H 6400 3850 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RKJXV1224005.pdf" H 6400 3750 50  0001 L CNN
+F 4 "Multi-Directional Switches Stick Controller" H 6400 3650 50  0001 L CNN "Description"
+F 5 "" H 6400 3550 50  0001 L CNN "Height"
+F 6 "688-RKJXV1224005" H 6400 3450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=688-RKJXV1224005" H 6400 3350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ALPS" H 6400 3250 50  0001 L CNN "Manufacturer_Name"
+F 9 "RKJXV1224005" H 6400 3150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01:BlankThrough-Hole T6
+U 1 1 5CD584A1
+P 7100 3750
+F 0 "T6" H 7219 3796 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 7219 3705 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 7100 3750 50  0001 C CNN
+F 3 "" H 7100 3750 50  0001 C CNN
+	1    7100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01:BlankThrough-Hole T9
+U 1 1 5CD58543
+P 8150 3850
+F 0 "T9" H 8269 3896 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 8269 3805 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 8150 3850 50  0001 C CNN
+F 3 "" H 8150 3850 50  0001 C CNN
+	1    8150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01:BlankThrough-Hole T10
+U 1 1 5CD585A6
+P 8150 4050
+F 0 "T10" H 8269 4096 50  0000 L CNN
+F 1 "BlankThrough-Hole" H 8269 4005 50  0000 L CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 8150 4050 50  0001 C CNN
+F 3 "" H 8150 4050 50  0001 C CNN
+	1    8150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L WoodElf_01:BlankThrough-Hole T3
+U 1 1 5CD585D1
+P 5050 3750
+F 0 "T3" H 5014 3514 50  0000 C CNN
+F 1 "BlankThrough-Hole" H 5014 3605 50  0000 C CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 5050 3750 50  0001 C CNN
+F 3 "" H 5050 3750 50  0001 C CNN
+	1    5050 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L WoodElf_01:BlankThrough-Hole T1
+U 1 1 5CD58818
+P 4300 3850
+F 0 "T1" H 4264 3614 50  0000 C CNN
+F 1 "BlankThrough-Hole" H 4264 3705 50  0000 C CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 4300 3850 50  0001 C CNN
+F 3 "" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L WoodElf_01:BlankThrough-Hole T4
+U 1 1 5CD58A34
+P 5050 3950
+F 0 "T4" H 5014 3714 50  0000 C CNN
+F 1 "BlankThrough-Hole" H 5014 3805 50  0000 C CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 5050 3950 50  0001 C CNN
+F 3 "" H 5050 3950 50  0001 C CNN
+	1    5050 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L WoodElf_01:BlankThrough-Hole T2
+U 1 1 5CD58A3A
+P 4300 4050
+F 0 "T2" H 4264 3814 50  0000 C CNN
+F 1 "BlankThrough-Hole" H 4264 3905 50  0000 C CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 4300 4050 50  0001 C CNN
+F 3 "" H 4300 4050 50  0001 C CNN
+	1    4300 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L WoodElf_01:BlankThrough-Hole T5
+U 1 1 5CD58A4A
+P 5050 4150
+F 0 "T5" H 5014 3914 50  0000 C CNN
+F 1 "BlankThrough-Hole" H 5014 4005 50  0000 C CNN
+F 2 "WoodElf_Lib:BlankThrough-Hole" H 5050 4150 50  0001 C CNN
+F 3 "" H 5050 4150 50  0001 C CNN
+	1    5050 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 3750 5500 3750
+Text Label 5500 3750 0    50   ~ 0
+A
+Text Label 5200 3750 0    50   ~ 0
+A
+Text Label 5550 3850 0    50   ~ 0
+B
+Text Label 4450 3850 0    50   ~ 0
+B
+Text Label 5200 3950 0    50   ~ 0
+C
+Text Label 5550 3950 0    50   ~ 0
+C
+Text Label 5550 4050 0    50   ~ 0
+D
+Text Label 4450 4050 0    50   ~ 0
+D
+Text Label 5200 4150 0    50   ~ 0
+1_1
+Text Label 5550 4150 0    50   ~ 0
+1_1
+Text Label 6550 3750 0    50   ~ 0
+2_1
+Text Label 6950 3750 0    50   ~ 0
+2_1
+Text Label 6550 3850 0    50   ~ 0
+3_1
+Text Label 8000 3850 0    50   ~ 0
+3_1
+Text Label 6550 3950 0    50   ~ 0
+1_1
+Text Label 6550 4050 0    50   ~ 0
+2_2
+Text Label 8000 4050 0    50   ~ 0
+2_2
+Text Label 6550 4150 0    50   ~ 0
+3_1
+$EndSCHEMATC
