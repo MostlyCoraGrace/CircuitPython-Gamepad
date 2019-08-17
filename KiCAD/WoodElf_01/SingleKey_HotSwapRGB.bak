@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 26
+Sheet 2 31
 Title ""
 Date ""
 Rev ""
@@ -100,7 +100,17 @@ AR Path="/5D52E674/5D3A591B" Ref="H22"  Part="1"
 AR Path="/5D535FA4/5D3A591B" Ref="H23"  Part="1" 
 AR Path="/5D53D8D4/5D3A591B" Ref="H24"  Part="1" 
 AR Path="/5D545204/5D3A591B" Ref="H25"  Part="1" 
-F 0 "H1" H 3750 1925 50  0000 C CNN
+AR Path="/5D21CCBE/5D3A591B" Ref="H?"  Part="1" 
+AR Path="/5D21CCC4/5D3A591B" Ref="H?"  Part="1" 
+AR Path="/5D21CCCA/5D3A591B" Ref="H?"  Part="1" 
+AR Path="/5D21CCD0/5D3A591B" Ref="H?"  Part="1" 
+AR Path="/5D21CCD6/5D3A591B" Ref="H?"  Part="1" 
+AR Path="/5D22F5BB/5D3A591B" Ref="H26"  Part="1" 
+AR Path="/5D22F5C1/5D3A591B" Ref="H27"  Part="1" 
+AR Path="/5D22F5C7/5D3A591B" Ref="H28"  Part="1" 
+AR Path="/5D22F5CD/5D3A591B" Ref="H29"  Part="1" 
+AR Path="/5D22F5D3/5D3A591B" Ref="H30"  Part="1" 
+F 0 "H29" H 3750 1925 50  0000 C CNN
 F 1 "Kailh_HotSwap_SwitchMount" H 3750 1834 50  0000 C CNN
 F 2 "WoodElf_Lib:Kailh_HotSwap_Socket" H 3750 1700 50  0001 C CNN
 F 3 "" H 3750 1700 50  0001 C CNN
@@ -193,7 +203,17 @@ AR Path="/5D52E674/5D3A5960" Ref="L22"  Part="1"
 AR Path="/5D535FA4/5D3A5960" Ref="L23"  Part="1" 
 AR Path="/5D53D8D4/5D3A5960" Ref="L24"  Part="1" 
 AR Path="/5D545204/5D3A5960" Ref="L25"  Part="1" 
-F 0 "L1" H 4000 2600 50  0000 L CNN
+AR Path="/5D21CCBE/5D3A5960" Ref="L?"  Part="1" 
+AR Path="/5D21CCC4/5D3A5960" Ref="L?"  Part="1" 
+AR Path="/5D21CCCA/5D3A5960" Ref="L?"  Part="1" 
+AR Path="/5D21CCD0/5D3A5960" Ref="L?"  Part="1" 
+AR Path="/5D21CCD6/5D3A5960" Ref="L?"  Part="1" 
+AR Path="/5D22F5BB/5D3A5960" Ref="L26"  Part="1" 
+AR Path="/5D22F5C1/5D3A5960" Ref="L27"  Part="1" 
+AR Path="/5D22F5C7/5D3A5960" Ref="L28"  Part="1" 
+AR Path="/5D22F5CD/5D3A5960" Ref="L29"  Part="1" 
+AR Path="/5D22F5D3/5D3A5960" Ref="L30"  Part="1" 
+F 0 "L29" H 4000 2600 50  0000 L CNN
 F 1 "SK6812MINI" H 4000 2500 50  0000 L CNN
 F 2 "WoodElf_Lib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3750 2400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3800 2325 50  0001 L TNN
@@ -286,7 +306,17 @@ AR Path="/5D52E674/5D3A59A7" Ref="S22"  Part="1"
 AR Path="/5D535FA4/5D3A59A7" Ref="S23"  Part="1" 
 AR Path="/5D53D8D4/5D3A59A7" Ref="S24"  Part="1" 
 AR Path="/5D545204/5D3A59A7" Ref="S25"  Part="1" 
-F 0 "S1" H 3725 2887 60  0000 C CNN
+AR Path="/5D21CCBE/5D3A59A7" Ref="S?"  Part="1" 
+AR Path="/5D21CCC4/5D3A59A7" Ref="S?"  Part="1" 
+AR Path="/5D21CCCA/5D3A59A7" Ref="S?"  Part="1" 
+AR Path="/5D21CCD0/5D3A59A7" Ref="S?"  Part="1" 
+AR Path="/5D21CCD6/5D3A59A7" Ref="S?"  Part="1" 
+AR Path="/5D22F5BB/5D3A59A7" Ref="S26"  Part="1" 
+AR Path="/5D22F5C1/5D3A59A7" Ref="S27"  Part="1" 
+AR Path="/5D22F5C7/5D3A59A7" Ref="S28"  Part="1" 
+AR Path="/5D22F5CD/5D3A59A7" Ref="S29"  Part="1" 
+AR Path="/5D22F5D3/5D3A59A7" Ref="S30"  Part="1" 
+F 0 "S29" H 3725 2887 60  0000 C CNN
 F 1 "Kailh_RGB_Switch" H 3725 2781 60  0000 C CNN
 F 2 "WoodElf_Lib:SW_Cherry_MX1A_1.00u_PCB" H 3750 2400 60  0001 C CNN
 F 3 "" H 3750 2400 60  0001 C CNN
@@ -379,9 +409,19 @@ AR Path="/5D52E674/5D3A5B71" Ref="D22"  Part="1"
 AR Path="/5D535FA4/5D3A5B71" Ref="D23"  Part="1" 
 AR Path="/5D53D8D4/5D3A5B71" Ref="D24"  Part="1" 
 AR Path="/5D545204/5D3A5B71" Ref="D25"  Part="1" 
-F 0 "D2" H 4450 2465 50  0000 C CNN
+AR Path="/5D21CCBE/5D3A5B71" Ref="D?"  Part="1" 
+AR Path="/5D21CCC4/5D3A5B71" Ref="D?"  Part="1" 
+AR Path="/5D21CCCA/5D3A5B71" Ref="D?"  Part="1" 
+AR Path="/5D21CCD0/5D3A5B71" Ref="D?"  Part="1" 
+AR Path="/5D21CCD6/5D3A5B71" Ref="D?"  Part="1" 
+AR Path="/5D22F5BB/5D3A5B71" Ref="D26"  Part="1" 
+AR Path="/5D22F5C1/5D3A5B71" Ref="D27"  Part="1" 
+AR Path="/5D22F5C7/5D3A5B71" Ref="D28"  Part="1" 
+AR Path="/5D22F5CD/5D3A5B71" Ref="D29"  Part="1" 
+AR Path="/5D22F5D3/5D3A5B71" Ref="D30"  Part="1" 
+F 0 "D29" H 4450 2465 50  0000 C CNN
 F 1 "DIODE" H 4450 2374 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 4450 2200 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4450 2200 50  0001 C CNN
 F 3 "~" H 4450 2200 50  0001 C CNN
 	1    4450 2200
 	1    0    0    -1  

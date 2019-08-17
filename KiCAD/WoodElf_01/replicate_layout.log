@@ -1,177 +1,172 @@
-06-01 14:21:38 replicate_layout.action_replicate_layout 125:Replicate layout plugin version: 17 started
-06-01 14:21:38 replicate_layout.action_replicate_layout 157:Preparing replicator with S1 as a reference
-06-01 14:21:38 replicate_layout.replicatelayout 193:getting project hierarchy from schematics
-06-01 14:21:38 replicate_layout.replicatelayout 195:Project hierarchy looks like:
-{'5D545204': ['sheet5D545204', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4F1CF4': ['sheet5D4F1CF4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D5101B4': ['sheet5D5101B4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D508884': ['sheet5D508884', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4F9624': ['sheet5D4F9624', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D500F54': ['sheet5D500F54', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D52E674': ['sheet5D52E674', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D53D8D4': ['sheet5D53D8D4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4BCCA4': ['sheet5D4BCCA4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D526D44': ['sheet5D526D44', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4E2A94': ['sheet5D4E2A94', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D49E3B8': ['sheet5D49E3B8', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D496A61': ['sheet5D496A61', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4A5DDF': ['sheet5D4A5DDF', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4EA3C4': ['sheet5D4EA3C4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4B503F': ['sheet5D4B503F', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D517AE4': ['sheet5D517AE4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D535FA4': ['sheet5D535FA4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D51F414': ['sheet5D51F414', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4D3834': ['sheet5D4D3834', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4CBF04': ['sheet5D4CBF04', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D3A9736': ['SingleKey_HotSwapRGB_001', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4DB164': ['sheet5D4DB164', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4AD70F': ['sheet5D4AD70F', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4C45D4': ['sheet5D4C45D4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch']}
-06-01 14:21:38 replicate_layout.replicatelayout 203:getting a list of all footprints on board
-06-01 14:21:38 replicate_layout.action_replicate_layout 183:Pivot footprint is u'S1'
+07-13 15:25:38 replicate_layout.action_replicate_layout 125:Replicate layout plugin version: 17 started
+07-13 15:25:38 replicate_layout.action_replicate_layout 157:Preparing replicator with S1 as a reference
+07-13 15:25:38 replicate_layout.replicatelayout 193:getting project hierarchy from schematics
+07-13 15:25:38 replicate_layout.replicatelayout 195:Project hierarchy looks like:
+{'5D22F5D3': ['sheet5D22F5D3', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4F1CF4': ['sheet5D4F1CF4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D5101B4': ['sheet5D5101B4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D508884': ['sheet5D508884', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D496A61': ['sheet5D496A61', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4F9624': ['sheet5D4F9624', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D500F54': ['sheet5D500F54', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D22F5CD': ['sheet5D22F5CD', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4BCCA4': ['sheet5D4BCCA4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4E2A94': ['sheet5D4E2A94', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D22F5C1': ['sheet5D22F5C1', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D49E3B8': ['sheet5D49E3B8', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4A5DDF': ['sheet5D4A5DDF', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D22F5C7': ['sheet5D22F5C7', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4EA3C4': ['sheet5D4EA3C4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4B503F': ['sheet5D4B503F', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D517AE4': ['sheet5D517AE4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D51F414': ['sheet5D51F414', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4D3834': ['sheet5D4D3834', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4CBF04': ['sheet5D4CBF04', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D3A9736': ['SingleKey_HotSwapRGB_001', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4DB164': ['sheet5D4DB164', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4AD70F': ['sheet5D4AD70F', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch'], '5D4C45D4': ['sheet5D4C45D4', u'C:\\Users\\asphy\\Documents\\GitHub\\CircuitPython-Gamepad\\KiCAD\\WoodElf_01\\SingleKey_HotSwapRGB.sch']}
+07-13 15:25:38 replicate_layout.replicatelayout 203:getting a list of all footprints on board
+07-13 15:25:38 replicate_layout.action_replicate_layout 183:Pivot footprint is u'S1'
 Located on:['SingleKey_HotSwapRGB_001']
 With filenames:[u'SingleKey_HotSwapRGB.sch']
 With sheet_id:['SingleKey_HotSwapRGB_001']
-06-01 14:21:38 replicate_layout.action_replicate_layout 187:Corresponding footprints are 
-[(u'S1', ['SingleKey_HotSwapRGB_001']), (u'S2', ['sheet5D496A61']), (u'S3', ['sheet5D49E3B8']), (u'S4', ['sheet5D4A5DDF']), (u'S5', ['sheet5D4AD70F']), (u'S6', ['sheet5D4B503F']), (u'S7', ['sheet5D4BCCA4']), (u'S8', ['sheet5D4C45D4']), (u'S9', ['sheet5D4CBF04']), (u'S10', ['sheet5D4D3834']), (u'S11', ['sheet5D4DB164']), (u'S12', ['sheet5D4E2A94']), (u'S13', ['sheet5D4EA3C4']), (u'S14', ['sheet5D4F1CF4']), (u'S15', ['sheet5D4F9624']), (u'S16', ['sheet5D500F54']), (u'S17', ['sheet5D508884']), (u'S18', ['sheet5D5101B4']), (u'S19', ['sheet5D517AE4']), (u'S20', ['sheet5D51F414']), (u'S21', ['sheet5D526D44']), (u'S22', ['sheet5D52E674']), (u'S23', ['sheet5D535FA4']), (u'S24', ['sheet5D53D8D4']), (u'S25', ['sheet5D545204'])]
-06-01 14:21:38 replicate_layout.action_replicate_layout 200:Showing dialog
-06-01 14:21:42 replicate_layout.replicatelayout 230:construcing a list of sheets suitable for replication on level:'SingleKey_HotSwapRGB_001', file:u'SingleKey_HotSwapRGB.sch'
-06-01 14:21:42 replicate_layout.replicatelayout 237:Sheet ids up to the level:['SingleKey_HotSwapRGB_001']
-06-01 14:21:42 replicate_layout.replicatelayout 241:Footprints on the sheets:
-[u'S1', u'S2', u'S3', u'S4', u'S5', u'S6', u'S7', u'S8', u'S9', u'S10', u'S11', u'S12', u'S13', u'S14', u'S15', u'S16', u'S17', u'S18', u'S19', u'S20', u'S21', u'S22', u'S23', u'S24', u'S25']
-06-01 14:21:42 replicate_layout.replicatelayout 244:Footprints raw sheet ids:
-[u'/5D3A9736/5D3A59A7', u'/5D496A61/5D3A59A7', u'/5D49E3B8/5D3A59A7', u'/5D4A5DDF/5D3A59A7', u'/5D4AD70F/5D3A59A7', u'/5D4B503F/5D3A59A7', u'/5D4BCCA4/5D3A59A7', u'/5D4C45D4/5D3A59A7', u'/5D4CBF04/5D3A59A7', u'/5D4D3834/5D3A59A7', u'/5D4DB164/5D3A59A7', u'/5D4E2A94/5D3A59A7', u'/5D4EA3C4/5D3A59A7', u'/5D4F1CF4/5D3A59A7', u'/5D4F9624/5D3A59A7', u'/5D500F54/5D3A59A7', u'/5D508884/5D3A59A7', u'/5D5101B4/5D3A59A7', u'/5D517AE4/5D3A59A7', u'/5D51F414/5D3A59A7', u'/5D526D44/5D3A59A7', u'/5D52E674/5D3A59A7', u'/5D535FA4/5D3A59A7', u'/5D53D8D4/5D3A59A7', u'/5D545204/5D3A59A7']
-06-01 14:21:42 replicate_layout.replicatelayout 260:All sheets to replicate:
-[['SingleKey_HotSwapRGB_001'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414'], ['sheet5D526D44'], ['sheet5D52E674'], ['sheet5D535FA4'], ['sheet5D53D8D4'], ['sheet5D545204']]
-06-01 14:21:42 replicate_layout.replicatelayout 265:All sheets to replicate sorted:
-[['SingleKey_HotSwapRGB_001'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414'], ['sheet5D526D44'], ['sheet5D52E674'], ['sheet5D535FA4'], ['sheet5D53D8D4'], ['sheet5D545204']]
-06-01 14:21:42 replicate_layout.replicatelayout 271:All sheets to replicate sorted and without pivot_sheet:
-[['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414'], ['sheet5D526D44'], ['sheet5D52E674'], ['sheet5D535FA4'], ['sheet5D53D8D4'], ['sheet5D545204']]
-06-01 14:21:43 replicate_layout.replicatelayout 230:construcing a list of sheets suitable for replication on level:'SingleKey_HotSwapRGB_001', file:u'SingleKey_HotSwapRGB.sch'
-06-01 14:21:43 replicate_layout.replicatelayout 237:Sheet ids up to the level:['SingleKey_HotSwapRGB_001']
-06-01 14:21:43 replicate_layout.replicatelayout 241:Footprints on the sheets:
-[u'S1', u'S2', u'S3', u'S4', u'S5', u'S6', u'S7', u'S8', u'S9', u'S10', u'S11', u'S12', u'S13', u'S14', u'S15', u'S16', u'S17', u'S18', u'S19', u'S20', u'S21', u'S22', u'S23', u'S24', u'S25']
-06-01 14:21:43 replicate_layout.replicatelayout 244:Footprints raw sheet ids:
-[u'/5D3A9736/5D3A59A7', u'/5D496A61/5D3A59A7', u'/5D49E3B8/5D3A59A7', u'/5D4A5DDF/5D3A59A7', u'/5D4AD70F/5D3A59A7', u'/5D4B503F/5D3A59A7', u'/5D4BCCA4/5D3A59A7', u'/5D4C45D4/5D3A59A7', u'/5D4CBF04/5D3A59A7', u'/5D4D3834/5D3A59A7', u'/5D4DB164/5D3A59A7', u'/5D4E2A94/5D3A59A7', u'/5D4EA3C4/5D3A59A7', u'/5D4F1CF4/5D3A59A7', u'/5D4F9624/5D3A59A7', u'/5D500F54/5D3A59A7', u'/5D508884/5D3A59A7', u'/5D5101B4/5D3A59A7', u'/5D517AE4/5D3A59A7', u'/5D51F414/5D3A59A7', u'/5D526D44/5D3A59A7', u'/5D52E674/5D3A59A7', u'/5D535FA4/5D3A59A7', u'/5D53D8D4/5D3A59A7', u'/5D545204/5D3A59A7']
-06-01 14:21:43 replicate_layout.replicatelayout 260:All sheets to replicate:
-[['SingleKey_HotSwapRGB_001'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414'], ['sheet5D526D44'], ['sheet5D52E674'], ['sheet5D535FA4'], ['sheet5D53D8D4'], ['sheet5D545204']]
-06-01 14:21:43 replicate_layout.replicatelayout 265:All sheets to replicate sorted:
-[['SingleKey_HotSwapRGB_001'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414'], ['sheet5D526D44'], ['sheet5D52E674'], ['sheet5D535FA4'], ['sheet5D53D8D4'], ['sheet5D545204']]
-06-01 14:21:43 replicate_layout.replicatelayout 271:All sheets to replicate sorted and without pivot_sheet:
-[['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414'], ['sheet5D526D44'], ['sheet5D52E674'], ['sheet5D535FA4'], ['sheet5D53D8D4'], ['sheet5D545204']]
-06-01 14:21:43 replicate_layout.action_replicate_layout 229:Replicating layout
-06-01 14:21:43 replicate_layout.replicatelayout 989:Starting replication of sheets: [['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414'], ['sheet5D526D44'], ['sheet5D52E674'], ['sheet5D535FA4'], ['sheet5D53D8D4'], ['sheet5D545204']]
+07-13 15:25:38 replicate_layout.action_replicate_layout 187:Corresponding footprints are 
+[(u'S1', ['SingleKey_HotSwapRGB_001']), (u'S2', ['sheet5D496A61']), (u'S3', ['sheet5D49E3B8']), (u'S4', ['sheet5D4A5DDF']), (u'S5', ['sheet5D4AD70F']), (u'S6', ['sheet5D4B503F']), (u'S7', ['sheet5D4BCCA4']), (u'S8', ['sheet5D4C45D4']), (u'S9', ['sheet5D4CBF04']), (u'S10', ['sheet5D4D3834']), (u'S11', ['sheet5D4DB164']), (u'S12', ['sheet5D4E2A94']), (u'S13', ['sheet5D4EA3C4']), (u'S14', ['sheet5D4F1CF4']), (u'S15', ['sheet5D4F9624']), (u'S16', ['sheet5D500F54']), (u'S17', ['sheet5D508884']), (u'S18', ['sheet5D5101B4']), (u'S19', ['sheet5D517AE4']), (u'S20', ['sheet5D51F414']), (u'S27', ['sheet5D22F5C1']), (u'S28', ['sheet5D22F5C7']), (u'S29', ['sheet5D22F5CD']), (u'S30', ['sheet5D22F5D3'])]
+07-13 15:25:38 replicate_layout.action_replicate_layout 200:Showing dialog
+07-13 15:25:39 replicate_layout.replicatelayout 230:construcing a list of sheets suitable for replication on level:'SingleKey_HotSwapRGB_001', file:u'SingleKey_HotSwapRGB.sch'
+07-13 15:25:39 replicate_layout.replicatelayout 237:Sheet ids up to the level:['SingleKey_HotSwapRGB_001']
+07-13 15:25:39 replicate_layout.replicatelayout 241:Footprints on the sheets:
+[u'S1', u'S2', u'S3', u'S4', u'S5', u'S6', u'S7', u'S8', u'S9', u'S10', u'S11', u'S12', u'S13', u'S14', u'S15', u'S16', u'S17', u'S18', u'S19', u'S20', u'S27', u'S28', u'S29', u'S30']
+07-13 15:25:39 replicate_layout.replicatelayout 244:Footprints raw sheet ids:
+[u'/5D3A9736/5D3A59A7', u'/5D496A61/5D3A59A7', u'/5D49E3B8/5D3A59A7', u'/5D4A5DDF/5D3A59A7', u'/5D4AD70F/5D3A59A7', u'/5D4B503F/5D3A59A7', u'/5D4BCCA4/5D3A59A7', u'/5D4C45D4/5D3A59A7', u'/5D4CBF04/5D3A59A7', u'/5D4D3834/5D3A59A7', u'/5D4DB164/5D3A59A7', u'/5D4E2A94/5D3A59A7', u'/5D4EA3C4/5D3A59A7', u'/5D4F1CF4/5D3A59A7', u'/5D4F9624/5D3A59A7', u'/5D500F54/5D3A59A7', u'/5D508884/5D3A59A7', u'/5D5101B4/5D3A59A7', u'/5D517AE4/5D3A59A7', u'/5D51F414/5D3A59A7', u'/5D22F5C1/5D3A59A7', u'/5D22F5C7/5D3A59A7', u'/5D22F5CD/5D3A59A7', u'/5D22F5D3/5D3A59A7']
+07-13 15:25:39 replicate_layout.replicatelayout 260:All sheets to replicate:
+[['SingleKey_HotSwapRGB_001'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414'], ['sheet5D22F5C1'], ['sheet5D22F5C7'], ['sheet5D22F5CD'], ['sheet5D22F5D3']]
+07-13 15:25:39 replicate_layout.replicatelayout 265:All sheets to replicate sorted:
+[['SingleKey_HotSwapRGB_001'], ['sheet5D22F5C1'], ['sheet5D22F5C7'], ['sheet5D22F5CD'], ['sheet5D22F5D3'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414']]
+07-13 15:25:39 replicate_layout.replicatelayout 271:All sheets to replicate sorted and without pivot_sheet:
+[['sheet5D22F5C1'], ['sheet5D22F5C7'], ['sheet5D22F5CD'], ['sheet5D22F5D3'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414']]
+07-13 15:25:41 replicate_layout.replicatelayout 230:construcing a list of sheets suitable for replication on level:'SingleKey_HotSwapRGB_001', file:u'SingleKey_HotSwapRGB.sch'
+07-13 15:25:41 replicate_layout.replicatelayout 237:Sheet ids up to the level:['SingleKey_HotSwapRGB_001']
+07-13 15:25:41 replicate_layout.replicatelayout 241:Footprints on the sheets:
+[u'S1', u'S2', u'S3', u'S4', u'S5', u'S6', u'S7', u'S8', u'S9', u'S10', u'S11', u'S12', u'S13', u'S14', u'S15', u'S16', u'S17', u'S18', u'S19', u'S20', u'S27', u'S28', u'S29', u'S30']
+07-13 15:25:41 replicate_layout.replicatelayout 244:Footprints raw sheet ids:
+[u'/5D3A9736/5D3A59A7', u'/5D496A61/5D3A59A7', u'/5D49E3B8/5D3A59A7', u'/5D4A5DDF/5D3A59A7', u'/5D4AD70F/5D3A59A7', u'/5D4B503F/5D3A59A7', u'/5D4BCCA4/5D3A59A7', u'/5D4C45D4/5D3A59A7', u'/5D4CBF04/5D3A59A7', u'/5D4D3834/5D3A59A7', u'/5D4DB164/5D3A59A7', u'/5D4E2A94/5D3A59A7', u'/5D4EA3C4/5D3A59A7', u'/5D4F1CF4/5D3A59A7', u'/5D4F9624/5D3A59A7', u'/5D500F54/5D3A59A7', u'/5D508884/5D3A59A7', u'/5D5101B4/5D3A59A7', u'/5D517AE4/5D3A59A7', u'/5D51F414/5D3A59A7', u'/5D22F5C1/5D3A59A7', u'/5D22F5C7/5D3A59A7', u'/5D22F5CD/5D3A59A7', u'/5D22F5D3/5D3A59A7']
+07-13 15:25:41 replicate_layout.replicatelayout 260:All sheets to replicate:
+[['SingleKey_HotSwapRGB_001'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414'], ['sheet5D22F5C1'], ['sheet5D22F5C7'], ['sheet5D22F5CD'], ['sheet5D22F5D3']]
+07-13 15:25:41 replicate_layout.replicatelayout 265:All sheets to replicate sorted:
+[['SingleKey_HotSwapRGB_001'], ['sheet5D22F5C1'], ['sheet5D22F5C7'], ['sheet5D22F5CD'], ['sheet5D22F5D3'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414']]
+07-13 15:25:41 replicate_layout.replicatelayout 271:All sheets to replicate sorted and without pivot_sheet:
+[['sheet5D22F5C1'], ['sheet5D22F5C7'], ['sheet5D22F5CD'], ['sheet5D22F5D3'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414']]
+07-13 15:25:41 replicate_layout.action_replicate_layout 229:Replicating layout
+07-13 15:25:41 replicate_layout.replicatelayout 989:Starting replication of sheets: [['sheet5D22F5C1'], ['sheet5D22F5C7'], ['sheet5D22F5CD'], ['sheet5D22F5D3'], ['sheet5D496A61'], ['sheet5D49E3B8'], ['sheet5D4A5DDF'], ['sheet5D4AD70F'], ['sheet5D4B503F'], ['sheet5D4BCCA4'], ['sheet5D4C45D4'], ['sheet5D4CBF04'], ['sheet5D4D3834'], ['sheet5D4DB164'], ['sheet5D4E2A94'], ['sheet5D4EA3C4'], ['sheet5D4F1CF4'], ['sheet5D4F9624'], ['sheet5D500F54'], ['sheet5D508884'], ['sheet5D5101B4'], ['sheet5D517AE4'], ['sheet5D51F414']]
 on level: ['SingleKey_HotSwapRGB_001']
-with tracks=True, zone=True, text=True, containing=True, remov=True
-06-01 14:21:43 replicate_layout.replicatelayout 526:Getting the list of pivot footprints
-06-01 14:21:43 replicate_layout.replicatelayout 529:Getting the list of all the remaining footprints
-06-01 14:21:43 replicate_layout.replicatelayout 532:Getting nets local to pivot footprints
-06-01 14:21:43 replicate_layout.replicatelayout 535:Getting pivot bounding box
-06-01 14:21:43 replicate_layout.replicatelayout 538:Getting pivot tracks
-06-01 14:21:43 replicate_layout.replicatelayout 541:Getting pivot zones
-06-01 14:21:43 replicate_layout.replicatelayout 544:Getting pivot text items
-06-01 14:21:43 replicate_layout.replicatelayout 547:Getting pivot text items
-06-01 14:21:43 replicate_layout.replicatelayout 999:Removing tracks and zones, before module placement
-06-01 14:21:43 replicate_layout.replicatelayout 551:Replicating footprints
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D496A61']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D49E3B8']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4A5DDF']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4AD70F']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4B503F']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4BCCA4']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4C45D4']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4CBF04']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4D3834']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4DB164']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4E2A94']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4EA3C4']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4F1CF4']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4F9624']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D500F54']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D508884']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D5101B4']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D517AE4']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D51F414']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D526D44']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D52E674']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D535FA4']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D53D8D4']
-06-01 14:21:43 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D545204']
-06-01 14:21:43 replicate_layout.replicatelayout 1003:Removing tracks and zones, after module placement
-06-01 14:21:43 replicate_layout.replicatelayout 657:Replicating tracks
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D496A61']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D49E3B8']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4A5DDF']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4AD70F']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4B503F']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4BCCA4']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4C45D4']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4CBF04']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4D3834']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4DB164']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4E2A94']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4EA3C4']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4F1CF4']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4F9624']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D500F54']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D508884']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D5101B4']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D517AE4']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D51F414']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D526D44']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D52E674']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D535FA4']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D53D8D4']
-06-01 14:21:43 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D545204']
-06-01 14:21:43 replicate_layout.replicatelayout 755:Replicating zones
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D496A61']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D49E3B8']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4A5DDF']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4AD70F']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4B503F']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4BCCA4']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4C45D4']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4CBF04']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4D3834']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4DB164']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4E2A94']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4EA3C4']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4F1CF4']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4F9624']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D500F54']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D508884']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D5101B4']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D517AE4']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D51F414']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D526D44']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D52E674']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D535FA4']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D53D8D4']
-06-01 14:21:43 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D545204']
-06-01 14:21:43 replicate_layout.replicatelayout 855:Replicating text
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D496A61']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D49E3B8']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4A5DDF']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4AD70F']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4B503F']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4BCCA4']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4C45D4']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4CBF04']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4D3834']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4DB164']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4E2A94']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4EA3C4']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4F1CF4']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4F9624']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D500F54']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D508884']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D5101B4']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D517AE4']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D51F414']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D526D44']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D52E674']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D535FA4']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D53D8D4']
-06-01 14:21:43 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D545204']
-06-01 14:21:43 replicate_layout.replicatelayout 876:Replicating drawings
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D496A61']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D49E3B8']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4A5DDF']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4AD70F']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4B503F']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4BCCA4']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4C45D4']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4CBF04']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4D3834']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4DB164']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4E2A94']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4EA3C4']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4F1CF4']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4F9624']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D500F54']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D508884']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D5101B4']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D517AE4']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D51F414']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D526D44']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D52E674']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D535FA4']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D53D8D4']
-06-01 14:21:43 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D545204']
-06-01 14:21:43 replicate_layout.action_replicate_layout 239:Replication complete
+with tracks=True, zone=True, text=True, containing=False, remov=True
+07-13 15:25:41 replicate_layout.replicatelayout 526:Getting the list of pivot footprints
+07-13 15:25:41 replicate_layout.replicatelayout 529:Getting the list of all the remaining footprints
+07-13 15:25:41 replicate_layout.replicatelayout 532:Getting nets local to pivot footprints
+07-13 15:25:41 replicate_layout.replicatelayout 535:Getting pivot bounding box
+07-13 15:25:41 replicate_layout.replicatelayout 538:Getting pivot tracks
+07-13 15:25:41 replicate_layout.replicatelayout 541:Getting pivot zones
+07-13 15:25:41 replicate_layout.replicatelayout 544:Getting pivot text items
+07-13 15:25:41 replicate_layout.replicatelayout 547:Getting pivot text items
+07-13 15:25:41 replicate_layout.replicatelayout 999:Removing tracks and zones, before module placement
+07-13 15:25:42 replicate_layout.replicatelayout 551:Replicating footprints
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D22F5C1']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D22F5C7']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D22F5CD']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D22F5D3']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D496A61']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D49E3B8']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4A5DDF']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4AD70F']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4B503F']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4BCCA4']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4C45D4']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4CBF04']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4D3834']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4DB164']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4E2A94']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4EA3C4']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4F1CF4']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D4F9624']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D500F54']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D508884']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D5101B4']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D517AE4']
+07-13 15:25:42 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['sheet5D51F414']
+07-13 15:25:42 replicate_layout.replicatelayout 1003:Removing tracks and zones, after module placement
+07-13 15:25:42 replicate_layout.replicatelayout 657:Replicating tracks
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D22F5C1']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D22F5C7']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D22F5CD']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D22F5D3']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D496A61']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D49E3B8']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4A5DDF']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4AD70F']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4B503F']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4BCCA4']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4C45D4']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4CBF04']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4D3834']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4DB164']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4E2A94']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4EA3C4']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4F1CF4']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D4F9624']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D500F54']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D508884']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D5101B4']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D517AE4']
+07-13 15:25:42 replicate_layout.replicatelayout 659:Replicating tracks on sheet ['sheet5D51F414']
+07-13 15:25:42 replicate_layout.replicatelayout 755:Replicating zones
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D22F5C1']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D22F5C7']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D22F5CD']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D22F5D3']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D496A61']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D49E3B8']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4A5DDF']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4AD70F']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4B503F']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4BCCA4']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4C45D4']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4CBF04']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4D3834']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4DB164']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4E2A94']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4EA3C4']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4F1CF4']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D4F9624']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D500F54']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D508884']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D5101B4']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D517AE4']
+07-13 15:25:42 replicate_layout.replicatelayout 758:Replicating zones on sheet ['sheet5D51F414']
+07-13 15:25:42 replicate_layout.replicatelayout 855:Replicating text
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D22F5C1']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D22F5C7']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D22F5CD']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D22F5D3']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D496A61']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D49E3B8']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4A5DDF']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4AD70F']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4B503F']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4BCCA4']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4C45D4']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4CBF04']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4D3834']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4DB164']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4E2A94']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4EA3C4']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4F1CF4']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D4F9624']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D500F54']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D508884']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D5101B4']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D517AE4']
+07-13 15:25:42 replicate_layout.replicatelayout 858:Replicating text on sheet ['sheet5D51F414']
+07-13 15:25:42 replicate_layout.replicatelayout 876:Replicating drawings
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D22F5C1']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D22F5C7']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D22F5CD']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D22F5D3']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D496A61']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D49E3B8']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4A5DDF']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4AD70F']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4B503F']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4BCCA4']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4C45D4']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4CBF04']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4D3834']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4DB164']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4E2A94']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4EA3C4']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4F1CF4']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D4F9624']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D500F54']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D508884']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D5101B4']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D517AE4']
+07-13 15:25:42 replicate_layout.replicatelayout 878:Replicating drawings on sheet ['sheet5D51F414']
+07-13 15:25:42 replicate_layout.action_replicate_layout 239:Replication complete
