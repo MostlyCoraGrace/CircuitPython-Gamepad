@@ -1,0 +1,126 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x14 J1
+U 1 1 5FB9BB18
+P 5550 2600
+F 0 "J1" H 5630 2592 50  0000 L CNN
+F 1 "Conn_01x14" H 5630 2501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 5550 2600 50  0001 C CNN
+F 3 "~" H 5550 2600 50  0001 C CNN
+	1    5550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J6
+U 1 1 5FB9F1B8
+P 5550 4100
+F 0 "J6" H 5630 4092 50  0000 L CNN
+F 1 "Conn_01x14" H 5630 4001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 5550 4100 50  0001 C CNN
+F 3 "~" H 5550 4100 50  0001 C CNN
+	1    5550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J10
+U 1 1 5FBA2138
+P 10600 4100
+F 0 "J10" H 10680 4092 50  0000 L CNN
+F 1 "Conn_01x14" H 10680 4001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 10600 4100 50  0001 C CNN
+F 3 "~" H 10600 4100 50  0001 C CNN
+	1    10600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J9
+U 1 1 5FBA30B4
+P 10600 2600
+F 0 "J9" H 10680 2592 50  0000 L CNN
+F 1 "Conn_01x14" H 10680 2501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 10600 2600 50  0001 C CNN
+F 3 "~" H 10600 2600 50  0001 C CNN
+	1    10600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 5FBAB10E
+P 9850 2650
+F 0 "J8" H 9930 2692 50  0000 L CNN
+F 1 "Conn_01x05" H 9930 2601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9850 2650 50  0001 C CNN
+F 3 "~" H 9850 2650 50  0001 C CNN
+	1    9850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 5FBACE2F
+P 9300 2650
+F 0 "J7" H 9380 2692 50  0000 L CNN
+F 1 "Conn_01x05" H 9380 2601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9300 2650 50  0001 C CNN
+F 3 "~" H 9300 2650 50  0001 C CNN
+	1    9300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J4
+U 1 1 5FBAF358
+P 4650 2550
+F 0 "J4" H 4730 2592 50  0000 L CNN
+F 1 "Conn_01x05" H 4730 2501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4650 2550 50  0001 C CNN
+F 3 "~" H 4650 2550 50  0001 C CNN
+	1    4650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5FBB01B3
+P 4000 2550
+F 0 "J2" H 4080 2592 50  0000 L CNN
+F 1 "Conn_01x05" H 4080 2501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4000 2550 50  0001 C CNN
+F 3 "~" H 4000 2550 50  0001 C CNN
+	1    4000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 5FBB054E
+P 4050 4000
+F 0 "J3" H 4130 4042 50  0000 L CNN
+F 1 "Conn_01x05" H 4130 3951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4050 4000 50  0001 C CNN
+F 3 "~" H 4050 4000 50  0001 C CNN
+	1    4050 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 5FBB0DD3
+P 4650 4000
+F 0 "J5" H 4730 4042 50  0000 L CNN
+F 1 "Conn_01x05" H 4730 3951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4650 4000 50  0001 C CNN
+F 3 "~" H 4650 4000 50  0001 C CNN
+	1    4650 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
